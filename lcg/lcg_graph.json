@@ -1,0 +1,1390 @@
+{
+  "version": "0.1",
+  "generated_at": "2026-02-04T05:36:49.546501Z",
+  "nodes": [
+    {
+      "id": "Q000001",
+      "title": "Non-Cessation and Chaos/Order Question",
+      "domains": [
+        "philosophy"
+      ],
+      "summary": "Introduces non-cessation and the chaos/order problem.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.3,
+        "L2": 0.3,
+        "L3": 0.2,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.3
+      },
+      "chart_tags": [
+        "metaphysical",
+        "narrative",
+        "ontology",
+        "cognition"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-001-001",
+          "name": "Non-cessation recurrence",
+          "definition": "If non-cessation is assumed, then recurrence-through-differentiation must remain invariant under re-description; otherwise the claim collapses. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-IOB-001",
+          "name": "Order/chaos split probe",
+          "pattern": "ensemble_split",
+          "how_to": "Observable: narrative closure versus regress when order/chaos accounts are recursively restated. Split criterion: keep when recurrence yields stable closure without forcing an ultimate substrate; reject when explanation enters uncontrolled regress.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0148"
+      ]
+    },
+    {
+      "id": "Q000002",
+      "title": "Formalization Request and Logic Background",
+      "domains": [
+        "logic",
+        "epistemology"
+      ],
+      "summary": "Requests rigor and notes logic training.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.2,
+        "L2": 0.2,
+        "L3": 0.2,
+        "L4": 0.3,
+        "L5": 0.7,
+        "L6": 0.5
+      },
+      "chart_tags": [
+        "method",
+        "logic",
+        "epistemology",
+        "computation"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-002-001",
+          "name": "Chart stability",
+          "definition": "Commitments remain intact across formal and narrative restatements. (budget)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-CI-001",
+          "name": "Formalization boundary test",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: primitive budget / silent premise count after formal restatement. Split criterion: pass only when formalization preserves entailments without increasing primitive count; fail when any new primitive or hidden axiom is required to recover the claim.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0228"
+      ],
+      "interface_variables": [
+        "ledger stability / taxonomy drift",
+        "primitive budget / silent premise"
+      ]
+    },
+    {
+      "id": "Q000003",
+      "title": "Question on Wilson Loops",
+      "domains": [
+        "physics"
+      ],
+      "summary": "Asks for conceptual interpretation of Wilson loops.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.4,
+        "L2": 0.3,
+        "L3": 0.6,
+        "L4": 0.5,
+        "L5": 0.2,
+        "L6": 0.2
+      },
+      "chart_tags": [
+        "physics",
+        "measurement",
+        "constraint",
+        "computation"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-003-001",
+          "name": "Loop residue",
+          "definition": "Closed-loop comparison yields a stable residual under gauge re-description. (discriminator)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-PHY-001",
+          "name": "Loop residue test",
+          "pattern": "interface_scatter",
+          "how_to": "Observable: loop/closure residue after local gauge rewrites. Split criterion: keep when closed-loop residue remains measurable; reject when signal is removable by local chart choice. Orthogonality note: this test targets closure-stable residue magnitude, not operator-class admissibility or unit-scaling behavior.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0280"
+      ],
+      "interface_variables": [
+        "dimensionless drift",
+        "observability equivalence class",
+        "orientation residue"
+      ]
+    },
+    {
+      "id": "Q000004",
+      "title": "Question About Physical Rules",
+      "domains": [
+        "philosophy"
+      ],
+      "summary": "Frames laws as emergent from inversion history.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.3,
+        "L2": 0.3,
+        "L3": 0.2,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.3
+      },
+      "chart_tags": [
+        "metaphysical",
+        "narrative",
+        "ontology",
+        "cognition"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-004-001",
+          "name": "Rule survival under inversion",
+          "definition": "If rule-formation-through-inversion is assumed, then survivor-structure must remain invariant under re-description; otherwise the claim collapses. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-IOB-002",
+          "name": "Rule survivor split",
+          "pattern": "ensemble_split",
+          "how_to": "Observable: dependency chain of rule-survivors across inversion cycles. Split criterion: keep when survivor rules remain derivable from prior distinctions; reject when inversion forces discontinuous rule resets.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0284"
+      ]
+    },
+    {
+      "id": "Q000005",
+      "title": "Gravity as the First Force?",
+      "domains": [
+        "physics"
+      ],
+      "summary": "Raises gravity\u2019s primacy and weakness.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.4,
+        "L2": 0.3,
+        "L3": 0.6,
+        "L4": 0.5,
+        "L5": 0.2,
+        "L6": 0.2
+      },
+      "chart_tags": [
+        "physics",
+        "measurement",
+        "constraint",
+        "computation"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-005-001",
+          "name": "Constraint primacy",
+          "definition": "Geometric constraints remain primary across force/geometry framing shifts. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-PHY-002",
+          "name": "Geometry\u2013force probe",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: constraint consistency in geometry-first vs force-first framing. Split criterion: keep when constraints close without external stage assumptions; reject when force framing requires extra background structure.",
+          "transferable": false
+        }
+      ],
+      "sources": [
+        "P0289"
+      ]
+    },
+    {
+      "id": "Q000006",
+      "title": "Magnetism as Initial Distinction?",
+      "domains": [
+        "physics"
+      ],
+      "summary": "Proposes a magnetism analogy to distinction.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.4,
+        "L2": 0.3,
+        "L3": 0.6,
+        "L4": 0.5,
+        "L5": 0.2,
+        "L6": 0.2
+      },
+      "chart_tags": [
+        "physics",
+        "measurement",
+        "constraint",
+        "computation"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-006-001",
+          "name": "Orientation residue",
+          "definition": "Closed transport leaves a stable orientation residue. (discriminator)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-PHY-003",
+          "name": "Orientation flip residue",
+          "pattern": "interface_scatter",
+          "how_to": "Observable: orientation residue after closed transport with polarity flips. Split criterion: keep when orientation residue survives closure; reject when residue disappears under relabeling. Orthogonality note: this test isolates orientation/parity structure rather than generic gauge-equivalence filtering.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0294"
+      ],
+      "interface_variables": [
+        "orientation residue"
+      ]
+    },
+    {
+      "id": "Q000007",
+      "title": "Entry Point Leaks and Actionability Request",
+      "domains": [
+        "logic",
+        "epistemology"
+      ],
+      "summary": "Asks for actionable leak analysis.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.2,
+        "L2": 0.2,
+        "L3": 0.2,
+        "L4": 0.3,
+        "L5": 0.7,
+        "L6": 0.5
+      },
+      "chart_tags": [
+        "method",
+        "logic",
+        "epistemology",
+        "computation"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-007-001",
+          "name": "Seam visibility",
+          "definition": "Typed seams remain explicit under entry framing shifts. (glue_key)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-CI-002",
+          "name": "Chart leakage split",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: typed seam count under ontic-entry vs epistemic-entry framing. Split criterion: pass only when seam types remain visible and consistently typed across entry framings; fail when framing shifts mask seams or collapse distinct seam types into one label.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0338"
+      ],
+      "interface_variables": [
+        "ledger stability / taxonomy drift",
+        "primitive budget / silent premise"
+      ]
+    },
+    {
+      "id": "Q000008",
+      "title": "Request for Algorithmic Agential Loop",
+      "domains": [
+        "methodology"
+      ],
+      "summary": "Requests a structured revision loop.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.2,
+        "L2": 0.2,
+        "L3": 0.2,
+        "L4": 0.3,
+        "L5": 0.5,
+        "L6": 0.6
+      },
+      "chart_tags": [
+        "workflow",
+        "computation",
+        "simulation",
+        "validation"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-008-001",
+          "name": "Ledger consistency",
+          "definition": "Ledger updates preserve seam typing across iterations. (budget)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-LCG-001",
+          "name": "Ledger loop comparison",
+          "pattern": "ensemble_split",
+          "how_to": "Observable: ledger stability / taxonomy drift across loop iterations. Split criterion: keep when seam classes remain stable through iterations; reject when category drift accumulates.",
+          "transferable": true
+        },
+        {
+          "id": "D-LCG-002",
+          "name": "Adversarial taxonomy robustness probe",
+          "pattern": "ensemble_split",
+          "how_to": "Observable: taxonomy drift under adversarial relabeling. Split criterion: stable seam typing vs drift/explosion under perturbation. Transferability: true, because adversarial relabel stress tests can be reused anywhere a typed ledger must remain stable.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0350"
+      ],
+      "interface_variables": [
+        "ledger stability / taxonomy drift"
+      ]
+    },
+    {
+      "id": "Q000009",
+      "title": "Uniform Rescaling Is Undetectable",
+      "domains": [
+        "physics"
+      ],
+      "summary": "Explains why only differential scaling is observable.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.4,
+        "L2": 0.3,
+        "L3": 0.6,
+        "L4": 0.5,
+        "L5": 0.2,
+        "L6": 0.2
+      },
+      "chart_tags": [
+        "physics",
+        "measurement",
+        "constraint",
+        "computation"
+      ],
+      "claim_temptations": [
+        "M"
+      ],
+      "invariants": [
+        {
+          "id": "I-009-001",
+          "name": "Constraint statement",
+          "definition": "The rule\u2019s boundary condition stays invariant. (budget)",
+          "role": "regime_marker"
+        },
+        {
+          "id": "I-009-002",
+          "name": "Allowed/forbidden split",
+          "definition": "The permitted vs. disallowed space is preserved. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-PHY-004",
+          "name": "Dimensionless drift probe",
+          "pattern": "interface_scatter",
+          "how_to": "Observable: dimensionless drift under uniform rescaling. Split criterion: keep when dimensionless ratios remain invariant; reject when measured drift depends on representational units. Orthogonality note: this test targets scaling sensitivity, not loop-residue closure or polarity effects.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0254"
+      ],
+      "interface_variables": [
+        "dimensionless drift"
+      ]
+    },
+    {
+      "id": "Q000010",
+      "title": "Requirements for a Good Gauge Theory",
+      "domains": [
+        "physics"
+      ],
+      "summary": "Lists formal criteria for gauge consistency.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.4,
+        "L2": 0.3,
+        "L3": 0.6,
+        "L4": 0.5,
+        "L5": 0.2,
+        "L6": 0.2
+      },
+      "chart_tags": [
+        "physics",
+        "measurement",
+        "constraint",
+        "computation"
+      ],
+      "claim_temptations": [
+        "M"
+      ],
+      "invariants": [
+        {
+          "id": "I-010-001",
+          "name": "Constraint statement",
+          "definition": "The rule\u2019s boundary condition stays invariant. (budget)",
+          "role": "regime_marker"
+        },
+        {
+          "id": "I-010-002",
+          "name": "Allowed/forbidden split",
+          "definition": "The permitted vs. disallowed space is preserved. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-PHY-005",
+          "name": "Gauge-invariant observable check",
+          "pattern": "interface_scatter",
+          "how_to": "Observable: observability equivalence class under gauge transformation. Split criterion: keep only operators stable across gauge-equivalent descriptions; reject gauge-dependent quantities as observables. Orthogonality note: this test classifies admissible operator families, not whether a particular loop residue is non-zero.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0263"
+      ],
+      "interface_variables": [
+        "observability equivalence class"
+      ]
+    },
+    {
+      "id": "Q000011",
+      "title": "Inside/Out/Backwards Meaning",
+      "domains": [
+        "philosophy",
+        "epistemology"
+      ],
+      "summary": "Derived from P0023, this node captures a core chart move that reorders foundational assumptions and demands explicit discriminators.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.3,
+        "L2": 0.2,
+        "L3": 0.3,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.3
+      },
+      "chart_tags": [
+        "narrative",
+        "ontology",
+        "method"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-011-001",
+          "name": "Inside/out/backwards mapping",
+          "definition": "If inside/out/backwards is assumed as a valid triad, then its mapping polarity must remain invariant under re-description; otherwise the claim collapses. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-011-001",
+          "name": "Inside/Out/Backwards definition probe",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: stability of inside/out/backwards role-assignment under negation and restatement. Split criterion: keep when role assignment is preserved across charts; reject when negation swaps roles without criterion.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0023"
+      ],
+      "interface_variables": [
+        "primitive budget / silent premise"
+      ]
+    },
+    {
+      "id": "Q000012",
+      "title": "Constraint + Order + Memory",
+      "domains": [
+        "philosophy",
+        "epistemology"
+      ],
+      "summary": "Derived from P0065, this node captures a core chart move that reorders foundational assumptions and demands explicit discriminators.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.3,
+        "L2": 0.2,
+        "L3": 0.3,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.3
+      },
+      "chart_tags": [
+        "metaphysical",
+        "logic"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-012-001",
+          "name": "Triad coherence",
+          "definition": "If constraint-order-memory co-constitution is assumed, then triad inseparability must remain invariant under re-description; otherwise the claim collapses. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-012-001",
+          "name": "Constraint-order-memory triad probe",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: minimality of primitive commitments needed to keep constraint-order-memory jointly binding. Split criterion: keep when the triad remains jointly required with fixed primitives; reject when one term becomes optional without loss.",
+          "transferable": false
+        }
+      ],
+      "sources": [
+        "P0065"
+      ]
+    },
+    {
+      "id": "Q000013",
+      "title": "Duality as Self-Differentiation",
+      "domains": [
+        "philosophy"
+      ],
+      "summary": "Derived from P0103, this node captures a core chart move that reorders foundational assumptions and demands explicit discriminators.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.3,
+        "L2": 0.2,
+        "L3": 0.3,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.3
+      },
+      "chart_tags": [
+        "ontology",
+        "logic"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-013-001",
+          "name": "Recursive self-differentiation",
+          "definition": "If duality is assumed as self-differentiation, then recursive distinction-generation must remain invariant under re-description; otherwise the claim collapses. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-013-001",
+          "name": "Self-differentiation recursion probe",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: dependency of each distinction on further distinctions in recursive self-differentiation. Split criterion: keep when recursion sustains differentiation without terminal identity freeze; reject when recursion collapses into static binaries.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0103"
+      ]
+    },
+    {
+      "id": "Q000014",
+      "title": "Ground as Structured Differentiation",
+      "domains": [
+        "philosophy",
+        "physics"
+      ],
+      "summary": "Derived from P0118, this node captures a core chart move that reorders foundational assumptions and demands explicit discriminators.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.3,
+        "L2": 0.2,
+        "L3": 0.3,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.3
+      },
+      "chart_tags": [
+        "metaphysical",
+        "physics"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-014-001",
+          "name": "Structured differentiation ground",
+          "definition": "If ground is assumed as structured differentiation, then non-substantive relationality must remain invariant under re-description; otherwise the claim collapses. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-014-001",
+          "name": "Ground-as-structure probe",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: stability of ground claims under negative versus positive restatement. Split criterion: keep when ground remains a relation of differentiation; reject when restatement reifies ground as a thing.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0118"
+      ],
+      "interface_variables": [
+        "constraint-order coupling"
+      ]
+    },
+    {
+      "id": "Q000015",
+      "title": "Gravity as Persistent Self-Relation",
+      "domains": [
+        "physics",
+        "philosophy"
+      ],
+      "summary": "Derived from P0124, this node captures a core chart move that reorders foundational assumptions and demands explicit discriminators.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.3,
+        "L2": 0.2,
+        "L3": 0.3,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.3
+      },
+      "chart_tags": [
+        "physics",
+        "metaphysical"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-015-001",
+          "name": "Persistent self-relation",
+          "definition": "Gravity is interpreted as a stable self-relation constraint. (glue_key)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-015-001",
+          "name": "Gravity-as-relation probe",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: persistence of self-relation signatures across coordinate/model restatements. Split criterion: keep when relation remains intrinsic across charts; reject when it only appears in one framing.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0124"
+      ],
+      "interface_variables": [
+        "constraint-order coupling"
+      ]
+    },
+    {
+      "id": "Q000016",
+      "title": "Existence as Continual Difference",
+      "domains": [
+        "philosophy"
+      ],
+      "summary": "Derived from P0146, this node captures a core chart move that reorders foundational assumptions and demands explicit discriminators.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.3,
+        "L2": 0.2,
+        "L3": 0.3,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.3
+      },
+      "chart_tags": [
+        "ontology",
+        "logic"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-016-001",
+          "name": "Continual difference",
+          "definition": "If existence is assumed as continual difference, then ongoing differentiation output must remain invariant under re-description; otherwise the claim collapses. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-016-001",
+          "name": "Continual difference probe",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: narrative closure behavior of continual-difference claims under repeated identity pressure. Split criterion: keep when difference-production remains open-ended yet coherent; reject when closure requires reinstating fixed identity.",
+          "transferable": false
+        }
+      ],
+      "sources": [
+        "P0146"
+      ]
+    },
+    {
+      "id": "Q000017",
+      "title": "Negative Ground Statement",
+      "domains": [
+        "philosophy",
+        "epistemology"
+      ],
+      "summary": "Derived from P0184, this node captures a core chart move that reorders foundational assumptions and demands explicit discriminators.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.3,
+        "L2": 0.2,
+        "L3": 0.3,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.3
+      },
+      "chart_tags": [
+        "metaphysical",
+        "logic"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-017-001",
+          "name": "Negative ground constraint",
+          "definition": "If ground is assumed only in negative form, then non-positivizability must remain invariant under re-description; otherwise the claim collapses. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-017-001",
+          "name": "Negative ground boundary probe",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: boundary stability of negative-ground language under attempted positive completion. Split criterion: keep when negation remains constitutive of the ground claim; reject when positive completion becomes required.",
+          "transferable": false
+        }
+      ],
+      "sources": [
+        "P0184"
+      ],
+      "interface_variables": [
+        "local arrow persistence"
+      ]
+    },
+    {
+      "id": "Q000018",
+      "title": "Division as Irreducible Process",
+      "domains": [
+        "philosophy"
+      ],
+      "summary": "Derived from P0198, this node captures a core chart move that reorders foundational assumptions and demands explicit discriminators.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.3,
+        "L2": 0.2,
+        "L3": 0.3,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.3
+      },
+      "chart_tags": [
+        "ontology",
+        "logic"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-018-001",
+          "name": "Irreducible division",
+          "definition": "If division is assumed as primitive, then irreducibility under composition-first re-description must remain invariant; otherwise the claim collapses. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-TIM-001",
+          "name": "Division irreducibility probe",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: minimality of primitive commitments in division-first versus composition-first descriptions. Split criterion: keep when division remains primitive under reformulation; reject when division is derivable from composition plus bookkeeping.",
+          "transferable": false
+        }
+      ],
+      "sources": [
+        "P0198"
+      ]
+    },
+    {
+      "id": "Q000019",
+      "title": "No Global Time Direction",
+      "domains": [
+        "physics",
+        "epistemology"
+      ],
+      "summary": "Derived from P0217, this node captures a core chart move that reorders foundational assumptions and demands explicit discriminators.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.3,
+        "L2": 0.2,
+        "L3": 0.3,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.3
+      },
+      "chart_tags": [
+        "physics",
+        "measurement"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-019-001",
+          "name": "Local arrow stability",
+          "definition": "Local arrows persist without a privileged global direction. (regime_marker)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-019-001",
+          "name": "No-global-time-direction probe",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: local arrow persistence after global timeline re-indexing. Split criterion: keep when local directionality survives without a global arrow; reject when a global direction is required.",
+          "transferable": false
+        },
+        {
+          "id": "D-TIM-002",
+          "name": "Local-arrow persistence scatter test",
+          "pattern": "interface_scatter",
+          "how_to": "Observable: cross-context persistence of arrow-like asymmetry under chart shifts. Split criterion: arrow arises only from local coarse-graining vs requires a global orientation constraint. Transferability: true, because cross-context arrow-persistence checks can be reused wherever local asymmetry must be distinguished from globally imposed direction.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0217"
+      ],
+      "interface_variables": [
+        "local arrow persistence"
+      ]
+    },
+    {
+      "id": "Q000020",
+      "title": "Intentionality Without Desire",
+      "domains": [
+        "philosophy",
+        "epistemology"
+      ],
+      "summary": "Derived from P0158, this node captures a core chart move that reorders foundational assumptions and demands explicit discriminators.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.3,
+        "L2": 0.2,
+        "L3": 0.3,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.3
+      },
+      "chart_tags": [
+        "cognition",
+        "metaphysical"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-020-001",
+          "name": "Search-space bias",
+          "definition": "Intentionality arises as bias under constraint without desire. (discriminator)",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-020-001",
+          "name": "Intentionality-without-desire probe",
+          "pattern": "orthogonal_probe",
+          "how_to": "Observable: bias emergence in constrained search without desire terms. Split criterion: keep when directional behavior appears from structure alone; reject when intrinsic desire primitives are necessary.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0158"
+      ]
+    },
+    {
+      "id": "Q000021",
+      "title": "Procedural admissibility \u2192 Ontological admissibility bridge",
+      "domains": [
+        "methodology",
+        "epistemology"
+      ],
+      "summary": "Formalizes the handoff from method-valid moves to ontology-admissible claims as an explicit chart translation step with no silent upgrade.",
+      "status": "open",
+      "leak_profile": {
+        "L1": 0.2,
+        "L2": 0.2,
+        "L3": 0.3,
+        "L4": 0.4,
+        "L5": 0.6,
+        "L6": 0.5
+      },
+      "chart_tags": [
+        "method",
+        "ontology",
+        "translation"
+      ],
+      "interface_variables": [
+        "ledger stability / taxonomy drift",
+        "primitive budget / silent premise"
+      ],
+      "claim_temptations": [
+        "I"
+      ],
+      "invariants": [
+        {
+          "id": "I-BRID-021",
+          "name": "No silent upgrade across handoff",
+          "definition": "If a move is licensed only procedurally, it cannot become ontic without an explicit interface variable; otherwise the handoff collapses.",
+          "role": "regime_marker"
+        }
+      ],
+      "discriminators": [
+        {
+          "id": "D-BRID-021",
+          "name": "Admissibility handoff scatter test",
+          "pattern": "interface_scatter",
+          "how_to": "Observable: what changes when we translate 'procedure-valid' into 'ontology-admissible'. Split criterion: handoff preserves seam visibility vs handoff reifies method outcomes as ontology.",
+          "transferable": true
+        }
+      ],
+      "sources": [
+        "P0350",
+        "P0023"
+      ],
+      "notes": "Primary constellation: C1_CI_Method; Secondary: C2_Ontology_Ground_Inversion."
+    }
+  ],
+  "edges": [
+    {
+      "id": "E000001",
+      "source": "Q000001",
+      "target": "Q000004",
+      "type": "E1_SharedLeak",
+      "weight": 0.4,
+      "justification": "Both frame rule formation as survival under differentiation, indicating a shared L4-style seam between change and persistence.",
+      "evidence_refs": [
+        "P0148",
+        "P0284"
+      ],
+      "tags": [
+        "e1"
+      ]
+    },
+    {
+      "id": "E000002",
+      "source": "Q000002",
+      "target": "Q000007",
+      "type": "E4_ChartBridge",
+      "weight": 0.6,
+      "justification": "Interface variable: primitive budget / silent premise. This chart bridge maps formalization checks (Q000002) to entry-point seam marking (Q000007) through the same observable axis: count and type of premises that become implicit after re-description. Counterexample/failure case: a formal rewrite that proves the target claim only by adding an unstated axiom like 'all boundary states are total orders'; the bridge fails because premise inflation is hidden.",
+      "evidence_refs": [
+        "P0228",
+        "P0338"
+      ],
+      "tags": [
+        "e4"
+      ]
+    },
+    {
+      "id": "E000003",
+      "source": "Q000002",
+      "target": "Q000008",
+      "type": "E4_ChartBridge",
+      "weight": 0.6,
+      "justification": "Interface variable: ledger stability / taxonomy drift. This bridge translates formal chart commitments (Q000002) into loop execution discipline (Q000008) by tracking whether category labels stay stable across iterations. Counterexample/failure case: iteration 1 labels a seam as 'scope_boundary' but iteration 3 silently relabels the same seam as 'constraint_exception' with no rule update; that drift breaks the bridge.",
+      "evidence_refs": [
+        "P0228",
+        "P0350"
+      ],
+      "tags": [
+        "e4"
+      ]
+    },
+    {
+      "id": "E000004",
+      "source": "Q000007",
+      "target": "Q000008",
+      "type": "E4_ChartBridge",
+      "weight": 0.6,
+      "justification": "Interface variable: ledger stability / taxonomy drift. This bridge connects entry-point leak typing (Q000007) to loop updates (Q000008) through the same observable axis: typed-seam retention versus taxonomy drift over repeated passes. Counterexample/failure case: the same entry framing yields seam type 'chart_mismatch' on pass A and 'ontology_gap' on pass B under identical evidence, indicating taxonomy explosion under perturbation.",
+      "evidence_refs": [
+        "P0338",
+        "P0350"
+      ],
+      "tags": [
+        "e4"
+      ]
+    },
+    {
+      "id": "E000005",
+      "source": "Q000003",
+      "target": "Q000010",
+      "type": "E4_ChartBridge",
+      "weight": 0.6,
+      "justification": "Interface variable: observability equivalence class. This bridge links Wilson-loop residue framing (Q000003) to gauge-admissible observables (Q000010) by translating local gauge descriptions into the same equivalence class of measurable operators.",
+      "evidence_refs": [
+        "P0280",
+        "P0263"
+      ],
+      "tags": [
+        "C3_spine",
+        "E4_ChartBridge",
+        "detectability"
+      ]
+    },
+    {
+      "id": "E000006",
+      "source": "Q000003",
+      "target": "Q000009",
+      "type": "E4_ChartBridge",
+      "weight": 0.6,
+      "justification": "Interface variable: dimensionless drift. This bridge connects loop-residue detectability (Q000003) and uniform rescaling limits (Q000009) through the same axis: whether measurable ratios drift after representation-preserving rescaling.",
+      "evidence_refs": [
+        "P0280",
+        "P0254"
+      ],
+      "tags": [
+        "C3_spine",
+        "E4_ChartBridge",
+        "detectability"
+      ]
+    },
+    {
+      "id": "E000007",
+      "source": "Q000006",
+      "target": "Q000003",
+      "type": "E4_ChartBridge",
+      "weight": 0.6,
+      "justification": "Interface variable: orientation residue. This bridge maps orientation-flip tests (Q000006) onto loop closure diagnostics (Q000003) by checking whether orientation-dependent residue survives closed transport.",
+      "evidence_refs": [
+        "P0294",
+        "P0280"
+      ],
+      "tags": [
+        "C3_spine",
+        "E4_ChartBridge",
+        "detectability"
+      ]
+    },
+    {
+      "id": "E000008",
+      "source": "Q000005",
+      "target": "Q000004",
+      "type": "E1_SharedLeak",
+      "weight": 0.4,
+      "justification": "Both concern constraint formation and rule survival under inversion without committing to a shared interface variable.",
+      "evidence_refs": [
+        "P0289",
+        "P0284"
+      ],
+      "tags": [
+        "e1"
+      ]
+    },
+    {
+      "id": "E000010",
+      "source": "Q000003",
+      "target": "Q000010",
+      "type": "E3_DiscriminatorTransfer",
+      "weight": 0.8,
+      "justification": "Shared discriminator pattern: interface_scatter. Shared observable axis: loop/closure residue under local gauge re-description. Transfer rationale: Q000003 establishes that non-zero closure residue survives gauge changes only when computed from gauge-invariant operators, not gauge-dependent potentials; Q000010 uses that same split to define the admissible observable class as operators that remain stable across gauge-equivalent charts.",
+      "evidence_refs": [
+        "P0280",
+        "P0263"
+      ],
+      "tags": [
+        "C3_spine",
+        "E3_DiscriminatorTransfer",
+        "detectability"
+      ]
+    },
+    {
+      "id": "E000011",
+      "source": "Q000002",
+      "target": "Q000007",
+      "type": "E3_DiscriminatorTransfer",
+      "weight": 0.6,
+      "justification": "Shared discriminator pattern: orthogonal_probe. Shared observable axis: primitive budget / silent premise count after chart rewrite. Transfer rationale: the split criterion transfers from Q000002 to Q000007 because both nodes test whether re-description keeps assumptions explicit at method boundaries. Counterexample/failure case: a boundary check that appears valid in Q000002 but, when applied to Q000007, reclassifies an entry assumption as 'context' instead of a seam, hiding the same silent premise rather than exposing it.",
+      "evidence_refs": [
+        "P0228",
+        "P0338"
+      ],
+      "tags": [
+        "e3"
+      ]
+    },
+    {
+      "id": "E000012",
+      "source": "Q000009",
+      "target": "Q000010",
+      "type": "E3_DiscriminatorTransfer",
+      "weight": 0.7,
+      "justification": "Shared discriminator pattern: interface_scatter. Shared observable axis: observability equivalence class under uniform rescaling. Transfer rationale: the split criterion transfers from Q000009 to Q000010 because both nodes treat unit-invariant structure as admissible and chart-dependent drift as non-physical. Failure case template: If the observable changes under unit scaling, it is not admissible.",
+      "evidence_refs": [
+        "P0254",
+        "P0263"
+      ],
+      "tags": [
+        "C3_spine",
+        "E3_DiscriminatorTransfer",
+        "detectability"
+      ]
+    },
+    {
+      "id": "E000013",
+      "source": "Q000011",
+      "target": "Q000012",
+      "type": "E3_DiscriminatorTransfer",
+      "weight": 0.7,
+      "justification": "Shared discriminator pattern: orthogonal_probe. Shared observable axis: stability of inside/out/backwards role-assignment under re-description. Transfer rationale: the split criterion transfers from Q000011 to Q000012 because the triad in Q000012 only remains binding when role-assignment invariants are preserved across chart rewrites. Failure counterexample: if a restatement preserves the triad vocabulary but silently swaps inside/out roles, the transfer fails.",
+      "evidence_refs": [
+        "P0023",
+        "P0065"
+      ],
+      "tags": [
+        "e3"
+      ]
+    },
+    {
+      "id": "E000014",
+      "source": "Q000013",
+      "target": "Q000016",
+      "type": "E3_DiscriminatorTransfer",
+      "weight": 0.7,
+      "justification": "Shared discriminator pattern: orthogonal_probe. Shared observable axis: dependency of each distinction on further distinctions in recursive articulation. Transfer rationale: the split criterion transfers from Q000013 to Q000016 because continual-difference claims in Q000016 require the same non-terminal recursion tested in Q000013. Failure counterexample: if recursion terminates in a fixed identity core while still claiming ongoing differentiation, the transfer fails.",
+      "evidence_refs": [
+        "P0103",
+        "P0146"
+      ],
+      "tags": [
+        "e3"
+      ]
+    },
+    {
+      "id": "E000015",
+      "source": "Q000014",
+      "target": "Q000017",
+      "type": "E3_DiscriminatorTransfer",
+      "weight": 0.7,
+      "justification": "Shared discriminator pattern: orthogonal_probe. Shared observable axis: stability of ground claims under negation-versus-posit restatement. Transfer rationale: the split criterion transfers from Q000014 to Q000017 because both nodes require ground to remain relationally constrained rather than positively reified under formal pressure. Failure counterexample: if a positive ground substance is introduced to stabilize the claim, the transfer fails.",
+      "evidence_refs": [
+        "P0118",
+        "P0184"
+      ],
+      "tags": [
+        "e3"
+      ]
+    },
+    {
+      "id": "E000016",
+      "source": "Q000015",
+      "target": "Q000019",
+      "type": "E4_ChartBridge",
+      "weight": 0.6,
+      "justification": "Interface variable: local arrow persistence. This bridge translates persistence of relational constraints (Q000015) into arrow persistence claims (Q000019) as a chart translation rather than a discriminator transfer.",
+      "evidence_refs": [
+        "P0124",
+        "P0217"
+      ],
+      "tags": [
+        "e4"
+      ]
+    },
+    {
+      "id": "E000017",
+      "source": "Q000020",
+      "target": "Q000016",
+      "type": "E3_DiscriminatorTransfer",
+      "weight": 0.7,
+      "justification": "Shared discriminator pattern: orthogonal_probe. Shared observable axis: bias emergence under constrained search. Transfer rationale: the split criterion (directed behavior appears from constraint-biased exploration without desire primitives) transfers from Q000020 to Q000016 because both nodes frame persistence as generated by structured differentiation, not fixed essences.",
+      "evidence_refs": [
+        "P0158",
+        "P0146"
+      ],
+      "tags": [
+        "e3"
+      ]
+    },
+    {
+      "id": "E000018",
+      "source": "Q000015",
+      "target": "Q000014",
+      "type": "E4_ChartBridge",
+      "weight": 0.6,
+      "justification": "Interface variable: constraint-order coupling. This bridge translates gravity-as-relation framing (Q000015) into structured-ground framing (Q000014) via the same axis: whether ordering constraints are intrinsic to the structure rather than added post hoc.",
+      "evidence_refs": [
+        "P0124",
+        "P0118"
+      ],
+      "tags": [
+        "e4"
+      ]
+    },
+    {
+      "id": "E000019",
+      "source": "Q000019",
+      "target": "Q000017",
+      "type": "E4_ChartBridge",
+      "weight": 0.6,
+      "justification": "Interface variable: local arrow persistence. This bridge links no-global-time-direction claims (Q000019) to negative-ground boundary claims (Q000017) by testing whether local directional residues survive global re-indexing.",
+      "evidence_refs": [
+        "P0217",
+        "P0184"
+      ],
+      "tags": [
+        "e4"
+      ]
+    },
+    {
+      "id": "E000020",
+      "source": "Q000018",
+      "target": "Q000013",
+      "type": "E1_SharedLeak",
+      "weight": 0.4,
+      "justification": "Shared emphasis on differentiation-driven structure suggests a weak shared-leak relation.",
+      "evidence_refs": [
+        "P0198",
+        "P0103"
+      ],
+      "tags": [
+        "e1"
+      ]
+    },
+    {
+      "id": "E000021",
+      "source": "Q000011",
+      "target": "Q000018",
+      "type": "E1_SharedLeak",
+      "weight": 0.4,
+      "justification": "Shared emphasis on differentiation-driven structure suggests a weak shared-leak relation.",
+      "evidence_refs": [
+        "P0023",
+        "P0198"
+      ],
+      "tags": [
+        "e1"
+      ]
+    },
+    {
+      "id": "E000022",
+      "source": "Q000018",
+      "target": "Q000019",
+      "type": "E3_DiscriminatorTransfer",
+      "weight": 0.6,
+      "justification": "Shared discriminator pattern: orthogonal_probe. Shared observable axis: persistence of asymmetric structure under local-to-global reformulation. Transfer rationale: the split criterion from Q000018 (division remains irreducible vs reducible to composition) transfers to Q000019 by testing whether arrow-like asymmetry can be reduced to a global orientation constraint or must persist as a local coarse-grained residue.",
+      "evidence_refs": [
+        "P0198",
+        "P0217"
+      ],
+      "tags": [
+        "e3"
+      ]
+    },
+    {
+      "id": "E000023",
+      "source": "Q000008",
+      "target": "Q000021",
+      "type": "E4_ChartBridge",
+      "weight": 0.6,
+      "justification": "Interface variable: ledger stability / taxonomy drift. This bridge translates loop-level procedural stability (Q000008) into handoff admissibility checks (Q000021) by testing whether taxonomy remains stable when moving from process validation to claim admissibility.",
+      "evidence_refs": [
+        "P0350"
+      ],
+      "tags": [
+        "e4"
+      ]
+    },
+    {
+      "id": "E000024",
+      "source": "Q000021",
+      "target": "Q000011",
+      "type": "E4_ChartBridge",
+      "weight": 0.6,
+      "justification": "Interface variable: primitive budget / silent premise. This bridge translates handoff admissibility constraints (Q000021) into ontology-entry mapping discipline (Q000011) by requiring that no ontic commitment be added without explicit premise accounting.",
+      "evidence_refs": [
+        "P0350",
+        "P0023"
+      ],
+      "tags": [
+        "e4"
+      ]
+    }
+  ]
+}

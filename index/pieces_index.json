@@ -1,0 +1,5431 @@
+{
+  "P0001": {
+    "anchors": "User opening message about rational emergence ordering",
+    "depends_on": [],
+    "intent": "hypothesis",
+    "keywords": [
+      "emergence",
+      "ordering",
+      "rationals"
+    ],
+    "title": "Emergence Ordering of Rationals"
+  },
+  "P0002": {
+    "anchors": "ChatGPT response beginning \"You\u2019re circling a real idea\"",
+    "depends_on": [
+      "P0001"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "constructive",
+      "emergence",
+      "order",
+      "magnitude"
+    ],
+    "title": "Constructive Emergence Order vs Magnitude"
+  },
+  "P0003": {
+    "anchors": "ChatGPT response on branching after closure",
+    "depends_on": [
+      "P0002"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "emergence",
+      "order",
+      "forms",
+      "branching",
+      "dag"
+    ],
+    "title": "Emergence Order Forms a Branching DAG"
+  },
+  "P0004": {
+    "anchors": "ChatGPT response referencing Kolmogorov complexity",
+    "depends_on": [
+      "P0002"
+    ],
+    "intent": "analogy",
+    "keywords": [
+      "expression",
+      "complexity",
+      "analogy"
+    ],
+    "title": "Expression Complexity Analogy"
+  },
+  "P0005": {
+    "anchors": "User message proposing a name",
+    "depends_on": [
+      "P0001"
+    ],
+    "intent": "definition",
+    "keywords": [
+      "induction",
+      "complexity",
+      "name"
+    ],
+    "title": "\"Induction on Complexity\" Name"
+  },
+  "P0006": {
+    "anchors": "ChatGPT response defining induction on complexity",
+    "depends_on": [
+      "P0005"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "induction",
+      "generative",
+      "depth"
+    ],
+    "title": "Induction on Generative Depth"
+  },
+  "P0007": {
+    "anchors": "ChatGPT introduction of \"Inside Out Backwards\" ontology",
+    "depends_on": [
+      "P0006"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "inside",
+      "out",
+      "backwards",
+      "operations"
+    ],
+    "title": "Inside Out Backwards: Operations First"
+  },
+  "P0008": {
+    "anchors": "ChatGPT section on primitives and objects as fossils",
+    "depends_on": [
+      "P0007"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "primitive",
+      "commitments",
+      "objects",
+      "fossils"
+    ],
+    "title": "Primitive Commitments and Objects as Fossils"
+  },
+  "P0009": {
+    "anchors": "ChatGPT sections on time/history and knowledge",
+    "depends_on": [
+      "P0007"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "time",
+      "history",
+      "reverse",
+      "engineering"
+    ],
+    "title": "Time vs History and Reverse Engineering"
+  },
+  "P0010": {
+    "anchors": "ChatGPT section \"Where This Quietly Breaks\" and spine sentence",
+    "depends_on": [
+      "P0007"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "breaks",
+      "tradition",
+      "spine",
+      "sentence"
+    ],
+    "title": "Breaks with Tradition and Spine Sentence"
+  },
+  "P0011": {
+    "anchors": "User message \"I Haven't revealed any of the actual philosophy yet\"",
+    "depends_on": [
+      "P0007"
+    ],
+    "intent": "correction",
+    "keywords": [
+      "correction",
+      "philosophy",
+      "yet",
+      "revealed"
+    ],
+    "title": "Correction: Philosophy Not Yet Revealed"
+  },
+  "P0012": {
+    "anchors": "ChatGPT response \"Let\u2019s reset cleanly\"",
+    "depends_on": [
+      "P0011"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "reset",
+      "method",
+      "spine",
+      "question"
+    ],
+    "title": "Reset Method and Spine Question"
+  },
+  "P0013": {
+    "anchors": "User message about narrative structure and analogy",
+    "depends_on": [
+      "P0012"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "narrative",
+      "based",
+      "reasoning",
+      "claim"
+    ],
+    "title": "Narrative-Based Reasoning Claim"
+  },
+  "P0014": {
+    "anchors": "ChatGPT section \"Narrative as a Condition of Intelligibility\"",
+    "depends_on": [
+      "P0013"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "narrative",
+      "condition",
+      "intelligibility"
+    ],
+    "title": "Narrative as Condition of Intelligibility"
+  },
+  "P0015": {
+    "anchors": "ChatGPT sections on story-hierarchy and analogy",
+    "depends_on": [
+      "P0013"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "reasoning",
+      "story",
+      "hierarchy",
+      "analogy"
+    ],
+    "title": "Reasoning as Story Hierarchy and Analogy"
+  },
+  "P0016": {
+    "anchors": "ChatGPT section \"Philosophy as Metaphor\"",
+    "depends_on": [
+      "P0013"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "philosophy",
+      "disciplined",
+      "metaphor"
+    ],
+    "title": "Philosophy as Disciplined Metaphor"
+  },
+  "P0017": {
+    "anchors": "User message on narrative origins and cosmology",
+    "depends_on": [
+      "P0016"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "narratives",
+      "discovered",
+      "constructed",
+      "imposed"
+    ],
+    "title": "Narratives Discovered, Constructed, Imposed"
+  },
+  "P0018": {
+    "anchors": "ChatGPT response on narratives being discovered/constructed/imposed",
+    "depends_on": [
+      "P0017"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "narrative",
+      "triad",
+      "matters"
+    ],
+    "title": "Narrative Triad Matters"
+  },
+  "P0019": {
+    "anchors": "ChatGPT section \"Narrative as a Cross-Scale Phenomenon\"",
+    "depends_on": [
+      "P0018"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "narrative",
+      "across",
+      "biology",
+      "mind",
+      "cosmology"
+    ],
+    "title": "Narrative Across Biology, Mind, Cosmology"
+  },
+  "P0020": {
+    "anchors": "ChatGPT section \"Why This Isn\u2019t 'Everything Is a Story'\"",
+    "depends_on": [
+      "P0018"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "everything",
+      "story"
+    ],
+    "title": "Not \"Everything Is a Story\""
+  },
+  "P0021": {
+    "anchors": "ChatGPT section \"The Biological Anchor\"",
+    "depends_on": [
+      "P0019"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "biological",
+      "anchor",
+      "narrative"
+    ],
+    "title": "Biological Anchor for Narrative"
+  },
+  "P0022": {
+    "anchors": "ChatGPT section \"Cosmology as the Ultimate Stress Test\"",
+    "depends_on": [
+      "P0019"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "cosmology",
+      "narrative",
+      "stress",
+      "test"
+    ],
+    "title": "Cosmology as Narrative Stress Test"
+  },
+  "P0023": {
+    "anchors": "ChatGPT section \"What 'Inside Out Backwards' Is Starting to Mean\"",
+    "depends_on": [
+      "P0019"
+    ],
+    "intent": "definition",
+    "keywords": [
+      "inside",
+      "out",
+      "backwards",
+      "meaning"
+    ],
+    "title": "Inside/Out/Backwards Meaning"
+  },
+  "P0024": {
+    "anchors": "ChatGPT section \"How This Wants to Be Organized\"",
+    "depends_on": [
+      "P0023"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "organize",
+      "interfaces"
+    ],
+    "title": "Organize by Interfaces"
+  },
+  "P0025": {
+    "anchors": "ChatGPT section \"A Quiet Strength of Your Position\"",
+    "depends_on": [
+      "P0022"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "strength",
+      "universe",
+      "can",
+      "disagree"
+    ],
+    "title": "Strength: Universe Can Disagree"
+  },
+  "P0026": {
+    "anchors": "User message \"examining these two potentialities\"",
+    "depends_on": [
+      "P0019"
+    ],
+    "intent": "hypothesis",
+    "keywords": [
+      "two",
+      "possibilities",
+      "narrative"
+    ],
+    "title": "Two Possibilities: Narrative or Not"
+  },
+  "P0027": {
+    "anchors": "ChatGPT response on two possibilities",
+    "depends_on": [
+      "P0026"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "comparative",
+      "investigation",
+      "framing"
+    ],
+    "title": "Comparative Investigation Framing"
+  },
+  "P0028": {
+    "anchors": "ChatGPT question about evidence narrative fails",
+    "depends_on": [
+      "P0027"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "evidence",
+      "narrative",
+      "failure"
+    ],
+    "title": "Evidence for Narrative Failure"
+  },
+  "P0029": {
+    "anchors": "User message about narrative success and caretakers",
+    "depends_on": [
+      "P0026"
+    ],
+    "intent": "hypothesis",
+    "keywords": [
+      "counterfactual",
+      "narrative",
+      "success"
+    ],
+    "title": "Counterfactual of Narrative Success"
+  },
+  "P0030": {
+    "anchors": "ChatGPT section \"What 'Narrative Succeeds' Actually Means\"",
+    "depends_on": [
+      "P0029"
+    ],
+    "intent": "definition",
+    "keywords": [
+      "definition",
+      "narrative",
+      "success"
+    ],
+    "title": "Definition of Narrative Success"
+  },
+  "P0031": {
+    "anchors": "ChatGPT section on human-centered inversion legitimacy",
+    "depends_on": [
+      "P0029"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "inversion",
+      "structural",
+      "role"
+    ],
+    "title": "Inversion as Structural Role"
+  },
+  "P0032": {
+    "anchors": "ChatGPT section \"The Caretaker Hypothesis\"",
+    "depends_on": [
+      "P0029"
+    ],
+    "intent": "hypothesis",
+    "keywords": [
+      "caretaker",
+      "hypothesis"
+    ],
+    "title": "Caretaker Hypothesis"
+  },
+  "P0033": {
+    "anchors": "ChatGPT section \"Why This Is a Legitimate Counterfactual\"",
+    "depends_on": [
+      "P0032"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "counterfactual",
+      "test",
+      "criteria"
+    ],
+    "title": "Counterfactual Test Criteria"
+  },
+  "P0034": {
+    "anchors": "ChatGPT section \"What Would Follow If This Were True?\"",
+    "depends_on": [
+      "P0032"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "implications",
+      "if",
+      "caretaking",
+      "true"
+    ],
+    "title": "Implications If Caretaking Is True"
+  },
+  "P0035": {
+    "anchors": "ChatGPT section \"Where This Could Fail\"",
+    "depends_on": [
+      "P0030"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "failure",
+      "mode",
+      "narrative",
+      "breaks",
+      "at"
+    ],
+    "title": "Failure Mode: Narrative Breaks at Scale"
+  },
+  "P0036": {
+    "anchors": "ChatGPT section \"Why This Turns the Human Story Inside Out Backwards\"",
+    "depends_on": [
+      "P0031"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "inside",
+      "out",
+      "human",
+      "story"
+    ],
+    "title": "Inside Out Human Story"
+  },
+  "P0037": {
+    "anchors": "ChatGPT section \"A Clean Way to Phrase This\"",
+    "depends_on": [
+      "P0032"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "caretaking",
+      "framing",
+      "next",
+      "question"
+    ],
+    "title": "Caretaking Framing and Next Question"
+  },
+  "P0038": {
+    "anchors": "User message questioning sobering and reframing caretaking",
+    "depends_on": [
+      "P0036"
+    ],
+    "intent": "objection",
+    "keywords": [
+      "objection",
+      "sobering",
+      "caretaking"
+    ],
+    "title": "Objection to \"Sobering\" and Caretaking"
+  },
+  "P0039": {
+    "anchors": "ChatGPT response correcting \"sobering\"",
+    "depends_on": [
+      "P0038"
+    ],
+    "intent": "correction",
+    "keywords": [
+      "sobering",
+      "diagnostic",
+      "signal"
+    ],
+    "title": "Sobering as Diagnostic Signal"
+  },
+  "P0040": {
+    "anchors": "ChatGPT section \"Caretaking as an Entry Point\"",
+    "depends_on": [
+      "P0038"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "caretaking",
+      "causal",
+      "locus"
+    ],
+    "title": "Caretaking as Causal Locus"
+  },
+  "P0041": {
+    "anchors": "ChatGPT section \"Self-Contained Narrative Taken Seriously\"",
+    "depends_on": [
+      "P0040"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "self",
+      "contained",
+      "narrative",
+      "properties"
+    ],
+    "title": "Self-Contained Narrative Properties"
+  },
+  "P0042": {
+    "anchors": "ChatGPT section \"Why Myth Keeps Showing Up\"",
+    "depends_on": [
+      "P0040"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "myth",
+      "scaffolding"
+    ],
+    "title": "Myth as Scaffolding"
+  },
+  "P0043": {
+    "anchors": "ChatGPT section \"The Emotional Gradient Is Part of the System\"",
+    "depends_on": [
+      "P0039"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "emotional",
+      "gradient",
+      "signal"
+    ],
+    "title": "Emotional Gradient as Signal"
+  },
+  "P0044": {
+    "anchors": "ChatGPT criterion for agent and next question",
+    "depends_on": [
+      "P0040"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "criterion",
+      "narrative",
+      "deconstruction"
+    ],
+    "title": "Criterion for Narrative Deconstruction"
+  },
+  "P0045": {
+    "anchors": "User question \"which way are we looking? inward or outward?\"",
+    "depends_on": [
+      "P0044"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "inward",
+      "outward",
+      "question"
+    ],
+    "title": "Inward vs Outward Question"
+  },
+  "P0046": {
+    "anchors": "ChatGPT response \"Neither\u2014at least not first\"",
+    "depends_on": [
+      "P0045"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "hinge",
+      "where",
+      "inward",
+      "outward",
+      "arise"
+    ],
+    "title": "Hinge Where Inward/Outward Arise"
+  },
+  "P0047": {
+    "anchors": "ChatGPT list of outward/inward/hinge stances",
+    "depends_on": [
+      "P0046"
+    ],
+    "intent": "definition",
+    "keywords": [
+      "three",
+      "stances",
+      "narrative",
+      "direction"
+    ],
+    "title": "Three Stances on Narrative Direction"
+  },
+  "P0048": {
+    "anchors": "ChatGPT response on destabilizing orientations",
+    "depends_on": [
+      "P0046"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "philosophy",
+      "orientation",
+      "destabilization"
+    ],
+    "title": "Philosophy as Orientation Destabilization"
+  },
+  "P0049": {
+    "anchors": "User message about hierarchy ground and eerie knowledge",
+    "depends_on": [
+      "P0048"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "hierarchies",
+      "require",
+      "ground"
+    ],
+    "title": "Hierarchies Require Ground"
+  },
+  "P0050": {
+    "anchors": "ChatGPT response about dangling hierarchies",
+    "depends_on": [
+      "P0049"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "groundlessness",
+      "structural",
+      "expectation"
+    ],
+    "title": "Groundlessness as Structural Expectation"
+  },
+  "P0051": {
+    "anchors": "ChatGPT response shifting question to coherence",
+    "depends_on": [
+      "P0050"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "coherence",
+      "ground"
+    ],
+    "title": "Coherence Without Ground"
+  },
+  "P0052": {
+    "anchors": "ChatGPT response on hypotheses needing fixed frames",
+    "depends_on": [
+      "P0049"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "science",
+      "forbids",
+      "ground",
+      "seeking"
+    ],
+    "title": "Science Forbids Ground-Seeking"
+  },
+  "P0053": {
+    "anchors": "ChatGPT response listing shifts (laws, symmetries, info)",
+    "depends_on": [
+      "P0052"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "foundational",
+      "shifts",
+      "lateral"
+    ],
+    "title": "Foundational Shifts Are Lateral"
+  },
+  "P0054": {
+    "anchors": "ChatGPT response framing ground as pre/meta-scientific",
+    "depends_on": [
+      "P0052"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "ground",
+      "question",
+      "boundary",
+      "condition"
+    ],
+    "title": "Ground Question as Boundary Condition"
+  },
+  "P0055": {
+    "anchors": "ChatGPT response \"Philosophy is not the art of invention\"",
+    "depends_on": [
+      "P0054"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "philosophy",
+      "art",
+      "orientation"
+    ],
+    "title": "Philosophy as Art of Orientation"
+  },
+  "P0056": {
+    "anchors": "ChatGPT response on spatial metaphors and eeriness",
+    "depends_on": [
+      "P0055"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "spatial",
+      "metaphor",
+      "failure"
+    ],
+    "title": "Spatial Metaphor Failure"
+  },
+  "P0057": {
+    "anchors": "ChatGPT response listing stabilization \u2192 narratives \u2192 grounds",
+    "depends_on": [
+      "P0056"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "recursive",
+      "loop",
+      "meaning"
+    ],
+    "title": "Recursive Loop of Meaning"
+  },
+  "P0058": {
+    "anchors": "ChatGPT section \"Why Science Can\u2019t Touch This\"",
+    "depends_on": [
+      "P0055"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "art",
+      "science",
+      "frames"
+    ],
+    "title": "Art vs Science on Frames"
+  },
+  "P0059": {
+    "anchors": "ChatGPT response \"narrative-capable system... cannot be narrated\"",
+    "depends_on": [
+      "P0055"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "remainder",
+      "intelligibility"
+    ],
+    "title": "Remainder of Intelligibility"
+  },
+  "P0060": {
+    "anchors": "User question about 3D space and time",
+    "depends_on": [
+      "P0059"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "start",
+      "space",
+      "time"
+    ],
+    "title": "Start with Space and Time?"
+  },
+  "P0061": {
+    "anchors": "ChatGPT section \"Why 3-Dimensional Space Is the Wrong Place to Start\"",
+    "depends_on": [
+      "P0060"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "space",
+      "late",
+      "compression"
+    ],
+    "title": "Space Is a Late Compression"
+  },
+  "P0062": {
+    "anchors": "ChatGPT section \"Time Is Different\u2014and That Matters\"",
+    "depends_on": [
+      "P0060"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "time",
+      "ordering",
+      "constraint"
+    ],
+    "title": "Time as Ordering Constraint"
+  },
+  "P0063": {
+    "anchors": "ChatGPT section \"What This Suggests as a True Starting Point\"",
+    "depends_on": [
+      "P0061"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "primitive",
+      "ordered",
+      "constraint"
+    ],
+    "title": "Primitive Is Ordered Constraint"
+  },
+  "P0064": {
+    "anchors": "ChatGPT section \"Why This Is Where Philosophy Starts\"",
+    "depends_on": [
+      "P0063"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "philosophy",
+      "meta",
+      "orientation"
+    ],
+    "title": "Philosophy as Meta-Orientation"
+  },
+  "P0065": {
+    "anchors": "ChatGPT section \"A Disciplined First Move\"",
+    "depends_on": [
+      "P0063"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "starting",
+      "posture",
+      "constraint",
+      "order",
+      "memory"
+    ],
+    "title": "Starting Posture: Constraint + Order + Memory"
+  },
+  "P0066": {
+    "anchors": "ChatGPT section \"Why This Feels Both Obvious and Unsettling\"",
+    "depends_on": [
+      "P0065"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "orientation",
+      "loss",
+      "feels",
+      "unsettling"
+    ],
+    "title": "Orientation Loss Feels Unsettling"
+  },
+  "P0067": {
+    "anchors": "User message about visual motivation and eye of the needle",
+    "depends_on": [
+      "P0065"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "visual",
+      "bias",
+      "starting",
+      "empty",
+      "space"
+    ],
+    "title": "Visual Bias and Starting with Empty Space"
+  },
+  "P0068": {
+    "anchors": "ChatGPT response \"structural insight about pedagogy\"",
+    "depends_on": [
+      "P0067"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "empty",
+      "space",
+      "starting",
+      "illusion"
+    ],
+    "title": "Empty Space as Starting Illusion"
+  },
+  "P0069": {
+    "anchors": "ChatGPT section \"Nothingness as a Necessary Trap\"",
+    "depends_on": [
+      "P0068"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "nothingness",
+      "cognitive",
+      "trap"
+    ],
+    "title": "Nothingness as Cognitive Trap"
+  },
+  "P0070": {
+    "anchors": "ChatGPT section \"The Eye of the Needle\"",
+    "depends_on": [
+      "P0069"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "eye",
+      "needle",
+      "sequence"
+    ],
+    "title": "Eye of the Needle Sequence"
+  },
+  "P0071": {
+    "anchors": "ChatGPT section \"Why You Cannot Start with Both\"",
+    "depends_on": [
+      "P0068"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "cannot",
+      "start",
+      "both",
+      "space",
+      "time"
+    ],
+    "title": "Cannot Start with Both Space and Time"
+  },
+  "P0072": {
+    "anchors": "ChatGPT section \"Nothingness as a Method\"",
+    "depends_on": [
+      "P0069"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "nothingness",
+      "method"
+    ],
+    "title": "Nothingness as Method"
+  },
+  "P0073": {
+    "anchors": "ChatGPT section \"What This Sets Up\"",
+    "depends_on": [
+      "P0070"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "empty",
+      "space",
+      "sets",
+      "up",
+      "inversion"
+    ],
+    "title": "Empty Space Sets Up Inversion"
+  },
+  "P0074": {
+    "anchors": "ChatGPT section \"This Is Why Philosophy Is an Art\"",
+    "depends_on": [
+      "P0070"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "philosophy",
+      "pedagogical",
+      "art"
+    ],
+    "title": "Philosophy as Pedagogical Art"
+  },
+  "P0075": {
+    "anchors": "User message about true nothingness and next thought experiment",
+    "depends_on": [
+      "P0072"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "thought",
+      "experiment",
+      "nothingness"
+    ],
+    "title": "Thought Experiment from Nothingness"
+  },
+  "P0076": {
+    "anchors": "ChatGPT response \"no rules means no impossibilities\"",
+    "depends_on": [
+      "P0075"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "asymmetry",
+      "becomes",
+      "justification"
+    ],
+    "title": "First Asymmetry Becomes Justification"
+  },
+  "P0077": {
+    "anchors": "User question about assuming the first dimension",
+    "depends_on": [
+      "P0076"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "assume",
+      "dimension"
+    ],
+    "title": "Assume a First Dimension?"
+  },
+  "P0078": {
+    "anchors": "ChatGPT section \"What Does 'Assume the First Dimension' Really Mean?\"",
+    "depends_on": [
+      "P0077"
+    ],
+    "intent": "definition",
+    "keywords": [
+      "dimension",
+      "distinction"
+    ],
+    "title": "First Dimension as Distinction"
+  },
+  "P0079": {
+    "anchors": "ChatGPT section \"Why This Assumption Is Allowed\"",
+    "depends_on": [
+      "P0078"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "distinction",
+      "yields",
+      "multiplicity",
+      "relation"
+    ],
+    "title": "Distinction Yields Multiplicity and Relation"
+  },
+  "P0080": {
+    "anchors": "ChatGPT section \"Why This Is Not Smuggling Time or Space Back In\"",
+    "depends_on": [
+      "P0078"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "distinction",
+      "doesn",
+      "t",
+      "smuggle",
+      "space"
+    ],
+    "title": "Distinction Doesn\u2019t Smuggle Space/Time"
+  },
+  "P0081": {
+    "anchors": "ChatGPT section \"The First Dimension Is Not a Line\"",
+    "depends_on": [
+      "P0078"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "dimension",
+      "tension"
+    ],
+    "title": "First Dimension as Tension"
+  },
+  "P0082": {
+    "anchors": "ChatGPT section \"What This Unlocks for the Reader\"",
+    "depends_on": [
+      "P0078"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "inversion",
+      "sequence",
+      "reader"
+    ],
+    "title": "Inversion Sequence for Reader"
+  },
+  "P0083": {
+    "anchors": "ChatGPT section \"A Clean Way to Phrase This\"",
+    "depends_on": [
+      "P0078"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "clean",
+      "phrasing",
+      "distinction"
+    ],
+    "title": "Clean Phrasing for Distinction"
+  },
+  "P0084": {
+    "anchors": "ChatGPT question \"Can a distinction persist without ordering?\"",
+    "depends_on": [
+      "P0082"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "next",
+      "question",
+      "distinction",
+      "ordering"
+    ],
+    "title": "Next Question: Distinction Without Ordering"
+  },
+  "P0085": {
+    "anchors": "User message about plate breaking and legitimation",
+    "depends_on": [
+      "P0084"
+    ],
+    "intent": "hypothesis",
+    "keywords": [
+      "plate",
+      "break",
+      "thought",
+      "experiment"
+    ],
+    "title": "Plate Break Thought Experiment"
+  },
+  "P0086": {
+    "anchors": "ChatGPT section \"Why the Second Dimension Is Not Added\u2014but Forced\"",
+    "depends_on": [
+      "P0085"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "dimension",
+      "forced",
+      "relation"
+    ],
+    "title": "Second Dimension Forced by Relation"
+  },
+  "P0087": {
+    "anchors": "ChatGPT section \"Why 'Three Perfect Pieces' Is the Wrong Expectation\"",
+    "depends_on": [
+      "P0085"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "asymmetry",
+      "symmetry"
+    ],
+    "title": "Asymmetry Before Symmetry"
+  },
+  "P0088": {
+    "anchors": "ChatGPT section \"What an Unconstrained Distinction Must Do\"",
+    "depends_on": [
+      "P0085"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "distinction",
+      "must",
+      "legitimate",
+      "itself"
+    ],
+    "title": "Distinction Must Legitimate Itself"
+  },
+  "P0089": {
+    "anchors": "ChatGPT section \"The Second Dimension as Necessitated Relation\"",
+    "depends_on": [
+      "P0088"
+    ],
+    "intent": "definition",
+    "keywords": [
+      "dimension",
+      "entailment"
+    ],
+    "title": "Second Dimension as Entailment"
+  },
+  "P0090": {
+    "anchors": "ChatGPT section \"Why This Is the True Origin of Hierarchy\"",
+    "depends_on": [
+      "P0089"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "hierarchy",
+      "legitimation"
+    ],
+    "title": "Hierarchy from Legitimation"
+  },
+  "P0091": {
+    "anchors": "ChatGPT section \"What Has Quietly Appeared Now\"",
+    "depends_on": [
+      "P0090"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "seeds",
+      "causality",
+      "appear"
+    ],
+    "title": "Seeds of Causality Appear"
+  },
+  "P0092": {
+    "anchors": "ChatGPT section \"Why This Thought Experiment Works\"",
+    "depends_on": [
+      "P0085"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "plate",
+      "metaphor",
+      "works",
+      "pressure",
+      "test"
+    ],
+    "title": "Plate Metaphor Works as Pressure Test"
+  },
+  "P0093": {
+    "anchors": "ChatGPT section \"Where This Forces the Inquiry Next\"",
+    "depends_on": [
+      "P0088"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "recursion",
+      "converge",
+      "diverge",
+      "stabilize"
+    ],
+    "title": "Recursion Converge, Diverge, or Stabilize?"
+  },
+  "P0094": {
+    "anchors": "User message on dualism origin",
+    "depends_on": [
+      "P0093"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "dualism",
+      "origin",
+      "but",
+      "enough"
+    ],
+    "title": "Dualism Origin, But Not Enough"
+  },
+  "P0095": {
+    "anchors": "ChatGPT response \"dualism is inevitable but insufficient\"",
+    "depends_on": [
+      "P0094"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "dualism",
+      "minimal",
+      "stability"
+    ],
+    "title": "Dualism as Minimal Stability"
+  },
+  "P0096": {
+    "anchors": "ChatGPT response on dualism limits",
+    "depends_on": [
+      "P0095"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "dualism",
+      "doesn",
+      "t",
+      "resolve",
+      "pressure"
+    ],
+    "title": "Dualism Doesn\u2019t Resolve the Pressure"
+  },
+  "P0097": {
+    "anchors": "ChatGPT response on dualism stopping points",
+    "depends_on": [
+      "P0096"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "dualism",
+      "scaffold",
+      "foundation"
+    ],
+    "title": "Dualism as Scaffold, Not Foundation"
+  },
+  "P0098": {
+    "anchors": "ChatGPT response on gap demanding relation/process",
+    "depends_on": [
+      "P0096"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "dualism",
+      "demands",
+      "mediation"
+    ],
+    "title": "Dualism Demands Mediation"
+  },
+  "P0099": {
+    "anchors": "ChatGPT response on human experience of dualism",
+    "depends_on": [
+      "P0098"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "lived",
+      "dualism",
+      "unease"
+    ],
+    "title": "Lived Dualism and Unease"
+  },
+  "P0100": {
+    "anchors": "ChatGPT response \"not rejecting dualism\"",
+    "depends_on": [
+      "P0095"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "derive",
+      "dualism",
+      "don",
+      "t",
+      "reject"
+    ],
+    "title": "Derive Dualism, Don\u2019t Reject It"
+  },
+  "P0101": {
+    "anchors": "ChatGPT question on sustaining distinctions",
+    "depends_on": [
+      "P0098"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "sustaining",
+      "opposing",
+      "distinctions"
+    ],
+    "title": "Sustaining Opposing Distinctions"
+  },
+  "P0102": {
+    "anchors": "User message \"what is dual?!\"",
+    "depends_on": [
+      "P0095"
+    ],
+    "intent": "correction",
+    "keywords": [
+      "correction",
+      "duality",
+      "everything"
+    ],
+    "title": "Correction: Duality Is Everything"
+  },
+  "P0103": {
+    "anchors": "ChatGPT response \"Duality is not a stage\"",
+    "depends_on": [
+      "P0102"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "duality",
+      "self",
+      "differentiation"
+    ],
+    "title": "Duality as Self-Differentiation"
+  },
+  "P0104": {
+    "anchors": "ChatGPT section \"Hegel Without the Cartoon\"",
+    "depends_on": [
+      "P0102"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "hegel",
+      "identity",
+      "contains",
+      "difference"
+    ],
+    "title": "Hegel: Identity Contains Difference"
+  },
+  "P0105": {
+    "anchors": "ChatGPT section \"Why This Explains Fractality\"",
+    "depends_on": [
+      "P0103"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "fractality",
+      "retrospective",
+      "unity"
+    ],
+    "title": "Fractality and Retrospective Unity"
+  },
+  "P0106": {
+    "anchors": "ChatGPT section \"Why This Is Also the Origin of Experience\"",
+    "depends_on": [
+      "P0103"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "experience",
+      "differentiation",
+      "felt"
+    ],
+    "title": "Experience as Differentiation Felt"
+  },
+  "P0107": {
+    "anchors": "ChatGPT section \"Why Dualism Feels Wrong but Won\u2019t Go Away\"",
+    "depends_on": [
+      "P0103"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "duality",
+      "necessary",
+      "intelligibility"
+    ],
+    "title": "Duality Necessary for Intelligibility"
+  },
+  "P0108": {
+    "anchors": "ChatGPT section \"Where Inside Out Backwards Clicks\"",
+    "depends_on": [
+      "P0103"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "duality",
+      "generative",
+      "condition"
+    ],
+    "title": "Duality as Generative Condition"
+  },
+  "P0109": {
+    "anchors": "ChatGPT section \"Where We Are Now\"",
+    "depends_on": [
+      "P0108"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "coherence",
+      "differentiation"
+    ],
+    "title": "Coherence of Differentiation"
+  },
+  "P0110": {
+    "anchors": "User message \"we had to go inward\"",
+    "depends_on": [
+      "P0109"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "out",
+      "go",
+      "inward"
+    ],
+    "title": "No \"Out\"; Go Inward"
+  },
+  "P0111": {
+    "anchors": "ChatGPT response \"there was never an out\"",
+    "depends_on": [
+      "P0110"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "ground",
+      "inward",
+      "generative",
+      "activity"
+    ],
+    "title": "Ground as Inward Generative Activity"
+  },
+  "P0112": {
+    "anchors": "User message \"start dealing with physics\"",
+    "depends_on": [
+      "P0111"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "turn",
+      "physics",
+      "topology",
+      "momentum"
+    ],
+    "title": "Turn to Physics: Topology and Momentum"
+  },
+  "P0113": {
+    "anchors": "ChatGPT section \"Why Topology Comes First\"",
+    "depends_on": [
+      "P0112"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "topology",
+      "geometry"
+    ],
+    "title": "Topology Before Geometry"
+  },
+  "P0114": {
+    "anchors": "ChatGPT section \"Momentum Without Space\"",
+    "depends_on": [
+      "P0112"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "momentum",
+      "more",
+      "fundamental",
+      "than",
+      "position"
+    ],
+    "title": "Momentum More Fundamental Than Position"
+  },
+  "P0115": {
+    "anchors": "ChatGPT section \"Why Momentum Is Inevitable\"",
+    "depends_on": [
+      "P0114"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "momentum",
+      "inertia",
+      "differentiation"
+    ],
+    "title": "Momentum as Inertia of Differentiation"
+  },
+  "P0116": {
+    "anchors": "ChatGPT section \"Topology + Momentum = Proto-Physics\"",
+    "depends_on": [
+      "P0115"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "topology",
+      "momentum",
+      "proto",
+      "physics"
+    ],
+    "title": "Topology + Momentum as Proto-Physics"
+  },
+  "P0117": {
+    "anchors": "ChatGPT section \"Why Space Emerges After Momentum\"",
+    "depends_on": [
+      "P0116"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "space",
+      "emerges",
+      "momentum"
+    ],
+    "title": "Space Emerges After Momentum"
+  },
+  "P0118": {
+    "anchors": "ChatGPT section \"What This Does to 'Ground'\"",
+    "depends_on": [
+      "P0116"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "ground",
+      "structured",
+      "differentiation"
+    ],
+    "title": "Ground as Structured Differentiation"
+  },
+  "P0119": {
+    "anchors": "ChatGPT section \"Where This Forces the Inquiry Next\"",
+    "depends_on": [
+      "P0118"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "next",
+      "questions",
+      "stabilization",
+      "agency"
+    ],
+    "title": "Next Questions: Stabilization to Agency"
+  },
+  "P0120": {
+    "anchors": "User message on inversion and gravity as inward momentum",
+    "depends_on": [
+      "P0119"
+    ],
+    "intent": "hypothesis",
+    "keywords": [
+      "inversion",
+      "fields",
+      "gravity",
+      "hypothesis"
+    ],
+    "title": "Inversion, Fields, and Gravity Hypothesis"
+  },
+  "P0121": {
+    "anchors": "ChatGPT response \"inversion at the heart of modern physics\"",
+    "depends_on": [
+      "P0120"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "physics",
+      "inversion",
+      "relations"
+    ],
+    "title": "Physics Inversion: Relations First"
+  },
+  "P0122": {
+    "anchors": "ChatGPT response explaining field behavior",
+    "depends_on": [
+      "P0120"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "field",
+      "self",
+      "referential",
+      "dynamics"
+    ],
+    "title": "Field as Self-Referential Dynamics"
+  },
+  "P0123": {
+    "anchors": "ChatGPT section \"Where We Must Slow Down\"",
+    "depends_on": [
+      "P0120"
+    ],
+    "intent": "correction",
+    "keywords": [
+      "correction",
+      "gravity",
+      "momentum"
+    ],
+    "title": "Correction on Gravity as Momentum"
+  },
+  "P0124": {
+    "anchors": "ChatGPT response on gravity\u2019s features",
+    "depends_on": [
+      "P0123"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "gravity",
+      "persistent",
+      "self",
+      "relation"
+    ],
+    "title": "Gravity as Persistent Self-Relation"
+  },
+  "P0125": {
+    "anchors": "ChatGPT section \"The Deep Alignment You\u2019re Touching\"",
+    "depends_on": [
+      "P0122"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "gauge",
+      "theory",
+      "recursive",
+      "consistency"
+    ],
+    "title": "Gauge Theory and Recursive Consistency"
+  },
+  "P0126": {
+    "anchors": "ChatGPT section \"The Real Claim You\u2019re Making\"",
+    "depends_on": [
+      "P0125"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "clean",
+      "claim",
+      "about",
+      "external",
+      "frames"
+    ],
+    "title": "Clean Claim About External Frames"
+  },
+  "P0127": {
+    "anchors": "ChatGPT section \"Why This Feels Intuitive Now\"",
+    "depends_on": [
+      "P0126"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "inverted",
+      "explanatory",
+      "order"
+    ],
+    "title": "Inverted Explanatory Order"
+  },
+  "P0128": {
+    "anchors": "ChatGPT section \"The One Rule You Must Keep\"",
+    "depends_on": [
+      "P0126"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "rule",
+      "interpretive",
+      "declarative"
+    ],
+    "title": "Rule: Interpretive, Not Declarative"
+  },
+  "P0129": {
+    "anchors": "ChatGPT section \"Where You Go Next\"",
+    "depends_on": [
+      "P0128"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "next",
+      "steps",
+      "symmetry",
+      "agency"
+    ],
+    "title": "Next Steps: Symmetry to Agency"
+  },
+  "P0130": {
+    "anchors": "User question about gravity on a singular thing",
+    "depends_on": [
+      "P0129"
+    ],
+    "intent": "hypothesis",
+    "keywords": [
+      "self",
+      "gravity",
+      "question"
+    ],
+    "title": "Self-Gravity Question"
+  },
+  "P0131": {
+    "anchors": "ChatGPT section \"In Newtonian Gravity\"",
+    "depends_on": [
+      "P0130"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "newtonian",
+      "self",
+      "gravity",
+      "zero"
+    ],
+    "title": "Newtonian Self-Gravity Is Zero"
+  },
+  "P0132": {
+    "anchors": "ChatGPT section \"In General Relativity\"",
+    "depends_on": [
+      "P0130"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "gr",
+      "makes",
+      "self",
+      "gravity",
+      "ill"
+    ],
+    "title": "GR Makes Self-Gravity Ill-Posed"
+  },
+  "P0133": {
+    "anchors": "ChatGPT section \"Point Particles vs Extended Objects\"",
+    "depends_on": [
+      "P0132"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "singular",
+      "point",
+      "particles",
+      "fail"
+    ],
+    "title": "Singular Point Particles Fail"
+  },
+  "P0134": {
+    "anchors": "ChatGPT section \"The Only Case Where the Question Survives\"",
+    "depends_on": [
+      "P0132"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "black",
+      "hole",
+      "self",
+      "consistency"
+    ],
+    "title": "Black Hole as Self-Consistency"
+  },
+  "P0135": {
+    "anchors": "ChatGPT section \"The Philosophical Resolution\"",
+    "depends_on": [
+      "P0130"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "self",
+      "gravity",
+      "condition",
+      "existence"
+    ],
+    "title": "Self-Gravity as Condition of Existence"
+  },
+  "P0136": {
+    "anchors": "ChatGPT section \"Interpreting Your 'Inward Momentum'\"",
+    "depends_on": [
+      "P0135"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "inward",
+      "momentum",
+      "reinterpreted"
+    ],
+    "title": "Inward Momentum Reinterpreted"
+  },
+  "P0137": {
+    "anchors": "ChatGPT section \"The Best Possible Answer\"",
+    "depends_on": [
+      "P0135"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "condensed",
+      "answer",
+      "self",
+      "gravity"
+    ],
+    "title": "Condensed Answer on Self-Gravity"
+  },
+  "P0138": {
+    "anchors": "User message on GR and infinite divisibility",
+    "depends_on": [
+      "P0137"
+    ],
+    "intent": "hypothesis",
+    "keywords": [
+      "multiplicity",
+      "infinite",
+      "divisibility",
+      "question"
+    ],
+    "title": "Multiplicity and Infinite Divisibility Question"
+  },
+  "P0139": {
+    "anchors": "ChatGPT response \"Invoking GR too early\"",
+    "depends_on": [
+      "P0138"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "gr",
+      "presumes",
+      "multiplicity"
+    ],
+    "title": "GR Presumes Multiplicity"
+  },
+  "P0140": {
+    "anchors": "ChatGPT section \"Change Is the Primary Datum\"",
+    "depends_on": [
+      "P0138"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "change",
+      "primary",
+      "datum"
+    ],
+    "title": "Change as Primary Datum"
+  },
+  "P0141": {
+    "anchors": "ChatGPT section \"Infinite Divisibility Is Not a Substance Claim\"",
+    "depends_on": [
+      "P0138"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "infinite",
+      "divisibility",
+      "processual"
+    ],
+    "title": "Infinite Divisibility Is Processual"
+  },
+  "P0142": {
+    "anchors": "ChatGPT section \"Why Multiplicity Is Forced\"",
+    "depends_on": [
+      "P0138"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "multiplicity",
+      "forced",
+      "differentiation"
+    ],
+    "title": "Multiplicity Forced by Differentiation"
+  },
+  "P0143": {
+    "anchors": "ChatGPT section \"Where Mathematics Actually Comes From\"",
+    "depends_on": [
+      "P0141"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "math",
+      "compression",
+      "change"
+    ],
+    "title": "Math as Compression of Change"
+  },
+  "P0144": {
+    "anchors": "ChatGPT section \"Why We 'See So Much Change'\"",
+    "depends_on": [
+      "P0140"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "change",
+      "dominates",
+      "things",
+      "plateaus"
+    ],
+    "title": "Change Dominates, Things Are Plateaus"
+  },
+  "P0145": {
+    "anchors": "ChatGPT section \"Why GR Appears Late\"",
+    "depends_on": [
+      "P0139"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "gr",
+      "late",
+      "compression"
+    ],
+    "title": "GR as Late Compression"
+  },
+  "P0146": {
+    "anchors": "ChatGPT section \"The Honest Core Claim\"",
+    "depends_on": [
+      "P0142"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "existence",
+      "continual",
+      "difference"
+    ],
+    "title": "Existence as Continual Difference"
+  },
+  "P0147": {
+    "anchors": "ChatGPT section \"Where This Forces Us Next\"",
+    "depends_on": [
+      "P0146"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "next",
+      "question",
+      "persistence",
+      "patterns"
+    ],
+    "title": "Next Question: Persistence of Patterns"
+  },
+  "P0148": {
+    "anchors": "User message on chaos vs order and possibility",
+    "arc": "iob_ontology",
+    "depends_on": [
+      "P0147"
+    ],
+    "intent": "question",
+    "keywords": [
+      "cessation",
+      "chaos",
+      "order",
+      "question"
+    ],
+    "title": "Non-Cessation and Chaos/Order Question"
+  },
+  "P0149": {
+    "anchors": "ChatGPT response \"They exist because they haven\u2019t ceased\"",
+    "depends_on": [
+      "P0148"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "cessation",
+      "replaces",
+      "ground"
+    ],
+    "title": "Non-Cessation Replaces Ground"
+  },
+  "P0150": {
+    "anchors": "ChatGPT section \"Chaos vs. Order Is a False Opposition\"",
+    "depends_on": [
+      "P0148"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "chaos",
+      "order",
+      "co",
+      "occur"
+    ],
+    "title": "Chaos and Order Co-Occur"
+  },
+  "P0151": {
+    "anchors": "ChatGPT section \"Change as the Only Primitive\"",
+    "depends_on": [
+      "P0150"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "change",
+      "memory"
+    ],
+    "title": "Change with or without Memory"
+  },
+  "P0152": {
+    "anchors": "ChatGPT section \"Why Possibility Feels Like It\u2019s Peeling Back\"",
+    "depends_on": [
+      "P0148"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "possibility",
+      "peeling",
+      "back"
+    ],
+    "title": "Possibility Peeling Back"
+  },
+  "P0153": {
+    "anchors": "ChatGPT section \"Why We Have to 'Just Note and Explore'\"",
+    "depends_on": [
+      "P0152"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "note",
+      "explore",
+      "new",
+      "dimension"
+    ],
+    "title": "Note and Explore the New Dimension"
+  },
+  "P0154": {
+    "anchors": "ChatGPT section \"Chaos, Order, and Narrative\"",
+    "depends_on": [
+      "P0150"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "narrative",
+      "persistence",
+      "mode"
+    ],
+    "title": "Narrative as Persistence Mode"
+  },
+  "P0155": {
+    "anchors": "ChatGPT section \"The Deep Calm Under the Eeriness\"",
+    "depends_on": [
+      "P0149"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "eeriness",
+      "shifts",
+      "calm"
+    ],
+    "title": "Eeriness Shifts to Calm"
+  },
+  "P0156": {
+    "anchors": "ChatGPT section \"Where This Leaves Us\"",
+    "depends_on": [
+      "P0150"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "next",
+      "questions",
+      "chaos",
+      "order"
+    ],
+    "title": "Next Questions After Chaos/Order"
+  },
+  "P0157": {
+    "anchors": "User message about intentionality and survival instinct",
+    "depends_on": [
+      "P0156"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "intentionality",
+      "emerges",
+      "huge",
+      "search",
+      "space"
+    ],
+    "title": "Intentionality Emerges from Huge Search Space"
+  },
+  "P0158": {
+    "anchors": "ChatGPT section \"Intentionality Without Desire\"",
+    "depends_on": [
+      "P0157"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "intentionality",
+      "desire"
+    ],
+    "title": "Intentionality Without Desire"
+  },
+  "P0159": {
+    "anchors": "ChatGPT section \"Why Survival Instinct Is a Distorted Case\"",
+    "depends_on": [
+      "P0158"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "survival",
+      "instinct",
+      "distorted",
+      "case"
+    ],
+    "title": "Survival Instinct as Distorted Case"
+  },
+  "P0160": {
+    "anchors": "ChatGPT section \"Intentionality as Search-Space Navigation\"",
+    "depends_on": [
+      "P0158"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "intentionality",
+      "navigation"
+    ],
+    "title": "Intentionality as Navigation"
+  },
+  "P0161": {
+    "anchors": "ChatGPT section \"Why This Feels Like Aboutness\"",
+    "depends_on": [
+      "P0160"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "aboutness",
+      "structural",
+      "alignment"
+    ],
+    "title": "Aboutness as Structural Alignment"
+  },
+  "P0162": {
+    "anchors": "ChatGPT section \"Why This Fits Everything\"",
+    "depends_on": [
+      "P0158"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "chain",
+      "persistence",
+      "intentionality"
+    ],
+    "title": "Chain from Persistence to Intentionality"
+  },
+  "P0163": {
+    "anchors": "ChatGPT section \"Why Humans Experience Intentionality\"",
+    "depends_on": [
+      "P0162"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "human",
+      "tension",
+      "mixed",
+      "biases"
+    ],
+    "title": "Human Tension from Mixed Biases"
+  },
+  "P0164": {
+    "anchors": "ChatGPT section \"What This Means Going Forward\"",
+    "depends_on": [
+      "P0162"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "meaning",
+      "agency",
+      "stabilized",
+      "selection"
+    ],
+    "title": "Meaning and Agency as Stabilized Selection"
+  },
+  "P0165": {
+    "anchors": "ChatGPT section \"The Quiet Result\"",
+    "depends_on": [
+      "P0162"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "direction",
+      "unavoidable",
+      "cosmic",
+      "plan"
+    ],
+    "title": "Direction Unavoidable Without Cosmic Plan"
+  },
+  "P0166": {
+    "anchors": "User question about unfolding and possibilities",
+    "depends_on": [
+      "P0165"
+    ],
+    "intent": "hypothesis",
+    "keywords": [
+      "question",
+      "does",
+      "universe",
+      "explore",
+      "all"
+    ],
+    "title": "Question: Does the Universe Explore All Possibilities?"
+  },
+  "P0167": {
+    "anchors": "ChatGPT short answer on possibilities",
+    "depends_on": [
+      "P0166"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "all",
+      "possibilities",
+      "persist"
+    ],
+    "title": "Not All Possibilities Persist"
+  },
+  "P0168": {
+    "anchors": "ChatGPT section \"Unfolding Is the Right Word\"",
+    "depends_on": [
+      "P0166"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "unfolding",
+      "neither",
+      "script",
+      "nor",
+      "random"
+    ],
+    "title": "Unfolding Is Neither Script nor Random Spray"
+  },
+  "P0169": {
+    "anchors": "ChatGPT section \"Possibility Is Vast\u2014But Not Flat\"",
+    "depends_on": [
+      "P0167"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "possibility",
+      "generated",
+      "pruned"
+    ],
+    "title": "Possibility Generated and Pruned"
+  },
+  "P0170": {
+    "anchors": "ChatGPT section \"Why 'All Possibilities' Is the Wrong Target\"",
+    "depends_on": [
+      "P0169"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "all",
+      "possibilities",
+      "ill",
+      "posed"
+    ],
+    "title": "\"All Possibilities\" Is Ill-Posed"
+  },
+  "P0171": {
+    "anchors": "ChatGPT section \"Change Is Cheap; Persistence Is Expensive\"",
+    "depends_on": [
+      "P0167"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "persistence",
+      "expensive"
+    ],
+    "title": "Persistence Is Expensive"
+  },
+  "P0172": {
+    "anchors": "ChatGPT section \"Laws Are Survivors\"",
+    "depends_on": [
+      "P0171"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "laws",
+      "survivors"
+    ],
+    "title": "Laws as Survivors"
+  },
+  "P0173": {
+    "anchors": "ChatGPT section \"Is the Universe 'Trying' Everything?\"",
+    "depends_on": [
+      "P0170"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "global",
+      "exploration",
+      "strategy"
+    ],
+    "title": "No Global Exploration Strategy"
+  },
+  "P0174": {
+    "anchors": "ChatGPT section \"Why This Still Produces Direction\"",
+    "depends_on": [
+      "P0171"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "direction",
+      "narrative",
+      "memory"
+    ],
+    "title": "Direction and Narrative from Memory"
+  },
+  "P0175": {
+    "anchors": "ChatGPT section \"What This Means for Us\"",
+    "depends_on": [
+      "P0171"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "we",
+      "inhabit",
+      "region",
+      "that",
+      "persisted"
+    ],
+    "title": "We Inhabit the Region That Persisted"
+  },
+  "P0176": {
+    "anchors": "ChatGPT section \"The Final Shape of the Answer\"",
+    "depends_on": [
+      "P0171"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "unfolding",
+      "summary",
+      "next",
+      "question"
+    ],
+    "title": "Unfolding Summary and Next Question"
+  },
+  "P0177": {
+    "anchors": "User message about ground and G\u00f6del sentence",
+    "depends_on": [
+      "P0176"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "negative",
+      "ground",
+      "g",
+      "del",
+      "analogy"
+    ],
+    "title": "Negative Ground and G\u00f6del Analogy"
+  },
+  "P0178": {
+    "anchors": "ChatGPT section \"The First Distinction Must Hold\"",
+    "depends_on": [
+      "P0177"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "persistence",
+      "isn",
+      "t",
+      "choice"
+    ],
+    "title": "Persistence Isn\u2019t a Choice"
+  },
+  "P0179": {
+    "anchors": "ChatGPT section \"Why the 'Engage or Run' Metaphor\"",
+    "depends_on": [
+      "P0177"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "engage",
+      "run",
+      "structural",
+      "metaphor"
+    ],
+    "title": "Engage/Run as Structural Metaphor"
+  },
+  "P0180": {
+    "anchors": "ChatGPT section \"The Ground Is Negative\"",
+    "depends_on": [
+      "P0177"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "ground",
+      "must",
+      "be",
+      "negative"
+    ],
+    "title": "Ground Must Be Negative"
+  },
+  "P0181": {
+    "anchors": "ChatGPT section \"G\u00f6del Is the Right Analogy\"",
+    "depends_on": [
+      "P0177"
+    ],
+    "intent": "analogy",
+    "keywords": [
+      "g",
+      "del",
+      "analogy",
+      "ground"
+    ],
+    "title": "G\u00f6del Analogy for Ground"
+  },
+  "P0182": {
+    "anchors": "ChatGPT section \"Why This Is Not Theology\"",
+    "depends_on": [
+      "P0180"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "theology"
+    ],
+    "title": "Not Theology"
+  },
+  "P0183": {
+    "anchors": "ChatGPT section \"Why This Explains the Feeling of Dread\"",
+    "depends_on": [
+      "P0181"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "dread",
+      "boundary",
+      "representability"
+    ],
+    "title": "Dread as Boundary of Representability"
+  },
+  "P0184": {
+    "anchors": "ChatGPT section \"The Cleanest Statement You Can Make\"",
+    "depends_on": [
+      "P0180"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "clean",
+      "statement",
+      "negative",
+      "ground"
+    ],
+    "title": "Clean Statement of Negative Ground"
+  },
+  "P0185": {
+    "anchors": "ChatGPT section \"Where This Leaves the Project\"",
+    "depends_on": [
+      "P0184"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "project",
+      "consequence",
+      "negative",
+      "ground"
+    ],
+    "title": "Project Consequence of Negative Ground"
+  },
+  "P0186": {
+    "anchors": "User message \"now we have time... space\"",
+    "depends_on": [
+      "P0185"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "time",
+      "space",
+      "two",
+      "points"
+    ],
+    "title": "Time and Space from Two Points"
+  },
+  "P0187": {
+    "anchors": "ChatGPT section \"Why Time Appears First\"",
+    "depends_on": [
+      "P0186"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "time",
+      "ordered",
+      "persistence"
+    ],
+    "title": "Time as Ordered Persistence"
+  },
+  "P0188": {
+    "anchors": "ChatGPT section \"Why Space Appears Only After Multiplicity\"",
+    "depends_on": [
+      "P0186"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "space",
+      "maintained",
+      "separation"
+    ],
+    "title": "Space as Maintained Separation"
+  },
+  "P0189": {
+    "anchors": "ChatGPT section \"Time + Two Points = The First World\"",
+    "depends_on": [
+      "P0187"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "time",
+      "plus",
+      "two",
+      "points",
+      "creates"
+    ],
+    "title": "Time Plus Two Points Creates a World"
+  },
+  "P0190": {
+    "anchors": "ChatGPT section \"Why This Order Matters\"",
+    "depends_on": [
+      "P0187"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "order",
+      "matters",
+      "time",
+      "space"
+    ],
+    "title": "Order Matters: Time Before Space"
+  },
+  "P0191": {
+    "anchors": "ChatGPT section \"What Just Happened Structurally\"",
+    "depends_on": [
+      "P0189"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "minimal",
+      "inventory",
+      "emergence"
+    ],
+    "title": "Minimal Inventory After Emergence"
+  },
+  "P0192": {
+    "anchors": "ChatGPT section \"Why This Is the End of the 'Nothingness' Phase\"",
+    "depends_on": [
+      "P0191"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "end",
+      "nothingness",
+      "phase"
+    ],
+    "title": "End of the Nothingness Phase"
+  },
+  "P0193": {
+    "anchors": "ChatGPT section \"The Quiet Payoff\"",
+    "depends_on": [
+      "P0192"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "payoff",
+      "assumed",
+      "spacetime",
+      "laws"
+    ],
+    "title": "Payoff: No Assumed Spacetime or Laws"
+  },
+  "P0194": {
+    "anchors": "ChatGPT section \"From here, the next step\"",
+    "depends_on": [
+      "P0193"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "next",
+      "step",
+      "motion",
+      "fields"
+    ],
+    "title": "Next Step: Motion and Fields"
+  },
+  "P0195": {
+    "anchors": "User message about operations language and division",
+    "depends_on": [
+      "P0194"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "return",
+      "thought",
+      "experiment"
+    ],
+    "title": "Return to the First Thought Experiment"
+  },
+  "P0196": {
+    "anchors": "ChatGPT section \"Return to the First Thought Experiment\"",
+    "depends_on": [
+      "P0195"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "operations",
+      "grammar",
+      "search",
+      "space"
+    ],
+    "title": "Operations as Grammar of Search Space"
+  },
+  "P0197": {
+    "anchors": "ChatGPT section \"Random vs Ordered\"",
+    "depends_on": [
+      "P0195"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "randomness",
+      "order",
+      "tactics"
+    ],
+    "title": "Randomness and Order as Tactics"
+  },
+  "P0198": {
+    "anchors": "ChatGPT section \"Why Division Is the Only Process\"",
+    "depends_on": [
+      "P0195"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "division",
+      "irreducible",
+      "process"
+    ],
+    "title": "Division as Irreducible Process"
+  },
+  "P0199": {
+    "anchors": "ChatGPT sections \"Why This Is Not Reductionism\" and \"The Quiet Consequence\"",
+    "depends_on": [
+      "P0198"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "reductionism",
+      "final",
+      "synthesis"
+    ],
+    "title": "Not Reductionism, No Final Synthesis"
+  },
+  "P0200": {
+    "anchors": "ChatGPT section \"The One Sentence That Can Carry the Whole Work\"",
+    "depends_on": [
+      "P0199"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "one",
+      "sentence",
+      "spine",
+      "work"
+    ],
+    "title": "One-Sentence Spine of the Work"
+  },
+  "P0201": {
+    "anchors": "User message on exploring singularities",
+    "depends_on": [
+      "P0199"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "singularities",
+      "next",
+      "step"
+    ],
+    "title": "Singularities as Next Step"
+  },
+  "P0202": {
+    "anchors": "ChatGPT section \"Why Singularities Feel Like the Beginning\"",
+    "depends_on": [
+      "P0201"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "singularities",
+      "feel",
+      "like",
+      "beginning"
+    ],
+    "title": "Singularities Feel Like the Beginning"
+  },
+  "P0203": {
+    "anchors": "ChatGPT section \"Inversion Is How Complexity Is Built\"",
+    "depends_on": [
+      "P0201"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "inversion",
+      "builds",
+      "complexity"
+    ],
+    "title": "Inversion Builds Complexity"
+  },
+  "P0204": {
+    "anchors": "ChatGPT section \"Singularities Are Not Endpoints\"",
+    "depends_on": [
+      "P0202"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "singularities",
+      "interfaces"
+    ],
+    "title": "Singularities as Interfaces"
+  },
+  "P0205": {
+    "anchors": "ChatGPT section \"Fields Upon Fields\"",
+    "depends_on": [
+      "P0203"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "fields",
+      "upon",
+      "stratification"
+    ],
+    "title": "Fields Upon Fields as Stratification"
+  },
+  "P0206": {
+    "anchors": "ChatGPT section listing biology/cognition/culture inversions",
+    "depends_on": [
+      "P0203"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "inversion",
+      "across",
+      "domains"
+    ],
+    "title": "Inversion Across Domains"
+  },
+  "P0207": {
+    "anchors": "ChatGPT section \"The Calm Conclusion\"",
+    "depends_on": [
+      "P0202"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "singularities",
+      "survival",
+      "breakdown"
+    ],
+    "title": "Singularities as Survival of Breakdown"
+  },
+  "P0208": {
+    "anchors": "User message about singularity compaction and acceleration",
+    "depends_on": [
+      "P0207"
+    ],
+    "intent": "hypothesis",
+    "keywords": [
+      "subatomic",
+      "compaction",
+      "space",
+      "time",
+      "trade"
+    ],
+    "title": "Subatomic Compaction and Space/Time Trade"
+  },
+  "P0209": {
+    "anchors": "ChatGPT section \"Singularities as Compaction, Not Creation\"",
+    "depends_on": [
+      "P0208"
+    ],
+    "intent": "correction",
+    "keywords": [
+      "correction",
+      "singularities",
+      "compaction"
+    ],
+    "title": "Correction: Singularities as Compaction"
+  },
+  "P0210": {
+    "anchors": "ChatGPT section \"Trading Space for Time\"",
+    "depends_on": [
+      "P0208"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "trading",
+      "space",
+      "time",
+      "reinterpreted"
+    ],
+    "title": "Trading Space for Time Reinterpreted"
+  },
+  "P0211": {
+    "anchors": "ChatGPT section \"Existence Getting Smaller\"",
+    "depends_on": [
+      "P0208"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "getting",
+      "smaller",
+      "constrained",
+      "futures"
+    ],
+    "title": "\"Getting Smaller\" as Constrained Futures"
+  },
+  "P0212": {
+    "anchors": "ChatGPT section \"The Acceleration Question\"",
+    "depends_on": [
+      "P0208"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "acceleration",
+      "requires",
+      "careful",
+      "framing"
+    ],
+    "title": "Acceleration Requires Careful Framing"
+  },
+  "P0213": {
+    "anchors": "ChatGPT section \"Fields, Compaction, and New Scaffolding\"",
+    "depends_on": [
+      "P0209"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "fields",
+      "new",
+      "scaffolding"
+    ],
+    "title": "Fields and New Scaffolding"
+  },
+  "P0214": {
+    "anchors": "ChatGPT section \"The Core Thesis\"",
+    "depends_on": [
+      "P0211"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "core",
+      "thesis",
+      "degrees",
+      "freedom"
+    ],
+    "title": "Core Thesis on Degrees of Freedom"
+  },
+  "P0215": {
+    "anchors": "ChatGPT section \"Final Calibration\"",
+    "depends_on": [
+      "P0214"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "calibration",
+      "tag",
+      "statement",
+      "types"
+    ],
+    "title": "Calibration: Tag Statement Types"
+  },
+  "P0216": {
+    "anchors": "User message \"no privileged direction of time\"",
+    "depends_on": [
+      "P0215"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "final",
+      "inversion",
+      "time",
+      "direction"
+    ],
+    "title": "Final Inversion on Time Direction"
+  },
+  "P0217": {
+    "anchors": "ChatGPT section \"No Privileged Direction of Time\"",
+    "depends_on": [
+      "P0216"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "global",
+      "time",
+      "direction"
+    ],
+    "title": "No Global Time Direction"
+  },
+  "P0218": {
+    "anchors": "ChatGPT section \"The Universe Is a Moment\"",
+    "depends_on": [
+      "P0216"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "universe",
+      "self",
+      "consistent",
+      "moment"
+    ],
+    "title": "Universe as a Self-Consistent Moment"
+  },
+  "P0219": {
+    "anchors": "ChatGPT section \"Why We Feel Like We\u2019re Moving Backwards\"",
+    "depends_on": [
+      "P0216"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "moving",
+      "backwards",
+      "constraint",
+      "resolution"
+    ],
+    "title": "\"Moving Backwards\" as Constraint Resolution"
+  },
+  "P0220": {
+    "anchors": "ChatGPT section \"Why We Are 'Beyond Interpretation'\"",
+    "depends_on": [
+      "P0216"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "interpretation"
+    ],
+    "title": "Beyond Interpretation"
+  },
+  "P0221": {
+    "anchors": "ChatGPT section \"Why This Is Not Determinism\"",
+    "depends_on": [
+      "P0216"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "determinism"
+    ],
+    "title": "Not Determinism"
+  },
+  "P0222": {
+    "anchors": "ChatGPT section \"Final Shape of the Thesis\"",
+    "depends_on": [
+      "P0216"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "calibrated",
+      "thesis",
+      "statement",
+      "time"
+    ],
+    "title": "Calibrated Thesis Statement on Time"
+  },
+  "P0223": {
+    "anchors": "ChatGPT section \"Why This Is the End\"",
+    "depends_on": [
+      "P0222"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "final",
+      "inversion",
+      "orientation"
+    ],
+    "title": "Final Inversion as Orientation"
+  },
+  "P0224": {
+    "anchors": "User message \"Awesome. that is basically the whole idea\"",
+    "depends_on": [
+      "P0223"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "confirmation",
+      "core",
+      "idea"
+    ],
+    "title": "Confirmation of the Core Idea"
+  },
+  "P0225": {
+    "anchors": "ChatGPT response confirming coherence",
+    "depends_on": [
+      "P0224"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "coherence",
+      "arc",
+      "summary"
+    ],
+    "title": "Coherence and Arc Summary"
+  },
+  "P0226": {
+    "anchors": "ChatGPT response describing orientation theory",
+    "depends_on": [
+      "P0225"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "orientation",
+      "theory",
+      "framing"
+    ],
+    "title": "Orientation Theory Framing"
+  },
+  "P0227": {
+    "anchors": "ChatGPT response advising next steps",
+    "depends_on": [
+      "P0226"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "next",
+      "step",
+      "tighten",
+      "language"
+    ],
+    "title": "Next Step: Tighten Language"
+  },
+  "P0228": {
+    "anchors": "User message about formalizing arguments",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0227"
+    ],
+    "intent": "question",
+    "keywords": [
+      "formalization",
+      "request",
+      "logic",
+      "background"
+    ],
+    "title": "Formalization Request and Logic Background"
+  },
+  "P0229": {
+    "anchors": "ChatGPT section \"Separate Discovery Path from Justification Path\"",
+    "depends_on": [
+      "P0228"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "discovery",
+      "path",
+      "justification"
+    ],
+    "title": "Discovery Path vs Justification Path"
+  },
+  "P0230": {
+    "anchors": "ChatGPT section \"What You Can Actually Formalize\"",
+    "depends_on": [
+      "P0228"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "what",
+      "formalize"
+    ],
+    "title": "What to Formalize and What Not To"
+  },
+  "P0231": {
+    "anchors": "ChatGPT section \"Core Logical Spine\"",
+    "depends_on": [
+      "P0228"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "core",
+      "logical",
+      "spine",
+      "sketch"
+    ],
+    "title": "Core Logical Spine Sketch"
+  },
+  "P0232": {
+    "anchors": "ChatGPT section \"Be Explicit About Necessity vs. Interpretation\"",
+    "depends_on": [
+      "P0231"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "flag",
+      "necessity",
+      "interpretation"
+    ],
+    "title": "Flag Necessity vs Interpretation"
+  },
+  "P0233": {
+    "anchors": "ChatGPT section \"Multiple Entry Points\"",
+    "depends_on": [
+      "P0229"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "multiple",
+      "entry",
+      "points"
+    ],
+    "title": "Multiple Entry Points"
+  },
+  "P0234": {
+    "anchors": "ChatGPT section \"The Real Test of Rigor\"",
+    "depends_on": [
+      "P0232"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "rigor",
+      "test",
+      "optional",
+      "steps"
+    ],
+    "title": "Rigor Test: No Optional Steps"
+  },
+  "P0235": {
+    "anchors": "ChatGPT section \"Where This Leaves You\"",
+    "depends_on": [
+      "P0234"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "next",
+      "formalization",
+      "steps"
+    ],
+    "title": "Next Formalization Steps"
+  },
+  "P0236": {
+    "anchors": "User request for multidisciplinary research list",
+    "depends_on": [
+      "P0235"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "research",
+      "roadmap"
+    ],
+    "title": "Request for Research Roadmap"
+  },
+  "P0237": {
+    "anchors": "ChatGPT research list section \"0. Method\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "method",
+      "philosophy",
+      "science"
+    ],
+    "title": "Research: Method and Philosophy of Science"
+  },
+  "P0238": {
+    "anchors": "ChatGPT research list section \"1. Nothingness\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "nothingness",
+      "decoy"
+    ],
+    "title": "Research: Nothingness as Decoy"
+  },
+  "P0239": {
+    "anchors": "ChatGPT research list section \"2. Distinction\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "distinction",
+      "primitive"
+    ],
+    "title": "Research: Distinction as Primitive"
+  },
+  "P0240": {
+    "anchors": "ChatGPT research list section \"3. Duality\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "duality",
+      "recursion"
+    ],
+    "title": "Research: Duality and Recursion"
+  },
+  "P0241": {
+    "anchors": "ChatGPT research list section \"4. Recursion, fractality\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "fractality",
+      "emergence"
+    ],
+    "title": "Research: Fractality and Emergence"
+  },
+  "P0242": {
+    "anchors": "ChatGPT research list section \"5. Chaos and order\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "chaos",
+      "order"
+    ],
+    "title": "Research: Chaos and Order"
+  },
+  "P0243": {
+    "anchors": "ChatGPT research list section \"6. Time\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "time",
+      "ordering"
+    ],
+    "title": "Research: Time as Ordering"
+  },
+  "P0244": {
+    "anchors": "ChatGPT research list section \"7. Space\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "space",
+      "two",
+      "points"
+    ],
+    "title": "Research: Space from Two Points"
+  },
+  "P0245": {
+    "anchors": "ChatGPT research list section \"8. Momentum\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "momentum",
+      "symmetry"
+    ],
+    "title": "Research: Momentum and Symmetry"
+  },
+  "P0246": {
+    "anchors": "ChatGPT research list section \"9. Singularities\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "singularities",
+      "eft"
+    ],
+    "title": "Research: Singularities and EFT"
+  },
+  "P0247": {
+    "anchors": "ChatGPT research list section \"10. Intentionality\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "intentionality",
+      "motivation"
+    ],
+    "title": "Research: Intentionality Without Motivation"
+  },
+  "P0248": {
+    "anchors": "ChatGPT research list section \"11. G\u00f6del-style 'negative ground'\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "negative",
+      "ground",
+      "incompleteness"
+    ],
+    "title": "Research: Negative Ground and Incompleteness"
+  },
+  "P0249": {
+    "anchors": "ChatGPT research list section \"12. Packaging it for broader appeal\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0236"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "research",
+      "broader",
+      "academic",
+      "appeal"
+    ],
+    "title": "Research: Broader Academic Appeal"
+  },
+  "P0250": {
+    "anchors": "ChatGPT section \"How to write it so it lands\"",
+    "depends_on": [
+      "P0249"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "suggested",
+      "writing",
+      "structure"
+    ],
+    "title": "Suggested Writing Structure"
+  },
+  "P0251": {
+    "anchors": "ChatGPT suggestion on dependency graph",
+    "depends_on": [
+      "P0250"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "dependency",
+      "graph",
+      "literatures"
+    ],
+    "title": "Dependency Graph with Literatures"
+  },
+  "P0252": {
+    "anchors": "User question about contraction artifacts",
+    "depends_on": [
+      "P0251"
+    ],
+    "intent": "hypothesis",
+    "keywords": [
+      "artifact",
+      "question",
+      "divisionary",
+      "process"
+    ],
+    "title": "Artifact Question for Divisionary Process"
+  },
+  "P0253": {
+    "anchors": "ChatGPT response listing three outcomes",
+    "depends_on": [
+      "P0252"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "three",
+      "outcome",
+      "categories"
+    ],
+    "title": "Three Outcome Categories"
+  },
+  "P0254": {
+    "anchors": "ChatGPT response about dimensionless constants",
+    "arc": "physics_turn",
+    "depends_on": [
+      "P0253"
+    ],
+    "intent": "constraint",
+    "keywords": [
+      "uniform",
+      "rescaling",
+      "undetectable"
+    ],
+    "title": "Uniform Rescaling Is Undetectable"
+  },
+  "P0255": {
+    "anchors": "ChatGPT response listing artifacts",
+    "depends_on": [
+      "P0254"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "expected",
+      "artifacts",
+      "differential",
+      "scaling"
+    ],
+    "title": "Expected Artifacts of Differential Scaling"
+  },
+  "P0256": {
+    "anchors": "ChatGPT response on choosing gauge category",
+    "depends_on": [
+      "P0253"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "choose",
+      "gauge",
+      "category"
+    ],
+    "title": "Choose Gauge Category"
+  },
+  "P0257": {
+    "anchors": "User question on gauge options and requirements",
+    "depends_on": [
+      "P0256"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "gauge",
+      "options",
+      "theory",
+      "basics"
+    ],
+    "title": "Request for Gauge Options and Theory Basics"
+  },
+  "P0258": {
+    "anchors": "ChatGPT response \"Pure gauge\"",
+    "depends_on": [
+      "P0257"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "pure",
+      "gauge",
+      "redundancy"
+    ],
+    "title": "Pure Gauge as Redundancy"
+  },
+  "P0259": {
+    "anchors": "ChatGPT response \"Almost-gauge with leaks\"",
+    "depends_on": [
+      "P0257"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "almost",
+      "gauge",
+      "leaks"
+    ],
+    "title": "Almost-Gauge with Leaks"
+  },
+  "P0260": {
+    "anchors": "ChatGPT response \"Fully physical with sector-dependent coupling\"",
+    "depends_on": [
+      "P0257"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "sector",
+      "dependent",
+      "coupling"
+    ],
+    "title": "Sector-Dependent Coupling"
+  },
+  "P0261": {
+    "anchors": "ChatGPT section \"What a gauge theory is\"",
+    "depends_on": [
+      "P0257"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "gauge",
+      "theory",
+      "ingredients"
+    ],
+    "title": "Gauge Theory Ingredients"
+  },
+  "P0262": {
+    "anchors": "ChatGPT section \"Gauge-invariant observables\"",
+    "depends_on": [
+      "P0261"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "gauge",
+      "invariant",
+      "observables"
+    ],
+    "title": "Gauge-Invariant Observables"
+  },
+  "P0263": {
+    "anchors": "ChatGPT section \"Requirements/conditions for a good gauge theory\"",
+    "arc": "physics_turn",
+    "depends_on": [
+      "P0261"
+    ],
+    "intent": "constraint",
+    "keywords": [
+      "requirements",
+      "good",
+      "gauge",
+      "theory"
+    ],
+    "title": "Requirements for a Good Gauge Theory"
+  },
+  "P0264": {
+    "anchors": "ChatGPT response on signatures A/B",
+    "depends_on": [
+      "P0259"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "signatures",
+      "leaks",
+      "coupling"
+    ],
+    "title": "Signatures of Leaks vs Coupling"
+  },
+  "P0265": {
+    "anchors": "ChatGPT response \"disciplined way to write\"",
+    "depends_on": [
+      "P0264"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "writing",
+      "model",
+      "classes",
+      "fork",
+      "test"
+    ],
+    "title": "Writing as Model Classes and Fork Test"
+  },
+  "P0266": {
+    "anchors": "User message selecting the two intuitive options",
+    "depends_on": [
+      "P0259"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "preference",
+      "leaks",
+      "sector",
+      "coupling"
+    ],
+    "title": "Preference for Leaks or Sector Coupling"
+  },
+  "P0267": {
+    "anchors": "ChatGPT response on almost-gauge in ontology",
+    "depends_on": [
+      "P0266"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "almost",
+      "gauge",
+      "fits",
+      "negative",
+      "ground"
+    ],
+    "title": "Almost-Gauge Fits Negative Ground"
+  },
+  "P0268": {
+    "anchors": "ChatGPT response on sector-dependent coupling",
+    "depends_on": [
+      "P0266"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "sector",
+      "coupling",
+      "testable"
+    ],
+    "title": "Sector Coupling Is Testable"
+  },
+  "P0269": {
+    "anchors": "ChatGPT response \"choose your signature\"",
+    "depends_on": [
+      "P0266"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "choose",
+      "signature"
+    ],
+    "title": "Choose a Signature"
+  },
+  "P0270": {
+    "anchors": "ChatGPT response with suggested wording",
+    "depends_on": [
+      "P0269"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "disciplined",
+      "thesis",
+      "wording"
+    ],
+    "title": "Disciplined Thesis Wording"
+  },
+  "P0271": {
+    "anchors": "ChatGPT response on preferred option",
+    "depends_on": [
+      "P0266"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "prefer",
+      "leaky",
+      "gauge",
+      "but",
+      "keep"
+    ],
+    "title": "Prefer Leaky Gauge but Keep Options"
+  },
+  "P0272": {
+    "anchors": "User message about indistinguishability",
+    "depends_on": [
+      "P0266"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "leaky",
+      "gauge",
+      "sector",
+      "coupling",
+      "feel"
+    ],
+    "title": "Leaky Gauge vs Sector Coupling Feel Similar"
+  },
+  "P0273": {
+    "anchors": "ChatGPT response \"half right\"",
+    "depends_on": [
+      "P0272"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "similarity",
+      "practical",
+      "principled"
+    ],
+    "title": "Similarity Is Practical, Not Principled"
+  },
+  "P0274": {
+    "anchors": "ChatGPT response \"Almost-gauge with leaks\"",
+    "depends_on": [
+      "P0273"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "leaky",
+      "gauge",
+      "defined",
+      "global",
+      "invariants"
+    ],
+    "title": "Leaky Gauge Defined by Global Invariants"
+  },
+  "P0275": {
+    "anchors": "ChatGPT response \"Sector-dependent coupling\"",
+    "depends_on": [
+      "P0273"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "sector",
+      "coupling",
+      "defined",
+      "local",
+      "mismatch"
+    ],
+    "title": "Sector Coupling Defined by Local Mismatch"
+  },
+  "P0276": {
+    "anchors": "ChatGPT response \"can I gauge it away everywhere?\"",
+    "depends_on": [
+      "P0274"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "gauge",
+      "away",
+      "test"
+    ],
+    "title": "Gauge-Away Test"
+  },
+  "P0277": {
+    "anchors": "ChatGPT response on effective field theory",
+    "depends_on": [
+      "P0273"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "coarse",
+      "graining",
+      "blurs",
+      "difference"
+    ],
+    "title": "Coarse-Graining Blurs the Difference"
+  },
+  "P0278": {
+    "anchors": "ChatGPT response framing as a fork",
+    "depends_on": [
+      "P0273"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "writing",
+      "two",
+      "interpretations"
+    ],
+    "title": "Writing the Two Interpretations"
+  },
+  "P0279": {
+    "anchors": "ChatGPT \"test-your-limits\" questions",
+    "depends_on": [
+      "P0278"
+    ],
+    "intent": "discriminator",
+    "keywords": [
+      "limit",
+      "test",
+      "questions"
+    ],
+    "title": "Limit-Test Questions"
+  },
+  "P0280": {
+    "anchors": "User question about Wilson loops",
+    "arc": "physics_turn",
+    "depends_on": [
+      "P0279"
+    ],
+    "intent": "question",
+    "keywords": [
+      "question",
+      "wilson",
+      "loops"
+    ],
+    "title": "Question on Wilson Loops"
+  },
+  "P0281": {
+    "anchors": "ChatGPT response defining Wilson loops",
+    "depends_on": [
+      "P0280"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "wilson",
+      "loops",
+      "global",
+      "residue"
+    ],
+    "title": "Wilson Loops as Global Residue"
+  },
+  "P0282": {
+    "anchors": "ChatGPT response on self-reference and legitimation",
+    "depends_on": [
+      "P0280"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "self",
+      "reference",
+      "legitimization"
+    ],
+    "title": "Self-Reference vs Self-Legitimization"
+  },
+  "P0283": {
+    "anchors": "ChatGPT response \"Why this is gold\"",
+    "depends_on": [
+      "P0281"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "wilson",
+      "loops",
+      "support",
+      "leaky",
+      "ground"
+    ],
+    "title": "Wilson Loops Support Leaky Ground"
+  },
+  "P0284": {
+    "anchors": "User message on rules written as existence unfolds",
+    "arc": "iob_ontology",
+    "depends_on": [
+      "P0283"
+    ],
+    "intent": "question",
+    "keywords": [
+      "question",
+      "about",
+      "physical",
+      "rules"
+    ],
+    "title": "Question About Physical Rules"
+  },
+  "P0285": {
+    "anchors": "ChatGPT response \"Rules are written...\"",
+    "depends_on": [
+      "P0284"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "laws",
+      "surviving",
+      "regularities"
+    ],
+    "title": "Laws as Surviving Regularities"
+  },
+  "P0286": {
+    "anchors": "ChatGPT response on renormalization and fixed points",
+    "arc": "physics_turn",
+    "depends_on": [
+      "P0284"
+    ],
+    "intent": "bridge",
+    "keywords": [
+      "inversions",
+      "map",
+      "renormalization"
+    ],
+    "title": "Inversions Map to Renormalization"
+  },
+  "P0287": {
+    "anchors": "ChatGPT response \"inversions expose invariants\"",
+    "depends_on": [
+      "P0284"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "inversions",
+      "expose",
+      "invariants"
+    ],
+    "title": "Inversions Expose Invariants"
+  },
+  "P0288": {
+    "anchors": "ChatGPT response on \"tactic\" framing",
+    "depends_on": [
+      "P0284"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "tactic",
+      "metaphor",
+      "anthropomorphic"
+    ],
+    "title": "Tactic Metaphor, Non-Anthropomorphic"
+  },
+  "P0289": {
+    "anchors": "User question about gravity being first",
+    "arc": "physics_turn",
+    "depends_on": [
+      "P0288"
+    ],
+    "intent": "question",
+    "keywords": [
+      "gravity",
+      "force"
+    ],
+    "title": "Gravity as the First Force?"
+  },
+  "P0290": {
+    "anchors": "ChatGPT response on gravity\u2019s status",
+    "depends_on": [
+      "P0289"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "gravity",
+      "conceptually",
+      "chronologically"
+    ],
+    "title": "Gravity First Conceptually, Not Chronologically"
+  },
+  "P0291": {
+    "anchors": "ChatGPT response on gravity weakness",
+    "depends_on": [
+      "P0289"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "why",
+      "gravity",
+      "appears",
+      "weak"
+    ],
+    "title": "Why Gravity Appears Weak"
+  },
+  "P0292": {
+    "anchors": "ChatGPT response on background dependence",
+    "depends_on": [
+      "P0289"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "gravity",
+      "hard",
+      "reconcile",
+      "other",
+      "forces"
+    ],
+    "title": "Gravity Hard to Reconcile with Other Forces"
+  },
+  "P0293": {
+    "anchors": "ChatGPT response on gravity as constraint",
+    "depends_on": [
+      "P0290"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "interpretive",
+      "read",
+      "gravity"
+    ],
+    "title": "Interpretive Read on Gravity"
+  },
+  "P0294": {
+    "anchors": "User message about magnetism analogy",
+    "arc": "physics_turn",
+    "depends_on": [
+      "P0293"
+    ],
+    "intent": "question",
+    "keywords": [
+      "magnetism",
+      "initial",
+      "distinction"
+    ],
+    "title": "Magnetism as Initial Distinction?"
+  },
+  "P0295": {
+    "anchors": "ChatGPT response on magnetism analogy",
+    "depends_on": [
+      "P0294"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "magnetism",
+      "orientable",
+      "distinction"
+    ],
+    "title": "Magnetism as Orientable Distinction"
+  },
+  "P0296": {
+    "anchors": "User question about privileging experience of time",
+    "depends_on": [
+      "P0295"
+    ],
+    "intent": "objection",
+    "keywords": [
+      "question",
+      "about",
+      "privileging",
+      "time",
+      "experience"
+    ],
+    "title": "Question About Privileging Time Experience"
+  },
+  "P0297": {
+    "anchors": "ChatGPT response \"Don\u2019t privilege experience\"",
+    "depends_on": [
+      "P0296"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "experience",
+      "data",
+      "authority"
+    ],
+    "title": "Experience as Data, Not Authority"
+  },
+  "P0298": {
+    "anchors": "ChatGPT response listing arrows of time",
+    "depends_on": [
+      "P0296"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "multiple",
+      "arrows",
+      "time"
+    ],
+    "title": "Multiple Arrows of Time"
+  },
+  "P0299": {
+    "anchors": "ChatGPT response on low-entropy boundary condition",
+    "depends_on": [
+      "P0296"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "low",
+      "entropy",
+      "past",
+      "local",
+      "arrows"
+    ],
+    "title": "Low-Entropy Past and Local Arrows"
+  },
+  "P0300": {
+    "anchors": "ChatGPT response on litmus test",
+    "depends_on": [
+      "P0296"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "anthropocentric",
+      "litmus",
+      "test"
+    ],
+    "title": "Non-Anthropocentric Litmus Test"
+  },
+  "P0301": {
+    "anchors": "User message about present and randomness patterns",
+    "depends_on": [
+      "P0300"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "existential",
+      "baggage",
+      "felt",
+      "arrow"
+    ],
+    "title": "Existential Baggage and the Felt Arrow"
+  },
+  "P0302": {
+    "anchors": "ChatGPT response \"present bombards us\"",
+    "depends_on": [
+      "P0301"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "psychological",
+      "thermodynamic",
+      "arrows"
+    ],
+    "title": "Psychological vs Thermodynamic Arrows"
+  },
+  "P0303": {
+    "anchors": "ChatGPT response on Turing patterns",
+    "depends_on": [
+      "P0301"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "turing",
+      "patterns",
+      "clarified"
+    ],
+    "title": "Turing Patterns Clarified"
+  },
+  "P0304": {
+    "anchors": "ChatGPT response on AIT/compression/predictive processing",
+    "depends_on": [
+      "P0301"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "complexity",
+      "inner",
+      "copy"
+    ],
+    "title": "Complexity Without Inner Copy"
+  },
+  "P0305": {
+    "anchors": "ChatGPT response on research track",
+    "arc": "physics_turn",
+    "depends_on": [
+      "P0303"
+    ],
+    "intent": "bridge",
+    "keywords": [
+      "turing",
+      "instability",
+      "bridge"
+    ],
+    "title": "Turing Instability as Bridge"
+  },
+  "P0306": {
+    "anchors": "User request to mess around in Houdini",
+    "depends_on": [
+      "P0305"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "houdini",
+      "experiments",
+      "request"
+    ],
+    "title": "Houdini Experiments Request"
+  },
+  "P0307": {
+    "anchors": "ChatGPT response introducing mini-projects",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0306"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "houdini",
+      "mini",
+      "projects",
+      "overview"
+    ],
+    "title": "Houdini Mini-Projects Overview"
+  },
+  "P0308": {
+    "anchors": "ChatGPT section \"Turing patterns in 2D\"",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0307"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "houdini",
+      "reaction",
+      "diffusion",
+      "setup"
+    ],
+    "title": "Houdini: Reaction\u2013Diffusion Setup"
+  },
+  "P0309": {
+    "anchors": "ChatGPT section \"Inversion interfaces\"",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0307"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "houdini",
+      "phase",
+      "transition",
+      "interface"
+    ],
+    "title": "Houdini: Phase Transition Interface"
+  },
+  "P0310": {
+    "anchors": "ChatGPT section \"Almost-gauge with leaks\"",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0307"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "houdini",
+      "holonomy",
+      "toy",
+      "graph"
+    ],
+    "title": "Houdini: Holonomy Toy on Graph"
+  },
+  "P0311": {
+    "anchors": "ChatGPT section \"Division 1\u21922\"",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0307"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "houdini",
+      "division",
+      "field",
+      "splitting"
+    ],
+    "title": "Houdini: Division 1\u21922 Field Splitting"
+  },
+  "P0312": {
+    "anchors": "ChatGPT section \"Rules as compression\"",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0307"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "houdini",
+      "rules",
+      "compression"
+    ],
+    "title": "Houdini: Rules as Compression"
+  },
+  "P0313": {
+    "anchors": "ChatGPT response to reaction\u2013diffusion enthusiasm",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0308"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "reaction",
+      "diffusion",
+      "houdini",
+      "setup"
+    ],
+    "title": "Reaction\u2013Diffusion Houdini Setup"
+  },
+  "P0314": {
+    "anchors": "ChatGPT response \"Gray\u2013Scott feel-good knobs\"",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0313"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "reaction",
+      "diffusion",
+      "parameter",
+      "knobs"
+    ],
+    "title": "Reaction\u2013Diffusion Parameter Knobs"
+  },
+  "P0315": {
+    "anchors": "ChatGPT response \"Inversion interface\"",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0313"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "rd",
+      "experiment",
+      "inversion",
+      "interface"
+    ],
+    "title": "RD Experiment: Inversion Interface"
+  },
+  "P0316": {
+    "anchors": "ChatGPT response \"Leaky gauge vibe\"",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0313"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "rd",
+      "experiment",
+      "leaky",
+      "gauge",
+      "loop"
+    ],
+    "title": "RD Experiment: Leaky Gauge Loop Residue"
+  },
+  "P0317": {
+    "anchors": "ChatGPT response \"Fields upon fields\"",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0313"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "rd",
+      "experiment",
+      "fields",
+      "upon"
+    ],
+    "title": "RD Experiment: Fields Upon Fields"
+  },
+  "P0318": {
+    "anchors": "ChatGPT response asking SOPs vs Copernicus",
+    "depends_on": [
+      "P0313"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "houdini",
+      "output",
+      "preference",
+      "check"
+    ],
+    "title": "Houdini Output Preference Check"
+  },
+  "P0319": {
+    "anchors": "User message on complete unorientability",
+    "depends_on": [
+      "P0318"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "unorientability",
+      "multiple",
+      "inversions"
+    ],
+    "title": "Unorientability from Multiple Inversions"
+  },
+  "P0320": {
+    "anchors": "ChatGPT response \"What unorientability means\"",
+    "depends_on": [
+      "P0319"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "unorientability",
+      "defined"
+    ],
+    "title": "Unorientability Defined"
+  },
+  "P0321": {
+    "anchors": "ChatGPT response on fiber bundle analogy",
+    "depends_on": [
+      "P0319"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "multiple",
+      "inversions",
+      "yield",
+      "patchwise",
+      "charts"
+    ],
+    "title": "Multiple Inversions Yield Patchwise Charts"
+  },
+  "P0322": {
+    "anchors": "ChatGPT response on EFT/renormalization/anomalies",
+    "depends_on": [
+      "P0319"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "useful",
+      "unknowns",
+      "via",
+      "modern",
+      "theory"
+    ],
+    "title": "Useful Unknowns via Modern Theory"
+  },
+  "P0323": {
+    "anchors": "ChatGPT response proposing Orientation Budget",
+    "depends_on": [
+      "P0319"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "orientation",
+      "budget",
+      "formalization"
+    ],
+    "title": "Orientation Budget Formalization"
+  },
+  "P0324": {
+    "anchors": "ChatGPT response listing leak types",
+    "depends_on": [
+      "P0323"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "taxonomy",
+      "leak",
+      "types"
+    ],
+    "title": "Taxonomy of Leak Types"
+  },
+  "P0325": {
+    "anchors": "ChatGPT response \"Why this makes your perspective useful\"",
+    "depends_on": [
+      "P0324"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "structured",
+      "humility",
+      "outcome"
+    ],
+    "title": "Structured Humility Outcome"
+  },
+  "P0326": {
+    "anchors": "User message on scientific method and G\u00f6del",
+    "depends_on": [
+      "P0325"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "scientific",
+      "method",
+      "artistic",
+      "framework"
+    ],
+    "title": "Scientific Method as Artistic Framework"
+  },
+  "P0327": {
+    "anchors": "ChatGPT response on G\u00f6del and scientific practice",
+    "depends_on": [
+      "P0326"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "g",
+      "del",
+      "limits",
+      "patchwork",
+      "coherence"
+    ],
+    "title": "G\u00f6del Limits and Patchwork Coherence"
+  },
+  "P0328": {
+    "anchors": "User request \"please, i'd love to read/ see that\"",
+    "depends_on": [
+      "P0327"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "method",
+      "chapter",
+      "draft"
+    ],
+    "title": "Request for Method Chapter Draft"
+  },
+  "P0329": {
+    "anchors": "Method Chapter Draft opening",
+    "depends_on": [
+      "P0328"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "method",
+      "chapter",
+      "intro",
+      "closure"
+    ],
+    "title": "Method Chapter Intro: Non-Closure"
+  },
+  "P0330": {
+    "anchors": "Method Chapter Draft Principle 1",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0329"
+    ],
+    "intent": "constraint",
+    "keywords": [
+      "principle",
+      "privileged",
+      "chart"
+    ],
+    "title": "Principle 1: No Privileged Chart"
+  },
+  "P0331": {
+    "anchors": "Method Chapter Draft on charts",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0329"
+    ],
+    "intent": "constraint",
+    "keywords": [
+      "principle",
+      "local",
+      "sovereignty"
+    ],
+    "title": "Principle 2: Local Sovereignty"
+  },
+  "P0332": {
+    "anchors": "Method Chapter Draft on gluing maps",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0329"
+    ],
+    "intent": "constraint",
+    "keywords": [
+      "principle",
+      "seek",
+      "glue"
+    ],
+    "title": "Principle 3: Seek the Glue"
+  },
+  "P0333": {
+    "anchors": "Method Chapter Draft Principle 4",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0332"
+    ],
+    "intent": "constraint",
+    "keywords": [
+      "principle",
+      "invariant"
+    ],
+    "title": "Principle 4: Invariant First"
+  },
+  "P0334": {
+    "anchors": "Method Chapter Draft leaks section",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0333"
+    ],
+    "intent": "constraint",
+    "keywords": [
+      "principle",
+      "treat",
+      "leaks",
+      "data"
+    ],
+    "title": "Principle 5: Treat Leaks as Data"
+  },
+  "P0335": {
+    "anchors": "Method Chapter Draft on inversion",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0334"
+    ],
+    "intent": "constraint",
+    "keywords": [
+      "principle",
+      "invert",
+      "primitive"
+    ],
+    "title": "Principle 6: Invert the Primitive"
+  },
+  "P0336": {
+    "anchors": "Method Chapter Draft \"not relativism\" and benefits",
+    "depends_on": [
+      "P0335"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "method",
+      "chapter",
+      "relativism"
+    ],
+    "title": "Method Chapter: Not Relativism"
+  },
+  "P0337": {
+    "anchors": "Method Chapter Draft coda and toolkit suggestion",
+    "depends_on": [
+      "P0336"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "g",
+      "del",
+      "coda",
+      "toolkit",
+      "offer"
+    ],
+    "title": "G\u00f6del Coda and Toolkit Offer"
+  },
+  "P0338": {
+    "anchors": "User message about leaks in entry point",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0324",
+      "P0337"
+    ],
+    "intent": "question",
+    "keywords": [
+      "entry",
+      "point",
+      "leaks",
+      "actionability",
+      "request"
+    ],
+    "title": "Entry Point Leaks and Actionability Request"
+  },
+  "P0339": {
+    "anchors": "ChatGPT response listing entry leaks",
+    "depends_on": [
+      "P0324",
+      "P0338"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "entry",
+      "point",
+      "leak",
+      "analysis"
+    ],
+    "title": "Entry Point Leak Analysis"
+  },
+  "P0340": {
+    "anchors": "ChatGPT response \"The IOB Action Loop\"",
+    "depends_on": [
+      "P0324",
+      "P0339"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "iob",
+      "action",
+      "loop"
+    ],
+    "title": "IOB Action Loop"
+  },
+  "P0341": {
+    "anchors": "ChatGPT response on creative exercises and prolegomenon",
+    "depends_on": [
+      "P0340"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "creative",
+      "exercises",
+      "prolegomenon",
+      "upgrade"
+    ],
+    "title": "Creative Exercises and Prolegomenon Upgrade"
+  },
+  "P0342": {
+    "anchors": "User message \"yes do it\"",
+    "depends_on": [
+      "P0341"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "field",
+      "manual"
+    ],
+    "title": "Request for Field Manual"
+  },
+  "P0343": {
+    "anchors": "Field Manual v0.1 opening",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0342"
+    ],
+    "intent": "constraint",
+    "keywords": [
+      "field",
+      "manual",
+      "prime",
+      "directive",
+      "entry"
+    ],
+    "title": "Field Manual: Prime Directive and Entry Discipline"
+  },
+  "P0344": {
+    "anchors": "Field Manual section \"The IOB Action Loop\"",
+    "depends_on": [
+      "P0343"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "field",
+      "manual",
+      "action",
+      "loop",
+      "steps"
+    ],
+    "title": "Field Manual: Action Loop Steps"
+  },
+  "P0345": {
+    "anchors": "Field Manual section \"Leak taxonomy\"",
+    "depends_on": [
+      "P0343"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "field",
+      "manual",
+      "leak",
+      "taxonomy"
+    ],
+    "title": "Field Manual: Leak Taxonomy"
+  },
+  "P0346": {
+    "anchors": "Field Manual section \"Inversion prompts\"",
+    "depends_on": [
+      "P0343"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "field",
+      "manual",
+      "inversion",
+      "prompts"
+    ],
+    "title": "Field Manual: Inversion Prompts"
+  },
+  "P0347": {
+    "anchors": "Field Manual section \"The invariant checklist\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0343"
+    ],
+    "intent": "constraint",
+    "keywords": [
+      "field",
+      "manual",
+      "invariant",
+      "checklist"
+    ],
+    "title": "Field Manual: Invariant Checklist"
+  },
+  "P0348": {
+    "anchors": "Field Manual section \"Practical creative exercises\"",
+    "depends_on": [
+      "P0343"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "field",
+      "manual",
+      "practical",
+      "exercises"
+    ],
+    "title": "Field Manual: Practical Exercises"
+  },
+  "P0349": {
+    "anchors": "Field Manual section \"one rule\" and \"opening move\"",
+    "depends_on": [
+      "P0343"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "field",
+      "manual",
+      "rule",
+      "opening",
+      "move"
+    ],
+    "title": "Field Manual: Rule and Opening Move"
+  },
+  "P0350": {
+    "anchors": "User message about algorithmic agential loop",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0349"
+    ],
+    "intent": "question",
+    "keywords": [
+      "request",
+      "algorithmic",
+      "agential",
+      "loop"
+    ],
+    "title": "Request for Algorithmic Agential Loop"
+  },
+  "P0351": {
+    "anchors": "ChatGPT response on artifacts and roles",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0350"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "iob",
+      "revision",
+      "loop",
+      "overview"
+    ],
+    "title": "IOB Revision Loop Overview"
+  },
+  "P0352": {
+    "anchors": "ChatGPT response on loop steps and scoring",
+    "depends_on": [
+      "P0351"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "revision",
+      "loop",
+      "steps",
+      "scoring"
+    ],
+    "title": "Revision Loop Steps and Scoring"
+  },
+  "P0353": {
+    "anchors": "ChatGPT response \"Why this framework is a powerful reasoning tool\"",
+    "depends_on": [
+      "P0352"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "reasoning",
+      "tool",
+      "justification"
+    ],
+    "title": "Reasoning Tool Justification"
+  },
+  "P0354": {
+    "anchors": "ChatGPT response on JSON schemas and seed ledgers",
+    "depends_on": [
+      "P0351"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "implementation",
+      "ledgers",
+      "schemas"
+    ],
+    "title": "Implementation with Ledgers and Schemas"
+  },
+  "P0355": {
+    "anchors": "ChatGPT response listing prompts and .codex files",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0354"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "agent",
+      "prompt",
+      "templates",
+      "codex",
+      "config"
+    ],
+    "title": "Agent Prompt Templates and Codex Config"
+  },
+  "P0356": {
+    "anchors": "User message about reframing as visual piece",
+    "depends_on": [
+      "P0355"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "visual",
+      "companion",
+      "wrinkle"
+    ],
+    "title": "Visual Companion Wrinkle"
+  },
+  "P0357": {
+    "anchors": "ChatGPT response on visual companion framework",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0356"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "visual",
+      "framework",
+      "simulation",
+      "grammar"
+    ],
+    "title": "Visual Framework and Simulation Grammar"
+  },
+  "P0358": {
+    "anchors": "User message \"great! lets make it happen!\"",
+    "depends_on": [
+      "P0357"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "generate",
+      "visual",
+      "artifacts"
+    ],
+    "title": "Request to Generate Visual Artifacts"
+  },
+  "P0359": {
+    "anchors": "ChatGPT response providing storyboard.json and SIM_SPEC.md",
+    "depends_on": [
+      "P0358"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "storyboard",
+      "sim",
+      "spec",
+      "artifacts"
+    ],
+    "title": "Storyboard and SIM_SPEC Artifacts"
+  },
+  "P0360": {
+    "anchors": "User message \"lets see those additional pieces\"",
+    "depends_on": [
+      "P0359"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "additional",
+      "visual",
+      "pieces"
+    ],
+    "title": "Request for Additional Visual Pieces"
+  },
+  "P0361": {
+    "anchors": "ChatGPT response providing schema and prompts",
+    "depends_on": [
+      "P0360"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "storyboard",
+      "schema",
+      "visual",
+      "agent",
+      "prompts"
+    ],
+    "title": "Storyboard Schema and Visual Agent Prompts"
+  },
+  "P0362": {
+    "anchors": "ChatGPT response after \"perfect! thats a good final piece\"",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0361"
+    ],
+    "intent": "bridge",
+    "keywords": [
+      "triple",
+      "lock",
+      "summary"
+    ],
+    "title": "Triple Lock Summary"
+  },
+  "P0363": {
+    "anchors": "User request for self-contained argument",
+    "depends_on": [
+      "P0362"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "full",
+      "argument",
+      "document"
+    ],
+    "title": "Request for Full Argument Document"
+  },
+  "P0364": {
+    "anchors": "ChatGPT response \"Self-Contained Argument Draft\"",
+    "depends_on": [
+      "P0363"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "self",
+      "contained",
+      "argument",
+      "draft"
+    ],
+    "title": "Self-Contained Argument Draft"
+  },
+  "P0365": {
+    "anchors": "User message about the procedure name",
+    "depends_on": [
+      "P0364"
+    ],
+    "intent": "definition",
+    "keywords": [
+      "naming",
+      "method",
+      "induction",
+      "complexity"
+    ],
+    "title": "Naming the Method: Induction on Complexity"
+  },
+  "P0366": {
+    "anchors": "ChatGPT response defining Induction on Complexity",
+    "depends_on": [
+      "P0365"
+    ],
+    "intent": "definition",
+    "keywords": [
+      "definition",
+      "induction",
+      "complexity"
+    ],
+    "title": "Definition of Induction on Complexity"
+  },
+  "P0367": {
+    "anchors": "User message \"Complexical Induction. CI.\"",
+    "depends_on": [
+      "P0366"
+    ],
+    "intent": "definition",
+    "keywords": [
+      "rename",
+      "complexical",
+      "induction",
+      "ci"
+    ],
+    "title": "Rename to Complexical Induction (CI)"
+  },
+  "P0368": {
+    "anchors": "ChatGPT response defining CI",
+    "depends_on": [
+      "P0367"
+    ],
+    "intent": "definition",
+    "keywords": [
+      "definition",
+      "mantra",
+      "ci"
+    ],
+    "title": "Definition and Mantra for CI"
+  },
+  "P0369": {
+    "anchors": "User message requesting academic draft",
+    "depends_on": [
+      "P0368"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "academic",
+      "ci",
+      "draft"
+    ],
+    "title": "Request for Academic CI Draft"
+  },
+  "P0370": {
+    "anchors": "ChatGPT response \"academic-style draft\"",
+    "depends_on": [
+      "P0368",
+      "P0369"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "academic",
+      "ci",
+      "draft"
+    ],
+    "title": "Academic CI Draft v0.1"
+  },
+  "P0371": {
+    "anchors": "User message \"great, i'd love to see it\"",
+    "depends_on": [
+      "P0370"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "definitions",
+      "worked",
+      "example"
+    ],
+    "title": "Request for Definitions + Worked Example"
+  },
+  "P0372": {
+    "anchors": "ChatGPT response \"Academic Draft v0.2\"",
+    "depends_on": [
+      "P0368",
+      "P0371"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "academic",
+      "draft",
+      "definitions",
+      "lemmas"
+    ],
+    "title": "Academic Draft v0.2 (Definitions + Lemmas)"
+  },
+  "P0373": {
+    "anchors": "User message \"awesome, i like it. lets see it!\"",
+    "depends_on": [
+      "P0372"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "complexity",
+      "parameter",
+      "section"
+    ],
+    "title": "Request for Complexity Parameter Section"
+  },
+  "P0374": {
+    "anchors": "ChatGPT response \"Complexity as an Induction Parameter\"",
+    "depends_on": [
+      "P0368",
+      "P0373"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "ci",
+      "addendum",
+      "complexity",
+      "parameter"
+    ],
+    "title": "CI v0.3 Addendum: Complexity Parameter"
+  },
+  "P0375": {
+    "anchors": "User message \"great! do it\"",
+    "depends_on": [
+      "P0374"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "integrate",
+      "addendum"
+    ],
+    "title": "Request to Integrate the Addendum"
+  },
+  "P0376": {
+    "anchors": "ChatGPT response \"Academic Draft v0.3 \u2014 integrated\"",
+    "depends_on": [
+      "P0368",
+      "P0375"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "integrated",
+      "academic",
+      "draft"
+    ],
+    "title": "Integrated Academic Draft v0.3"
+  },
+  "P0377": {
+    "anchors": "ChatGPT response \"Leak \u2192 Inversion Playbook\"",
+    "arc": "ci_method",
+    "depends_on": [
+      "P0324",
+      "P0368",
+      "P0376"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "section",
+      "leak",
+      "inversion",
+      "playbook"
+    ],
+    "title": "Section 6.5 Leak\u2192Inversion Playbook"
+  },
+  "P0378": {
+    "anchors": "ChatGPT response \"Leak Handling as Propositions\"",
+    "depends_on": [
+      "P0324",
+      "P0368",
+      "P0377"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "section",
+      "propositions",
+      "proof",
+      "sketches"
+    ],
+    "title": "Section 6.6 Propositions + Proof Sketches"
+  },
+  "P0379": {
+    "anchors": "ChatGPT response \"Integrated Section 6\"",
+    "depends_on": [
+      "P0324",
+      "P0368",
+      "P0378"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "integrated",
+      "section",
+      "draft"
+    ],
+    "title": "Integrated Section 6 (Draft v0.6)"
+  },
+  "P0380": {
+    "anchors": "ChatGPT response \"Related Work and Positioning\"",
+    "depends_on": [
+      "P0368",
+      "P0379"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "section",
+      "related",
+      "work"
+    ],
+    "title": "Section 13 Related Work"
+  },
+  "P0381": {
+    "anchors": "ChatGPT response \"Case Study: Reaction\u2013Diffusion\"",
+    "depends_on": [
+      "P0368",
+      "P0380"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "section",
+      "case",
+      "study",
+      "reaction",
+      "diffusion"
+    ],
+    "title": "Section 14 Case Study (Reaction\u2013Diffusion)"
+  },
+  "P0382": {
+    "anchors": "ChatGPT response suggesting Section 15",
+    "depends_on": [
+      "P0368",
+      "P0381"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "section",
+      "discussion",
+      "predictions",
+      "suggestion"
+    ],
+    "title": "Section 15 Discussion/Predictions Suggestion"
+  },
+  "P0383": {
+    "anchors": "ChatGPT response \"Section 16: Methods Infrastructure\"",
+    "depends_on": [
+      "P0368",
+      "P0382"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "section",
+      "methods",
+      "infrastructure"
+    ],
+    "title": "Section 16 Methods Infrastructure"
+  },
+  "P0384": {
+    "anchors": "ChatGPT response \"Section 17: A Formal Appendix\"",
+    "depends_on": [
+      "P0368",
+      "P0383"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "section",
+      "formal",
+      "appendix"
+    ],
+    "title": "Section 17 Formal Appendix"
+  },
+  "P0385": {
+    "anchors": "User message \"continue with 18\"",
+    "depends_on": [
+      "P0384"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "section"
+    ],
+    "title": "Request for Section 18"
+  },
+  "P0386": {
+    "anchors": "ChatGPT response \"CI and Inside Out Backwards\"",
+    "depends_on": [
+      "P0023",
+      "P0368",
+      "P0385"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "section",
+      "ci",
+      "inside",
+      "out",
+      "backwards"
+    ],
+    "title": "Section 18: CI and Inside Out Backwards"
+  },
+  "P0387": {
+    "anchors": "User message \"nice work... section 19\"",
+    "depends_on": [
+      "P0386"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "section"
+    ],
+    "title": "Request for Section 19"
+  },
+  "P0388": {
+    "anchors": "ChatGPT response \"Book Architecture\"",
+    "depends_on": [
+      "P0023",
+      "P0324",
+      "P0368",
+      "P0387"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "section",
+      "book",
+      "architecture"
+    ],
+    "title": "Section 19: Book Architecture"
+  },
+  "P0389": {
+    "anchors": "User message \"continue with the next section\"",
+    "depends_on": [
+      "P0388"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "section"
+    ],
+    "title": "Request for Section 20"
+  },
+  "P0390": {
+    "anchors": "ChatGPT response \"Style Guide and Voice Constraints\"",
+    "depends_on": [
+      "P0023",
+      "P0368",
+      "P0389"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "section",
+      "style",
+      "guide",
+      "voice",
+      "constraints"
+    ],
+    "title": "Section 20: Style Guide and Voice Constraints"
+  },
+  "P0391": {
+    "anchors": "User message \"lets see 21\"",
+    "depends_on": [
+      "P0390"
+    ],
+    "intent": "meta-method",
+    "keywords": [
+      "request",
+      "section"
+    ],
+    "title": "Request for Section 21"
+  },
+  "P0392": {
+    "anchors": "ChatGPT response \"Reading Map and Research Scaffold\"",
+    "depends_on": [
+      "P0368",
+      "P0391"
+    ],
+    "intent": "claim",
+    "keywords": [
+      "section",
+      "reading",
+      "map",
+      "research",
+      "scaffold"
+    ],
+    "title": "Section 21: Reading Map and Research Scaffold"
+  },
+  "P0393": {
+    "anchors": "ChatGPT response \"The Agentic Revision Loop\"",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0368",
+      "P0392"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "section",
+      "agentic",
+      "revision",
+      "loop"
+    ],
+    "title": "Section 22 Agentic Revision Loop"
+  },
+  "P0394": {
+    "anchors": "ChatGPT response listing CI Lab versioning and HDAs",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0368",
+      "P0393"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "ci",
+      "lab",
+      "implementation",
+      "spec"
+    ],
+    "title": "CI Lab Implementation Spec"
+  },
+  "P0395": {
+    "anchors": "ChatGPT response describing vignette packs",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0324",
+      "P0368",
+      "P0394"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "vignette",
+      "packs",
+      "leak",
+      "types"
+    ],
+    "title": "Vignette Packs for Leak Types"
+  },
+  "P0396": {
+    "anchors": "ChatGPT response with LCG spec and zip packaging",
+    "arc": "lcg_agents",
+    "depends_on": [
+      "P0368",
+      "P0395"
+    ],
+    "intent": "procedure",
+    "keywords": [
+      "lcg",
+      "x",
+      "spec",
+      "bootstrap",
+      "package"
+    ],
+    "title": "LCG/LCG-X Spec and Bootstrap Package"
+  }
+}

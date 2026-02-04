@@ -1,0 +1,15 @@
+{
+  "patch_id": "PATCH-20260204-164454",
+  "task_id": "TASK-VERIFY-FIX",
+  "target": {
+    "scope": "node",
+    "id": "Q000015"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/nodes/Q000015/interface_variables/-",
+      "value": "local arrow persistence"
+    }
+  ]
+}

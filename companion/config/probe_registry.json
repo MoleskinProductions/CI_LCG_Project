@@ -1,0 +1,275 @@
+{
+  "version": "0.1.0",
+  "generated_from": "companion/Probe_Library.md",
+  "probes": [
+    {
+      "id": "P-PRB-001",
+      "name": "Formalization Primitive-Budget Audit",
+      "discriminator_ids": [
+        "D-CI-001"
+      ],
+      "interface_variables": [
+        "primitive budget / silent premise"
+      ],
+      "input_fields": [
+        "node_id",
+        "chart_mode_pair",
+        "premise_inventory"
+      ],
+      "output_fields": [
+        "primitive_delta",
+        "hidden_premise_count",
+        "split_result"
+      ],
+      "pass_condition": "entailments preserved with no primitive inflation",
+      "fail_condition": "hidden premise or primitive-count increase required"
+    },
+    {
+      "id": "P-PRB-002",
+      "name": "Entry Framing Seam Visibility Probe",
+      "discriminator_ids": [
+        "D-CI-002"
+      ],
+      "interface_variables": [
+        "primitive budget / silent premise",
+        "ledger stability / taxonomy drift"
+      ],
+      "input_fields": [
+        "node_id",
+        "entry_framings",
+        "seam_taxonomy"
+      ],
+      "output_fields": [
+        "seam_type_overlap_score",
+        "masked_seam_count",
+        "split_result"
+      ],
+      "pass_condition": "seam types remain explicit and stable across entry framings",
+      "fail_condition": "seam masking or seam-type collapse appears"
+    },
+    {
+      "id": "P-PRB-003",
+      "name": "Ledger Stability Loop Probe",
+      "discriminator_ids": [
+        "D-LCG-001"
+      ],
+      "interface_variables": [
+        "ledger stability / taxonomy drift"
+      ],
+      "input_fields": [
+        "node_id",
+        "iteration_snapshots",
+        "seam_labels"
+      ],
+      "output_fields": [
+        "drift_index",
+        "class_retention_score",
+        "split_result"
+      ],
+      "pass_condition": "class labels remain stable across loop passes",
+      "fail_condition": "taxonomy drift accumulates"
+    },
+    {
+      "id": "P-PRB-004",
+      "name": "Adversarial Taxonomy Robustness Probe",
+      "discriminator_ids": [
+        "D-LCG-002"
+      ],
+      "interface_variables": [
+        "ledger stability / taxonomy drift"
+      ],
+      "input_fields": [
+        "node_id",
+        "adversarial_relabels",
+        "baseline_taxonomy"
+      ],
+      "output_fields": [
+        "perturbation_sensitivity",
+        "explosion_score",
+        "split_result"
+      ],
+      "pass_condition": "seam typing remains stable under adversarial relabeling",
+      "fail_condition": "drift/explosion under perturbation"
+    },
+    {
+      "id": "P-PRB-005",
+      "name": "Admissibility Handoff Scatter Probe",
+      "discriminator_ids": [
+        "D-BRID-021"
+      ],
+      "interface_variables": [
+        "primitive budget / silent premise",
+        "ledger stability / taxonomy drift"
+      ],
+      "input_fields": [
+        "route",
+        "procedure_valid_claims",
+        "ontology_admissible_claims"
+      ],
+      "output_fields": [
+        "handoff_delta_matrix",
+        "reification_flag",
+        "split_result"
+      ],
+      "pass_condition": "seam visibility preserved through handoff",
+      "fail_condition": "method outcomes reified as ontology without explicit interface accounting"
+    },
+    {
+      "id": "P-PRB-006",
+      "name": "Triad Mapping Stability Probe",
+      "discriminator_ids": [
+        "D-011-001",
+        "D-012-001"
+      ],
+      "interface_variables": [
+        "primitive budget / silent premise"
+      ],
+      "input_fields": [
+        "node_ids",
+        "role_assignment_mappings",
+        "chart_variants"
+      ],
+      "output_fields": [
+        "role_consistency_score",
+        "inseparability_check",
+        "split_result"
+      ],
+      "pass_condition": "role assignment and triad inseparability remain stable",
+      "fail_condition": "silent role swap or optionalization of triad terms"
+    },
+    {
+      "id": "P-PRB-007",
+      "name": "Recursive Differentiation Continuity Probe",
+      "discriminator_ids": [
+        "D-013-001",
+        "D-016-001"
+      ],
+      "interface_variables": [
+        "constraint-order coupling"
+      ],
+      "input_fields": [
+        "node_ids",
+        "recursion_depth_series",
+        "closure_criteria"
+      ],
+      "output_fields": [
+        "recursion_persistence_index",
+        "closure_mode_classification",
+        "split_result"
+      ],
+      "pass_condition": "differentiation remains generative without identity freeze",
+      "fail_condition": "recursion collapses into static closure"
+    },
+    {
+      "id": "P-PRB-008",
+      "name": "Ground Negation Stability Probe",
+      "discriminator_ids": [
+        "D-014-001",
+        "D-017-001"
+      ],
+      "interface_variables": [
+        "constraint-order coupling"
+      ],
+      "input_fields": [
+        "node_ids",
+        "negative_positive_restatement_pairs"
+      ],
+      "output_fields": [
+        "reification_pressure_score",
+        "boundary_stability_score",
+        "split_result"
+      ],
+      "pass_condition": "ground remains relational/negative under restatement",
+      "fail_condition": "positive substrate insertion required"
+    },
+    {
+      "id": "P-PRB-009",
+      "name": "Loop/Closure Residue Probe",
+      "discriminator_ids": [
+        "D-PHY-001"
+      ],
+      "interface_variables": [
+        "loop/closure residue"
+      ],
+      "input_fields": [
+        "node_id",
+        "chart_variants",
+        "closure_paths"
+      ],
+      "output_fields": [
+        "residue_stability_score",
+        "chart_removability_check",
+        "split_result"
+      ],
+      "pass_condition": "residue persists across allowed chart rewrites",
+      "fail_condition": "residue removable by local reparameterization"
+    },
+    {
+      "id": "P-PRB-010",
+      "name": "Dimensionless Drift Probe",
+      "discriminator_ids": [
+        "D-PHY-004"
+      ],
+      "interface_variables": [
+        "dimensionless drift"
+      ],
+      "input_fields": [
+        "node_id",
+        "scaled_chart_variants",
+        "ratio_channels"
+      ],
+      "output_fields": [
+        "drift_under_scaling",
+        "admissibility_tag",
+        "split_result"
+      ],
+      "pass_condition": "ratio-level channels remain stable under scaling",
+      "fail_condition": "observable shifts under unit scaling"
+    },
+    {
+      "id": "P-PRB-011",
+      "name": "Observable Equivalence-Class Probe",
+      "discriminator_ids": [
+        "D-PHY-005"
+      ],
+      "interface_variables": [
+        "observability equivalence class"
+      ],
+      "input_fields": [
+        "node_id",
+        "candidate_observable_families",
+        "chart_transforms"
+      ],
+      "output_fields": [
+        "equivalence_class_membership",
+        "admissibility_class",
+        "split_result"
+      ],
+      "pass_condition": "operator family remains stable across equivalent charts",
+      "fail_condition": "candidate depends on chart-specific coordinates"
+    },
+    {
+      "id": "P-PRB-012",
+      "name": "Local Arrow Persistence Scatter Probe",
+      "discriminator_ids": [
+        "D-TIM-002",
+        "D-019-001"
+      ],
+      "interface_variables": [
+        "local arrow persistence"
+      ],
+      "input_fields": [
+        "node_id",
+        "cross_context_chart_set",
+        "asymmetry_channels"
+      ],
+      "output_fields": [
+        "persistence_scatter_matrix",
+        "global_orientation_dependency_flag",
+        "split_result"
+      ],
+      "pass_condition": "arrow-like asymmetry persists locally across chart shifts",
+      "fail_condition": "persistence appears only with imposed global orientation"
+    }
+  ]
+}

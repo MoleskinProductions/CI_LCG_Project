@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/lcg/node.schema.json",
+  "title": "LCG QuestionNode",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "domains",
+    "summary",
+    "status",
+    "leak_profile",
+    "chart_tags",
+    "claim_temptations",
+    "invariants",
+    "discriminators"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^Q\\d{6}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 20
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "contested",
+        "partially_resolved",
+        "obsolete"
+      ]
+    },
+    "leak_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "properties": {
+        "L1": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "L2": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "L3": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "L4": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "L5": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "L6": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "chart_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "interface_variables": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_temptations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "A",
+          "M",
+          "I",
+          "P"
+        ]
+      },
+      "minItems": 1
+    },
+    "invariants": {
+      "type": "array",
+      "items": {
+        "$ref": "invariant_ref.schema.json"
+      },
+      "minItems": 1
+    },
+    "discriminators": {
+      "type": "array",
+      "items": {
+        "$ref": "discriminator_ref.schema.json"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

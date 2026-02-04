@@ -1,0 +1,72 @@
+# A1.5 Change Log
+
+- P0148: intent claim -> question
+- P0228: intent claim -> question
+- P0237: intent claim -> procedure
+- P0238: intent claim -> procedure
+- P0239: intent claim -> procedure
+- P0240: intent claim -> procedure
+- P0241: intent claim -> procedure
+- P0242: intent claim -> procedure
+- P0243: intent claim -> procedure
+- P0244: intent claim -> procedure
+- P0245: intent claim -> procedure
+- P0246: intent claim -> procedure
+- P0247: intent claim -> procedure
+- P0248: intent claim -> procedure
+- P0249: intent claim -> procedure
+- P0254: intent claim -> constraint
+- P0263: intent claim -> constraint
+- P0280: intent claim -> question
+- P0284: intent claim -> question
+- P0286: intent claim -> bridge
+- P0289: intent claim -> question
+- P0294: intent claim -> question
+- P0305: intent claim -> bridge
+- P0307: intent claim -> procedure
+- P0308: intent claim -> procedure
+- P0309: intent claim -> procedure
+- P0310: intent claim -> procedure
+- P0311: intent claim -> procedure
+- P0312: intent claim -> procedure
+- P0313: intent claim -> procedure
+- P0314: intent claim -> procedure
+- P0315: intent claim -> procedure
+- P0316: intent claim -> procedure
+- P0317: intent claim -> procedure
+- P0330: intent claim -> constraint
+- P0331: intent claim -> constraint
+- P0332: intent claim -> constraint
+- P0333: intent claim -> constraint
+- P0334: intent claim -> constraint
+- P0335: intent claim -> constraint
+- P0338: intent claim -> question; deps P0337 -> P0324, P0337
+- P0339: deps P0338 -> P0324, P0338
+- P0340: deps P0339 -> P0324, P0339
+- P0343: intent claim -> constraint
+- P0347: intent claim -> constraint
+- P0350: intent claim -> question
+- P0351: intent claim -> procedure
+- P0355: intent claim -> procedure
+- P0357: intent claim -> procedure
+- P0362: intent claim -> bridge
+- P0370: deps P0369 -> P0368, P0369
+- P0372: deps P0371 -> P0368, P0371
+- P0374: deps P0373 -> P0368, P0373
+- P0376: deps P0375 -> P0368, P0375
+- P0377: intent claim -> procedure; deps P0376 -> P0324, P0368, P0376
+- P0378: deps P0377 -> P0324, P0368, P0377
+- P0379: deps P0378 -> P0324, P0368, P0378
+- P0380: deps P0379 -> P0368, P0379
+- P0381: deps P0380 -> P0368, P0380
+- P0382: deps P0381 -> P0368, P0381
+- P0383: deps P0382 -> P0368, P0382
+- P0384: deps P0383 -> P0368, P0383
+- P0386: deps P0385 -> P0023, P0368, P0385
+- P0388: deps P0387 -> P0023, P0324, P0368, P0387
+- P0390: deps P0389 -> P0023, P0368, P0389
+- P0392: deps P0391 -> P0368, P0391
+- P0393: intent claim -> procedure; deps P0392 -> P0368, P0392
+- P0394: intent claim -> procedure; deps P0393 -> P0368, P0393
+- P0395: intent claim -> procedure; deps P0394 -> P0324, P0368, P0394
+- P0396: intent claim -> procedure; deps P0395 -> P0368, P0395

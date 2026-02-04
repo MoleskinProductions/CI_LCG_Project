@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/lcg/discriminator_ref.schema.json",
+  "title": "DiscriminatorRef",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "pattern"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^D-[A-Z]{2,5}-\\d{3}$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "pattern": {
+      "type": "string",
+      "enum": [
+        "hysteresis",
+        "ablation",
+        "intervention",
+        "orthogonal_probe",
+        "interface_scatter",
+        "ensemble_split",
+        "stress_ramp"
+      ]
+    },
+    "how_to": {
+      "type": "string"
+    },
+    "transferable": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

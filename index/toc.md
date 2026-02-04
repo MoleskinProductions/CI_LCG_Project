@@ -1,0 +1,882 @@
+# Pieces TOC
+
+## Chronological
+- P0001 — Emergence Ordering of Rationals (hypothesis)
+- P0002 — Constructive Emergence Order vs Magnitude (claim)
+- P0003 — Emergence Order Forms a Branching DAG (claim)
+- P0004 — Expression Complexity Analogy (analogy)
+- P0005 — "Induction on Complexity" Name (definition)
+- P0006 — Induction on Generative Depth (claim)
+- P0007 — Inside Out Backwards: Operations First (claim)
+- P0008 — Primitive Commitments and Objects as Fossils (claim)
+- P0009 — Time vs History and Reverse Engineering (claim)
+- P0010 — Breaks with Tradition and Spine Sentence (claim)
+- P0011 — Correction: Philosophy Not Yet Revealed (correction)
+- P0012 — Reset Method and Spine Question (meta-method)
+- P0013 — Narrative-Based Reasoning Claim (claim)
+- P0014 — Narrative as Condition of Intelligibility (claim)
+- P0015 — Reasoning as Story Hierarchy and Analogy (claim)
+- P0016 — Philosophy as Disciplined Metaphor (meta-method)
+- P0017 — Narratives Discovered, Constructed, Imposed (claim)
+- P0018 — Narrative Triad Matters (claim)
+- P0019 — Narrative Across Biology, Mind, Cosmology (claim)
+- P0020 — Not "Everything Is a Story" (claim)
+- P0021 — Biological Anchor for Narrative (claim)
+- P0022 — Cosmology as Narrative Stress Test (claim)
+- P0023 — Inside/Out/Backwards Meaning (definition)
+- P0024 — Organize by Interfaces (meta-method)
+- P0025 — Strength: Universe Can Disagree (claim)
+- P0026 — Two Possibilities: Narrative or Not (hypothesis)
+- P0027 — Comparative Investigation Framing (claim)
+- P0028 — Evidence for Narrative Failure (discriminator)
+- P0029 — Counterfactual of Narrative Success (hypothesis)
+- P0030 — Definition of Narrative Success (definition)
+- P0031 — Inversion as Structural Role (claim)
+- P0032 — Caretaker Hypothesis (hypothesis)
+- P0033 — Counterfactual Test Criteria (discriminator)
+- P0034 — Implications If Caretaking Is True (claim)
+- P0035 — Failure Mode: Narrative Breaks at Scale (claim)
+- P0036 — Inside Out Human Story (claim)
+- P0037 — Caretaking Framing and Next Question (meta-method)
+- P0038 — Objection to "Sobering" and Caretaking (objection)
+- P0039 — Sobering as Diagnostic Signal (correction)
+- P0040 — Caretaking as Causal Locus (claim)
+- P0041 — Self-Contained Narrative Properties (claim)
+- P0042 — Myth as Scaffolding (claim)
+- P0043 — Emotional Gradient as Signal (claim)
+- P0044 — Criterion for Narrative Deconstruction (discriminator)
+- P0045 — Inward vs Outward Question (meta-method)
+- P0046 — Hinge Where Inward/Outward Arise (claim)
+- P0047 — Three Stances on Narrative Direction (definition)
+- P0048 — Philosophy as Orientation Destabilization (meta-method)
+- P0049 — Hierarchies Require Ground (claim)
+- P0050 — Groundlessness as Structural Expectation (claim)
+- P0051 — Coherence Without Ground (claim)
+- P0052 — Science Forbids Ground-Seeking (claim)
+- P0053 — Foundational Shifts Are Lateral (claim)
+- P0054 — Ground Question as Boundary Condition (meta-method)
+- P0055 — Philosophy as Art of Orientation (claim)
+- P0056 — Spatial Metaphor Failure (claim)
+- P0057 — Recursive Loop of Meaning (claim)
+- P0058 — Art vs Science on Frames (claim)
+- P0059 — Remainder of Intelligibility (claim)
+- P0060 — Start with Space and Time? (meta-method)
+- P0061 — Space Is a Late Compression (claim)
+- P0062 — Time as Ordering Constraint (claim)
+- P0063 — Primitive Is Ordered Constraint (claim)
+- P0064 — Philosophy as Meta-Orientation (meta-method)
+- P0065 — Starting Posture: Constraint + Order + Memory (claim)
+- P0066 — Orientation Loss Feels Unsettling (claim)
+- P0067 — Visual Bias and Starting with Empty Space (claim)
+- P0068 — Empty Space as Starting Illusion (claim)
+- P0069 — Nothingness as Cognitive Trap (claim)
+- P0070 — Eye of the Needle Sequence (claim)
+- P0071 — Cannot Start with Both Space and Time (claim)
+- P0072 — Nothingness as Method (meta-method)
+- P0073 — Empty Space Sets Up Inversion (claim)
+- P0074 — Philosophy as Pedagogical Art (meta-method)
+- P0075 — Thought Experiment from Nothingness (meta-method)
+- P0076 — First Asymmetry Becomes Justification (claim)
+- P0077 — Assume a First Dimension? (meta-method)
+- P0078 — First Dimension as Distinction (definition)
+- P0079 — Distinction Yields Multiplicity and Relation (claim)
+- P0080 — Distinction Doesn’t Smuggle Space/Time (claim)
+- P0081 — First Dimension as Tension (claim)
+- P0082 — Inversion Sequence for Reader (claim)
+- P0083 — Clean Phrasing for Distinction (meta-method)
+- P0084 — Next Question: Distinction Without Ordering (discriminator)
+- P0085 — Plate Break Thought Experiment (hypothesis)
+- P0086 — Second Dimension Forced by Relation (claim)
+- P0087 — Asymmetry Before Symmetry (claim)
+- P0088 — Distinction Must Legitimate Itself (claim)
+- P0089 — Second Dimension as Entailment (definition)
+- P0090 — Hierarchy from Legitimation (claim)
+- P0091 — Seeds of Causality Appear (claim)
+- P0092 — Plate Metaphor Works as Pressure Test (claim)
+- P0093 — Recursion Converge, Diverge, or Stabilize? (discriminator)
+- P0094 — Dualism Origin, But Not Enough (claim)
+- P0095 — Dualism as Minimal Stability (claim)
+- P0096 — Dualism Doesn’t Resolve the Pressure (claim)
+- P0097 — Dualism as Scaffold, Not Foundation (claim)
+- P0098 — Dualism Demands Mediation (claim)
+- P0099 — Lived Dualism and Unease (claim)
+- P0100 — Derive Dualism, Don’t Reject It (meta-method)
+- P0101 — Sustaining Opposing Distinctions (discriminator)
+- P0102 — Correction: Duality Is Everything (correction)
+- P0103 — Duality as Self-Differentiation (claim)
+- P0104 — Hegel: Identity Contains Difference (claim)
+- P0105 — Fractality and Retrospective Unity (claim)
+- P0106 — Experience as Differentiation Felt (claim)
+- P0107 — Duality Necessary for Intelligibility (claim)
+- P0108 — Duality as Generative Condition (claim)
+- P0109 — Coherence of Differentiation (discriminator)
+- P0110 — No "Out"; Go Inward (claim)
+- P0111 — Ground as Inward Generative Activity (claim)
+- P0112 — Turn to Physics: Topology and Momentum (meta-method)
+- P0113 — Topology Before Geometry (claim)
+- P0114 — Momentum More Fundamental Than Position (claim)
+- P0115 — Momentum as Inertia of Differentiation (claim)
+- P0116 — Topology + Momentum as Proto-Physics (claim)
+- P0117 — Space Emerges After Momentum (claim)
+- P0118 — Ground as Structured Differentiation (claim)
+- P0119 — Next Questions: Stabilization to Agency (meta-method)
+- P0120 — Inversion, Fields, and Gravity Hypothesis (hypothesis)
+- P0121 — Physics Inversion: Relations First (claim)
+- P0122 — Field as Self-Referential Dynamics (claim)
+- P0123 — Correction on Gravity as Momentum (correction)
+- P0124 — Gravity as Persistent Self-Relation (claim)
+- P0125 — Gauge Theory and Recursive Consistency (claim)
+- P0126 — Clean Claim About External Frames (claim)
+- P0127 — Inverted Explanatory Order (claim)
+- P0128 — Rule: Interpretive, Not Declarative (meta-method)
+- P0129 — Next Steps: Symmetry to Agency (meta-method)
+- P0130 — Self-Gravity Question (hypothesis)
+- P0131 — Newtonian Self-Gravity Is Zero (claim)
+- P0132 — GR Makes Self-Gravity Ill-Posed (claim)
+- P0133 — Singular Point Particles Fail (claim)
+- P0134 — Black Hole as Self-Consistency (claim)
+- P0135 — Self-Gravity as Condition of Existence (claim)
+- P0136 — Inward Momentum Reinterpreted (claim)
+- P0137 — Condensed Answer on Self-Gravity (claim)
+- P0138 — Multiplicity and Infinite Divisibility Question (hypothesis)
+- P0139 — GR Presumes Multiplicity (claim)
+- P0140 — Change as Primary Datum (claim)
+- P0141 — Infinite Divisibility Is Processual (claim)
+- P0142 — Multiplicity Forced by Differentiation (claim)
+- P0143 — Math as Compression of Change (claim)
+- P0144 — Change Dominates, Things Are Plateaus (claim)
+- P0145 — GR as Late Compression (claim)
+- P0146 — Existence as Continual Difference (claim)
+- P0147 — Next Question: Persistence of Patterns (discriminator)
+- P0148 — Non-Cessation and Chaos/Order Question (question)
+- P0149 — Non-Cessation Replaces Ground (claim)
+- P0150 — Chaos and Order Co-Occur (claim)
+- P0151 — Change with or without Memory (claim)
+- P0152 — Possibility Peeling Back (claim)
+- P0153 — Note and Explore the New Dimension (meta-method)
+- P0154 — Narrative as Persistence Mode (claim)
+- P0155 — Eeriness Shifts to Calm (claim)
+- P0156 — Next Questions After Chaos/Order (discriminator)
+- P0157 — Intentionality Emerges from Huge Search Space (claim)
+- P0158 — Intentionality Without Desire (claim)
+- P0159 — Survival Instinct as Distorted Case (claim)
+- P0160 — Intentionality as Navigation (claim)
+- P0161 — Aboutness as Structural Alignment (claim)
+- P0162 — Chain from Persistence to Intentionality (claim)
+- P0163 — Human Tension from Mixed Biases (claim)
+- P0164 — Meaning and Agency as Stabilized Selection (claim)
+- P0165 — Direction Unavoidable Without Cosmic Plan (claim)
+- P0166 — Question: Does the Universe Explore All Possibilities? (hypothesis)
+- P0167 — Not All Possibilities Persist (claim)
+- P0168 — Unfolding Is Neither Script nor Random Spray (claim)
+- P0169 — Possibility Generated and Pruned (claim)
+- P0170 — "All Possibilities" Is Ill-Posed (claim)
+- P0171 — Persistence Is Expensive (claim)
+- P0172 — Laws as Survivors (claim)
+- P0173 — No Global Exploration Strategy (claim)
+- P0174 — Direction and Narrative from Memory (claim)
+- P0175 — We Inhabit the Region That Persisted (claim)
+- P0176 — Unfolding Summary and Next Question (discriminator)
+- P0177 — Negative Ground and Gödel Analogy (claim)
+- P0178 — Persistence Isn’t a Choice (claim)
+- P0179 — Engage/Run as Structural Metaphor (claim)
+- P0180 — Ground Must Be Negative (claim)
+- P0181 — Gödel Analogy for Ground (analogy)
+- P0182 — Not Theology (claim)
+- P0183 — Dread as Boundary of Representability (claim)
+- P0184 — Clean Statement of Negative Ground (claim)
+- P0185 — Project Consequence of Negative Ground (claim)
+- P0186 — Time and Space from Two Points (claim)
+- P0187 — Time as Ordered Persistence (claim)
+- P0188 — Space as Maintained Separation (claim)
+- P0189 — Time Plus Two Points Creates a World (claim)
+- P0190 — Order Matters: Time Before Space (claim)
+- P0191 — Minimal Inventory After Emergence (claim)
+- P0192 — End of the Nothingness Phase (claim)
+- P0193 — Payoff: No Assumed Spacetime or Laws (claim)
+- P0194 — Next Step: Motion and Fields (claim)
+- P0195 — Return to the First Thought Experiment (claim)
+- P0196 — Operations as Grammar of Search Space (claim)
+- P0197 — Randomness and Order as Tactics (claim)
+- P0198 — Division as Irreducible Process (claim)
+- P0199 — Not Reductionism, No Final Synthesis (claim)
+- P0200 — One-Sentence Spine of the Work (claim)
+- P0201 — Singularities as Next Step (claim)
+- P0202 — Singularities Feel Like the Beginning (claim)
+- P0203 — Inversion Builds Complexity (claim)
+- P0204 — Singularities as Interfaces (claim)
+- P0205 — Fields Upon Fields as Stratification (claim)
+- P0206 — Inversion Across Domains (claim)
+- P0207 — Singularities as Survival of Breakdown (claim)
+- P0208 — Subatomic Compaction and Space/Time Trade (hypothesis)
+- P0209 — Correction: Singularities as Compaction (correction)
+- P0210 — Trading Space for Time Reinterpreted (claim)
+- P0211 — "Getting Smaller" as Constrained Futures (claim)
+- P0212 — Acceleration Requires Careful Framing (claim)
+- P0213 — Fields and New Scaffolding (claim)
+- P0214 — Core Thesis on Degrees of Freedom (claim)
+- P0215 — Calibration: Tag Statement Types (meta-method)
+- P0216 — Final Inversion on Time Direction (claim)
+- P0217 — No Global Time Direction (claim)
+- P0218 — Universe as a Self-Consistent Moment (claim)
+- P0219 — "Moving Backwards" as Constraint Resolution (claim)
+- P0220 — Beyond Interpretation (claim)
+- P0221 — Not Determinism (claim)
+- P0222 — Calibrated Thesis Statement on Time (claim)
+- P0223 — Final Inversion as Orientation (claim)
+- P0224 — Confirmation of the Core Idea (claim)
+- P0225 — Coherence and Arc Summary (claim)
+- P0226 — Orientation Theory Framing (claim)
+- P0227 — Next Step: Tighten Language (meta-method)
+- P0228 — Formalization Request and Logic Background (question)
+- P0229 — Discovery Path vs Justification Path (meta-method)
+- P0230 — What to Formalize and What Not To (meta-method)
+- P0231 — Core Logical Spine Sketch (claim)
+- P0232 — Flag Necessity vs Interpretation (meta-method)
+- P0233 — Multiple Entry Points (meta-method)
+- P0234 — Rigor Test: No Optional Steps (discriminator)
+- P0235 — Next Formalization Steps (meta-method)
+- P0236 — Request for Research Roadmap (meta-method)
+- P0237 — Research: Method and Philosophy of Science (procedure)
+- P0238 — Research: Nothingness as Decoy (procedure)
+- P0239 — Research: Distinction as Primitive (procedure)
+- P0240 — Research: Duality and Recursion (procedure)
+- P0241 — Research: Fractality and Emergence (procedure)
+- P0242 — Research: Chaos and Order (procedure)
+- P0243 — Research: Time as Ordering (procedure)
+- P0244 — Research: Space from Two Points (procedure)
+- P0245 — Research: Momentum and Symmetry (procedure)
+- P0246 — Research: Singularities and EFT (procedure)
+- P0247 — Research: Intentionality Without Motivation (procedure)
+- P0248 — Research: Negative Ground and Incompleteness (procedure)
+- P0249 — Research: Broader Academic Appeal (procedure)
+- P0250 — Suggested Writing Structure (meta-method)
+- P0251 — Dependency Graph with Literatures (meta-method)
+- P0252 — Artifact Question for Divisionary Process (hypothesis)
+- P0253 — Three Outcome Categories (claim)
+- P0254 — Uniform Rescaling Is Undetectable (constraint)
+- P0255 — Expected Artifacts of Differential Scaling (claim)
+- P0256 — Choose Gauge Category (meta-method)
+- P0257 — Request for Gauge Options and Theory Basics (meta-method)
+- P0258 — Pure Gauge as Redundancy (claim)
+- P0259 — Almost-Gauge with Leaks (claim)
+- P0260 — Sector-Dependent Coupling (claim)
+- P0261 — Gauge Theory Ingredients (claim)
+- P0262 — Gauge-Invariant Observables (claim)
+- P0263 — Requirements for a Good Gauge Theory (constraint)
+- P0264 — Signatures of Leaks vs Coupling (claim)
+- P0265 — Writing as Model Classes and Fork Test (meta-method)
+- P0266 — Preference for Leaks or Sector Coupling (claim)
+- P0267 — Almost-Gauge Fits Negative Ground (claim)
+- P0268 — Sector Coupling Is Testable (claim)
+- P0269 — Choose a Signature (discriminator)
+- P0270 — Disciplined Thesis Wording (meta-method)
+- P0271 — Prefer Leaky Gauge but Keep Options (claim)
+- P0272 — Leaky Gauge vs Sector Coupling Feel Similar (claim)
+- P0273 — Similarity Is Practical, Not Principled (claim)
+- P0274 — Leaky Gauge Defined by Global Invariants (claim)
+- P0275 — Sector Coupling Defined by Local Mismatch (claim)
+- P0276 — Gauge-Away Test (discriminator)
+- P0277 — Coarse-Graining Blurs the Difference (claim)
+- P0278 — Writing the Two Interpretations (meta-method)
+- P0279 — Limit-Test Questions (discriminator)
+- P0280 — Question on Wilson Loops (question)
+- P0281 — Wilson Loops as Global Residue (claim)
+- P0282 — Self-Reference vs Self-Legitimization (claim)
+- P0283 — Wilson Loops Support Leaky Ground (claim)
+- P0284 — Question About Physical Rules (question)
+- P0285 — Laws as Surviving Regularities (claim)
+- P0286 — Inversions Map to Renormalization (bridge)
+- P0287 — Inversions Expose Invariants (claim)
+- P0288 — Tactic Metaphor, Non-Anthropomorphic (claim)
+- P0289 — Gravity as the First Force? (question)
+- P0290 — Gravity First Conceptually, Not Chronologically (claim)
+- P0291 — Why Gravity Appears Weak (claim)
+- P0292 — Gravity Hard to Reconcile with Other Forces (claim)
+- P0293 — Interpretive Read on Gravity (claim)
+- P0294 — Magnetism as Initial Distinction? (question)
+- P0295 — Magnetism as Orientable Distinction (claim)
+- P0296 — Question About Privileging Time Experience (objection)
+- P0297 — Experience as Data, Not Authority (claim)
+- P0298 — Multiple Arrows of Time (claim)
+- P0299 — Low-Entropy Past and Local Arrows (claim)
+- P0300 — Non-Anthropocentric Litmus Test (claim)
+- P0301 — Existential Baggage and the Felt Arrow (claim)
+- P0302 — Psychological vs Thermodynamic Arrows (claim)
+- P0303 — Turing Patterns Clarified (claim)
+- P0304 — Complexity Without Inner Copy (claim)
+- P0305 — Turing Instability as Bridge (bridge)
+- P0306 — Houdini Experiments Request (meta-method)
+- P0307 — Houdini Mini-Projects Overview (procedure)
+- P0308 — Houdini: Reaction–Diffusion Setup (procedure)
+- P0309 — Houdini: Phase Transition Interface (procedure)
+- P0310 — Houdini: Holonomy Toy on Graph (procedure)
+- P0311 — Houdini: Division 1→2 Field Splitting (procedure)
+- P0312 — Houdini: Rules as Compression (procedure)
+- P0313 — Reaction–Diffusion Houdini Setup (procedure)
+- P0314 — Reaction–Diffusion Parameter Knobs (procedure)
+- P0315 — RD Experiment: Inversion Interface (procedure)
+- P0316 — RD Experiment: Leaky Gauge Loop Residue (procedure)
+- P0317 — RD Experiment: Fields Upon Fields (procedure)
+- P0318 — Houdini Output Preference Check (meta-method)
+- P0319 — Unorientability from Multiple Inversions (claim)
+- P0320 — Unorientability Defined (claim)
+- P0321 — Multiple Inversions Yield Patchwise Charts (claim)
+- P0322 — Useful Unknowns via Modern Theory (claim)
+- P0323 — Orientation Budget Formalization (meta-method)
+- P0324 — Taxonomy of Leak Types (claim)
+- P0325 — Structured Humility Outcome (claim)
+- P0326 — Scientific Method as Artistic Framework (claim)
+- P0327 — Gödel Limits and Patchwork Coherence (claim)
+- P0328 — Request for Method Chapter Draft (meta-method)
+- P0329 — Method Chapter Intro: Non-Closure (claim)
+- P0330 — Principle 1: No Privileged Chart (constraint)
+- P0331 — Principle 2: Local Sovereignty (constraint)
+- P0332 — Principle 3: Seek the Glue (constraint)
+- P0333 — Principle 4: Invariant First (constraint)
+- P0334 — Principle 5: Treat Leaks as Data (constraint)
+- P0335 — Principle 6: Invert the Primitive (constraint)
+- P0336 — Method Chapter: Not Relativism (claim)
+- P0337 — Gödel Coda and Toolkit Offer (meta-method)
+- P0338 — Entry Point Leaks and Actionability Request (question)
+- P0339 — Entry Point Leak Analysis (claim)
+- P0340 — IOB Action Loop (meta-method)
+- P0341 — Creative Exercises and Prolegomenon Upgrade (meta-method)
+- P0342 — Request for Field Manual (meta-method)
+- P0343 — Field Manual: Prime Directive and Entry Discipline (constraint)
+- P0344 — Field Manual: Action Loop Steps (meta-method)
+- P0345 — Field Manual: Leak Taxonomy (claim)
+- P0346 — Field Manual: Inversion Prompts (meta-method)
+- P0347 — Field Manual: Invariant Checklist (constraint)
+- P0348 — Field Manual: Practical Exercises (meta-method)
+- P0349 — Field Manual: Rule and Opening Move (meta-method)
+- P0350 — Request for Algorithmic Agential Loop (question)
+- P0351 — IOB Revision Loop Overview (procedure)
+- P0352 — Revision Loop Steps and Scoring (meta-method)
+- P0353 — Reasoning Tool Justification (claim)
+- P0354 — Implementation with Ledgers and Schemas (meta-method)
+- P0355 — Agent Prompt Templates and Codex Config (procedure)
+- P0356 — Visual Companion Wrinkle (claim)
+- P0357 — Visual Framework and Simulation Grammar (procedure)
+- P0358 — Request to Generate Visual Artifacts (meta-method)
+- P0359 — Storyboard and SIM_SPEC Artifacts (claim)
+- P0360 — Request for Additional Visual Pieces (meta-method)
+- P0361 — Storyboard Schema and Visual Agent Prompts (claim)
+- P0362 — Triple Lock Summary (bridge)
+- P0363 — Request for Full Argument Document (meta-method)
+- P0364 — Self-Contained Argument Draft (claim)
+- P0365 — Naming the Method: Induction on Complexity (definition)
+- P0366 — Definition of Induction on Complexity (definition)
+- P0367 — Rename to Complexical Induction (CI) (definition)
+- P0368 — Definition and Mantra for CI (definition)
+- P0369 — Request for Academic CI Draft (meta-method)
+- P0370 — Academic CI Draft v0.1 (claim)
+- P0371 — Request for Definitions + Worked Example (meta-method)
+- P0372 — Academic Draft v0.2 (Definitions + Lemmas) (claim)
+- P0373 — Request for Complexity Parameter Section (meta-method)
+- P0374 — CI v0.3 Addendum: Complexity Parameter (claim)
+- P0375 — Request to Integrate the Addendum (meta-method)
+- P0376 — Integrated Academic Draft v0.3 (claim)
+- P0377 — Section 6.5 Leak→Inversion Playbook (procedure)
+- P0378 — Section 6.6 Propositions + Proof Sketches (claim)
+- P0379 — Integrated Section 6 (Draft v0.6) (claim)
+- P0380 — Section 13 Related Work (claim)
+- P0381 — Section 14 Case Study (Reaction–Diffusion) (claim)
+- P0382 — Section 15 Discussion/Predictions Suggestion (meta-method)
+- P0383 — Section 16 Methods Infrastructure (claim)
+- P0384 — Section 17 Formal Appendix (claim)
+- P0385 — Request for Section 18 (meta-method)
+- P0386 — Section 18: CI and Inside Out Backwards (claim)
+- P0387 — Request for Section 19 (meta-method)
+- P0388 — Section 19: Book Architecture (claim)
+- P0389 — Request for Section 20 (meta-method)
+- P0390 — Section 20: Style Guide and Voice Constraints (claim)
+- P0391 — Request for Section 21 (meta-method)
+- P0392 — Section 21: Reading Map and Research Scaffold (claim)
+- P0393 — Section 22 Agentic Revision Loop (procedure)
+- P0394 — CI Lab Implementation Spec (procedure)
+- P0395 — Vignette Packs for Leak Types (procedure)
+- P0396 — LCG/LCG-X Spec and Bootstrap Package (procedure)
+
+## By Intent
+### analogy
+- P0004 — Expression Complexity Analogy
+- P0181 — Gödel Analogy for Ground
+
+### bridge
+- P0286 — Inversions Map to Renormalization
+- P0305 — Turing Instability as Bridge
+- P0362 — Triple Lock Summary
+
+### claim
+- P0002 — Constructive Emergence Order vs Magnitude
+- P0003 — Emergence Order Forms a Branching DAG
+- P0006 — Induction on Generative Depth
+- P0007 — Inside Out Backwards: Operations First
+- P0008 — Primitive Commitments and Objects as Fossils
+- P0009 — Time vs History and Reverse Engineering
+- P0010 — Breaks with Tradition and Spine Sentence
+- P0013 — Narrative-Based Reasoning Claim
+- P0014 — Narrative as Condition of Intelligibility
+- P0015 — Reasoning as Story Hierarchy and Analogy
+- P0017 — Narratives Discovered, Constructed, Imposed
+- P0018 — Narrative Triad Matters
+- P0019 — Narrative Across Biology, Mind, Cosmology
+- P0020 — Not "Everything Is a Story"
+- P0021 — Biological Anchor for Narrative
+- P0022 — Cosmology as Narrative Stress Test
+- P0025 — Strength: Universe Can Disagree
+- P0027 — Comparative Investigation Framing
+- P0031 — Inversion as Structural Role
+- P0034 — Implications If Caretaking Is True
+- P0035 — Failure Mode: Narrative Breaks at Scale
+- P0036 — Inside Out Human Story
+- P0040 — Caretaking as Causal Locus
+- P0041 — Self-Contained Narrative Properties
+- P0042 — Myth as Scaffolding
+- P0043 — Emotional Gradient as Signal
+- P0046 — Hinge Where Inward/Outward Arise
+- P0049 — Hierarchies Require Ground
+- P0050 — Groundlessness as Structural Expectation
+- P0051 — Coherence Without Ground
+- P0052 — Science Forbids Ground-Seeking
+- P0053 — Foundational Shifts Are Lateral
+- P0055 — Philosophy as Art of Orientation
+- P0056 — Spatial Metaphor Failure
+- P0057 — Recursive Loop of Meaning
+- P0058 — Art vs Science on Frames
+- P0059 — Remainder of Intelligibility
+- P0061 — Space Is a Late Compression
+- P0062 — Time as Ordering Constraint
+- P0063 — Primitive Is Ordered Constraint
+- P0065 — Starting Posture: Constraint + Order + Memory
+- P0066 — Orientation Loss Feels Unsettling
+- P0067 — Visual Bias and Starting with Empty Space
+- P0068 — Empty Space as Starting Illusion
+- P0069 — Nothingness as Cognitive Trap
+- P0070 — Eye of the Needle Sequence
+- P0071 — Cannot Start with Both Space and Time
+- P0073 — Empty Space Sets Up Inversion
+- P0076 — First Asymmetry Becomes Justification
+- P0079 — Distinction Yields Multiplicity and Relation
+- P0080 — Distinction Doesn’t Smuggle Space/Time
+- P0081 — First Dimension as Tension
+- P0082 — Inversion Sequence for Reader
+- P0086 — Second Dimension Forced by Relation
+- P0087 — Asymmetry Before Symmetry
+- P0088 — Distinction Must Legitimate Itself
+- P0090 — Hierarchy from Legitimation
+- P0091 — Seeds of Causality Appear
+- P0092 — Plate Metaphor Works as Pressure Test
+- P0094 — Dualism Origin, But Not Enough
+- P0095 — Dualism as Minimal Stability
+- P0096 — Dualism Doesn’t Resolve the Pressure
+- P0097 — Dualism as Scaffold, Not Foundation
+- P0098 — Dualism Demands Mediation
+- P0099 — Lived Dualism and Unease
+- P0103 — Duality as Self-Differentiation
+- P0104 — Hegel: Identity Contains Difference
+- P0105 — Fractality and Retrospective Unity
+- P0106 — Experience as Differentiation Felt
+- P0107 — Duality Necessary for Intelligibility
+- P0108 — Duality as Generative Condition
+- P0110 — No "Out"; Go Inward
+- P0111 — Ground as Inward Generative Activity
+- P0113 — Topology Before Geometry
+- P0114 — Momentum More Fundamental Than Position
+- P0115 — Momentum as Inertia of Differentiation
+- P0116 — Topology + Momentum as Proto-Physics
+- P0117 — Space Emerges After Momentum
+- P0118 — Ground as Structured Differentiation
+- P0121 — Physics Inversion: Relations First
+- P0122 — Field as Self-Referential Dynamics
+- P0124 — Gravity as Persistent Self-Relation
+- P0125 — Gauge Theory and Recursive Consistency
+- P0126 — Clean Claim About External Frames
+- P0127 — Inverted Explanatory Order
+- P0131 — Newtonian Self-Gravity Is Zero
+- P0132 — GR Makes Self-Gravity Ill-Posed
+- P0133 — Singular Point Particles Fail
+- P0134 — Black Hole as Self-Consistency
+- P0135 — Self-Gravity as Condition of Existence
+- P0136 — Inward Momentum Reinterpreted
+- P0137 — Condensed Answer on Self-Gravity
+- P0139 — GR Presumes Multiplicity
+- P0140 — Change as Primary Datum
+- P0141 — Infinite Divisibility Is Processual
+- P0142 — Multiplicity Forced by Differentiation
+- P0143 — Math as Compression of Change
+- P0144 — Change Dominates, Things Are Plateaus
+- P0145 — GR as Late Compression
+- P0146 — Existence as Continual Difference
+- P0149 — Non-Cessation Replaces Ground
+- P0150 — Chaos and Order Co-Occur
+- P0151 — Change with or without Memory
+- P0152 — Possibility Peeling Back
+- P0154 — Narrative as Persistence Mode
+- P0155 — Eeriness Shifts to Calm
+- P0157 — Intentionality Emerges from Huge Search Space
+- P0158 — Intentionality Without Desire
+- P0159 — Survival Instinct as Distorted Case
+- P0160 — Intentionality as Navigation
+- P0161 — Aboutness as Structural Alignment
+- P0162 — Chain from Persistence to Intentionality
+- P0163 — Human Tension from Mixed Biases
+- P0164 — Meaning and Agency as Stabilized Selection
+- P0165 — Direction Unavoidable Without Cosmic Plan
+- P0167 — Not All Possibilities Persist
+- P0168 — Unfolding Is Neither Script nor Random Spray
+- P0169 — Possibility Generated and Pruned
+- P0170 — "All Possibilities" Is Ill-Posed
+- P0171 — Persistence Is Expensive
+- P0172 — Laws as Survivors
+- P0173 — No Global Exploration Strategy
+- P0174 — Direction and Narrative from Memory
+- P0175 — We Inhabit the Region That Persisted
+- P0177 — Negative Ground and Gödel Analogy
+- P0178 — Persistence Isn’t a Choice
+- P0179 — Engage/Run as Structural Metaphor
+- P0180 — Ground Must Be Negative
+- P0182 — Not Theology
+- P0183 — Dread as Boundary of Representability
+- P0184 — Clean Statement of Negative Ground
+- P0185 — Project Consequence of Negative Ground
+- P0186 — Time and Space from Two Points
+- P0187 — Time as Ordered Persistence
+- P0188 — Space as Maintained Separation
+- P0189 — Time Plus Two Points Creates a World
+- P0190 — Order Matters: Time Before Space
+- P0191 — Minimal Inventory After Emergence
+- P0192 — End of the Nothingness Phase
+- P0193 — Payoff: No Assumed Spacetime or Laws
+- P0194 — Next Step: Motion and Fields
+- P0195 — Return to the First Thought Experiment
+- P0196 — Operations as Grammar of Search Space
+- P0197 — Randomness and Order as Tactics
+- P0198 — Division as Irreducible Process
+- P0199 — Not Reductionism, No Final Synthesis
+- P0200 — One-Sentence Spine of the Work
+- P0201 — Singularities as Next Step
+- P0202 — Singularities Feel Like the Beginning
+- P0203 — Inversion Builds Complexity
+- P0204 — Singularities as Interfaces
+- P0205 — Fields Upon Fields as Stratification
+- P0206 — Inversion Across Domains
+- P0207 — Singularities as Survival of Breakdown
+- P0210 — Trading Space for Time Reinterpreted
+- P0211 — "Getting Smaller" as Constrained Futures
+- P0212 — Acceleration Requires Careful Framing
+- P0213 — Fields and New Scaffolding
+- P0214 — Core Thesis on Degrees of Freedom
+- P0216 — Final Inversion on Time Direction
+- P0217 — No Global Time Direction
+- P0218 — Universe as a Self-Consistent Moment
+- P0219 — "Moving Backwards" as Constraint Resolution
+- P0220 — Beyond Interpretation
+- P0221 — Not Determinism
+- P0222 — Calibrated Thesis Statement on Time
+- P0223 — Final Inversion as Orientation
+- P0224 — Confirmation of the Core Idea
+- P0225 — Coherence and Arc Summary
+- P0226 — Orientation Theory Framing
+- P0231 — Core Logical Spine Sketch
+- P0253 — Three Outcome Categories
+- P0255 — Expected Artifacts of Differential Scaling
+- P0258 — Pure Gauge as Redundancy
+- P0259 — Almost-Gauge with Leaks
+- P0260 — Sector-Dependent Coupling
+- P0261 — Gauge Theory Ingredients
+- P0262 — Gauge-Invariant Observables
+- P0264 — Signatures of Leaks vs Coupling
+- P0266 — Preference for Leaks or Sector Coupling
+- P0267 — Almost-Gauge Fits Negative Ground
+- P0268 — Sector Coupling Is Testable
+- P0271 — Prefer Leaky Gauge but Keep Options
+- P0272 — Leaky Gauge vs Sector Coupling Feel Similar
+- P0273 — Similarity Is Practical, Not Principled
+- P0274 — Leaky Gauge Defined by Global Invariants
+- P0275 — Sector Coupling Defined by Local Mismatch
+- P0277 — Coarse-Graining Blurs the Difference
+- P0281 — Wilson Loops as Global Residue
+- P0282 — Self-Reference vs Self-Legitimization
+- P0283 — Wilson Loops Support Leaky Ground
+- P0285 — Laws as Surviving Regularities
+- P0287 — Inversions Expose Invariants
+- P0288 — Tactic Metaphor, Non-Anthropomorphic
+- P0290 — Gravity First Conceptually, Not Chronologically
+- P0291 — Why Gravity Appears Weak
+- P0292 — Gravity Hard to Reconcile with Other Forces
+- P0293 — Interpretive Read on Gravity
+- P0295 — Magnetism as Orientable Distinction
+- P0297 — Experience as Data, Not Authority
+- P0298 — Multiple Arrows of Time
+- P0299 — Low-Entropy Past and Local Arrows
+- P0300 — Non-Anthropocentric Litmus Test
+- P0301 — Existential Baggage and the Felt Arrow
+- P0302 — Psychological vs Thermodynamic Arrows
+- P0303 — Turing Patterns Clarified
+- P0304 — Complexity Without Inner Copy
+- P0319 — Unorientability from Multiple Inversions
+- P0320 — Unorientability Defined
+- P0321 — Multiple Inversions Yield Patchwise Charts
+- P0322 — Useful Unknowns via Modern Theory
+- P0324 — Taxonomy of Leak Types
+- P0325 — Structured Humility Outcome
+- P0326 — Scientific Method as Artistic Framework
+- P0327 — Gödel Limits and Patchwork Coherence
+- P0329 — Method Chapter Intro: Non-Closure
+- P0336 — Method Chapter: Not Relativism
+- P0339 — Entry Point Leak Analysis
+- P0345 — Field Manual: Leak Taxonomy
+- P0353 — Reasoning Tool Justification
+- P0356 — Visual Companion Wrinkle
+- P0359 — Storyboard and SIM_SPEC Artifacts
+- P0361 — Storyboard Schema and Visual Agent Prompts
+- P0364 — Self-Contained Argument Draft
+- P0370 — Academic CI Draft v0.1
+- P0372 — Academic Draft v0.2 (Definitions + Lemmas)
+- P0374 — CI v0.3 Addendum: Complexity Parameter
+- P0376 — Integrated Academic Draft v0.3
+- P0378 — Section 6.6 Propositions + Proof Sketches
+- P0379 — Integrated Section 6 (Draft v0.6)
+- P0380 — Section 13 Related Work
+- P0381 — Section 14 Case Study (Reaction–Diffusion)
+- P0383 — Section 16 Methods Infrastructure
+- P0384 — Section 17 Formal Appendix
+- P0386 — Section 18: CI and Inside Out Backwards
+- P0388 — Section 19: Book Architecture
+- P0390 — Section 20: Style Guide and Voice Constraints
+- P0392 — Section 21: Reading Map and Research Scaffold
+
+### constraint
+- P0254 — Uniform Rescaling Is Undetectable
+- P0263 — Requirements for a Good Gauge Theory
+- P0330 — Principle 1: No Privileged Chart
+- P0331 — Principle 2: Local Sovereignty
+- P0332 — Principle 3: Seek the Glue
+- P0333 — Principle 4: Invariant First
+- P0334 — Principle 5: Treat Leaks as Data
+- P0335 — Principle 6: Invert the Primitive
+- P0343 — Field Manual: Prime Directive and Entry Discipline
+- P0347 — Field Manual: Invariant Checklist
+
+### correction
+- P0011 — Correction: Philosophy Not Yet Revealed
+- P0039 — Sobering as Diagnostic Signal
+- P0102 — Correction: Duality Is Everything
+- P0123 — Correction on Gravity as Momentum
+- P0209 — Correction: Singularities as Compaction
+
+### definition
+- P0005 — "Induction on Complexity" Name
+- P0023 — Inside/Out/Backwards Meaning
+- P0030 — Definition of Narrative Success
+- P0047 — Three Stances on Narrative Direction
+- P0078 — First Dimension as Distinction
+- P0089 — Second Dimension as Entailment
+- P0365 — Naming the Method: Induction on Complexity
+- P0366 — Definition of Induction on Complexity
+- P0367 — Rename to Complexical Induction (CI)
+- P0368 — Definition and Mantra for CI
+
+### discriminator
+- P0028 — Evidence for Narrative Failure
+- P0033 — Counterfactual Test Criteria
+- P0044 — Criterion for Narrative Deconstruction
+- P0084 — Next Question: Distinction Without Ordering
+- P0093 — Recursion Converge, Diverge, or Stabilize?
+- P0101 — Sustaining Opposing Distinctions
+- P0109 — Coherence of Differentiation
+- P0147 — Next Question: Persistence of Patterns
+- P0156 — Next Questions After Chaos/Order
+- P0176 — Unfolding Summary and Next Question
+- P0234 — Rigor Test: No Optional Steps
+- P0269 — Choose a Signature
+- P0276 — Gauge-Away Test
+- P0279 — Limit-Test Questions
+
+### hypothesis
+- P0001 — Emergence Ordering of Rationals
+- P0026 — Two Possibilities: Narrative or Not
+- P0029 — Counterfactual of Narrative Success
+- P0032 — Caretaker Hypothesis
+- P0085 — Plate Break Thought Experiment
+- P0120 — Inversion, Fields, and Gravity Hypothesis
+- P0130 — Self-Gravity Question
+- P0138 — Multiplicity and Infinite Divisibility Question
+- P0166 — Question: Does the Universe Explore All Possibilities?
+- P0208 — Subatomic Compaction and Space/Time Trade
+- P0252 — Artifact Question for Divisionary Process
+
+### meta-method
+- P0012 — Reset Method and Spine Question
+- P0016 — Philosophy as Disciplined Metaphor
+- P0024 — Organize by Interfaces
+- P0037 — Caretaking Framing and Next Question
+- P0045 — Inward vs Outward Question
+- P0048 — Philosophy as Orientation Destabilization
+- P0054 — Ground Question as Boundary Condition
+- P0060 — Start with Space and Time?
+- P0064 — Philosophy as Meta-Orientation
+- P0072 — Nothingness as Method
+- P0074 — Philosophy as Pedagogical Art
+- P0075 — Thought Experiment from Nothingness
+- P0077 — Assume a First Dimension?
+- P0083 — Clean Phrasing for Distinction
+- P0100 — Derive Dualism, Don’t Reject It
+- P0112 — Turn to Physics: Topology and Momentum
+- P0119 — Next Questions: Stabilization to Agency
+- P0128 — Rule: Interpretive, Not Declarative
+- P0129 — Next Steps: Symmetry to Agency
+- P0153 — Note and Explore the New Dimension
+- P0215 — Calibration: Tag Statement Types
+- P0227 — Next Step: Tighten Language
+- P0229 — Discovery Path vs Justification Path
+- P0230 — What to Formalize and What Not To
+- P0232 — Flag Necessity vs Interpretation
+- P0233 — Multiple Entry Points
+- P0235 — Next Formalization Steps
+- P0236 — Request for Research Roadmap
+- P0250 — Suggested Writing Structure
+- P0251 — Dependency Graph with Literatures
+- P0256 — Choose Gauge Category
+- P0257 — Request for Gauge Options and Theory Basics
+- P0265 — Writing as Model Classes and Fork Test
+- P0270 — Disciplined Thesis Wording
+- P0278 — Writing the Two Interpretations
+- P0306 — Houdini Experiments Request
+- P0318 — Houdini Output Preference Check
+- P0323 — Orientation Budget Formalization
+- P0328 — Request for Method Chapter Draft
+- P0337 — Gödel Coda and Toolkit Offer
+- P0340 — IOB Action Loop
+- P0341 — Creative Exercises and Prolegomenon Upgrade
+- P0342 — Request for Field Manual
+- P0344 — Field Manual: Action Loop Steps
+- P0346 — Field Manual: Inversion Prompts
+- P0348 — Field Manual: Practical Exercises
+- P0349 — Field Manual: Rule and Opening Move
+- P0352 — Revision Loop Steps and Scoring
+- P0354 — Implementation with Ledgers and Schemas
+- P0358 — Request to Generate Visual Artifacts
+- P0360 — Request for Additional Visual Pieces
+- P0363 — Request for Full Argument Document
+- P0369 — Request for Academic CI Draft
+- P0371 — Request for Definitions + Worked Example
+- P0373 — Request for Complexity Parameter Section
+- P0375 — Request to Integrate the Addendum
+- P0382 — Section 15 Discussion/Predictions Suggestion
+- P0385 — Request for Section 18
+- P0387 — Request for Section 19
+- P0389 — Request for Section 20
+- P0391 — Request for Section 21
+
+### objection
+- P0038 — Objection to "Sobering" and Caretaking
+- P0296 — Question About Privileging Time Experience
+
+### procedure
+- P0237 — Research: Method and Philosophy of Science
+- P0238 — Research: Nothingness as Decoy
+- P0239 — Research: Distinction as Primitive
+- P0240 — Research: Duality and Recursion
+- P0241 — Research: Fractality and Emergence
+- P0242 — Research: Chaos and Order
+- P0243 — Research: Time as Ordering
+- P0244 — Research: Space from Two Points
+- P0245 — Research: Momentum and Symmetry
+- P0246 — Research: Singularities and EFT
+- P0247 — Research: Intentionality Without Motivation
+- P0248 — Research: Negative Ground and Incompleteness
+- P0249 — Research: Broader Academic Appeal
+- P0307 — Houdini Mini-Projects Overview
+- P0308 — Houdini: Reaction–Diffusion Setup
+- P0309 — Houdini: Phase Transition Interface
+- P0310 — Houdini: Holonomy Toy on Graph
+- P0311 — Houdini: Division 1→2 Field Splitting
+- P0312 — Houdini: Rules as Compression
+- P0313 — Reaction–Diffusion Houdini Setup
+- P0314 — Reaction–Diffusion Parameter Knobs
+- P0315 — RD Experiment: Inversion Interface
+- P0316 — RD Experiment: Leaky Gauge Loop Residue
+- P0317 — RD Experiment: Fields Upon Fields
+- P0351 — IOB Revision Loop Overview
+- P0355 — Agent Prompt Templates and Codex Config
+- P0357 — Visual Framework and Simulation Grammar
+- P0377 — Section 6.5 Leak→Inversion Playbook
+- P0393 — Section 22 Agentic Revision Loop
+- P0394 — CI Lab Implementation Spec
+- P0395 — Vignette Packs for Leak Types
+- P0396 — LCG/LCG-X Spec and Bootstrap Package
+
+### question
+- P0148 — Non-Cessation and Chaos/Order Question
+- P0228 — Formalization Request and Logic Background
+- P0280 — Question on Wilson Loops
+- P0284 — Question About Physical Rules
+- P0289 — Gravity as the First Force?
+- P0294 — Magnetism as Initial Distinction?
+- P0338 — Entry Point Leaks and Actionability Request
+- P0350 — Request for Algorithmic Agential Loop
+
+## By Arc (control pieces only)
+### ci_method
+- P0228 — Formalization Request and Logic Background (question)
+- P0237 — Research: Method and Philosophy of Science (procedure)
+- P0238 — Research: Nothingness as Decoy (procedure)
+- P0239 — Research: Distinction as Primitive (procedure)
+- P0240 — Research: Duality and Recursion (procedure)
+- P0241 — Research: Fractality and Emergence (procedure)
+- P0242 — Research: Chaos and Order (procedure)
+- P0243 — Research: Time as Ordering (procedure)
+- P0244 — Research: Space from Two Points (procedure)
+- P0245 — Research: Momentum and Symmetry (procedure)
+- P0246 — Research: Singularities and EFT (procedure)
+- P0247 — Research: Intentionality Without Motivation (procedure)
+- P0248 — Research: Negative Ground and Incompleteness (procedure)
+- P0249 — Research: Broader Academic Appeal (procedure)
+- P0330 — Principle 1: No Privileged Chart (constraint)
+- P0331 — Principle 2: Local Sovereignty (constraint)
+- P0332 — Principle 3: Seek the Glue (constraint)
+- P0333 — Principle 4: Invariant First (constraint)
+- P0334 — Principle 5: Treat Leaks as Data (constraint)
+- P0335 — Principle 6: Invert the Primitive (constraint)
+- P0338 — Entry Point Leaks and Actionability Request (question)
+- P0343 — Field Manual: Prime Directive and Entry Discipline (constraint)
+- P0347 — Field Manual: Invariant Checklist (constraint)
+- P0377 — Section 6.5 Leak→Inversion Playbook (procedure)
+
+### iob_ontology
+- P0148 — Non-Cessation and Chaos/Order Question (question)
+- P0284 — Question About Physical Rules (question)
+
+### lcg_agents
+- P0307 — Houdini Mini-Projects Overview (procedure)
+- P0308 — Houdini: Reaction–Diffusion Setup (procedure)
+- P0309 — Houdini: Phase Transition Interface (procedure)
+- P0310 — Houdini: Holonomy Toy on Graph (procedure)
+- P0311 — Houdini: Division 1→2 Field Splitting (procedure)
+- P0312 — Houdini: Rules as Compression (procedure)
+- P0313 — Reaction–Diffusion Houdini Setup (procedure)
+- P0314 — Reaction–Diffusion Parameter Knobs (procedure)
+- P0315 — RD Experiment: Inversion Interface (procedure)
+- P0316 — RD Experiment: Leaky Gauge Loop Residue (procedure)
+- P0317 — RD Experiment: Fields Upon Fields (procedure)
+- P0350 — Request for Algorithmic Agential Loop (question)
+- P0351 — IOB Revision Loop Overview (procedure)
+- P0355 — Agent Prompt Templates and Codex Config (procedure)
+- P0357 — Visual Framework and Simulation Grammar (procedure)
+- P0362 — Triple Lock Summary (bridge)
+- P0393 — Section 22 Agentic Revision Loop (procedure)
+- P0394 — CI Lab Implementation Spec (procedure)
+- P0395 — Vignette Packs for Leak Types (procedure)
+- P0396 — LCG/LCG-X Spec and Bootstrap Package (procedure)
+
+### physics_turn
+- P0254 — Uniform Rescaling Is Undetectable (constraint)
+- P0263 — Requirements for a Good Gauge Theory (constraint)
+- P0280 — Question on Wilson Loops (question)
+- P0286 — Inversions Map to Renormalization (bridge)
+- P0289 — Gravity as the First Force? (question)
+- P0294 — Magnetism as Initial Distinction? (question)
+- P0305 — Turing Instability as Bridge (bridge)

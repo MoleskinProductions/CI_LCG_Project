@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/ci/probe_output.schema.json",
+  "title": "CI Probe Output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_id",
+    "run_id",
+    "timestamp",
+    "node_id",
+    "probe_id",
+    "discriminator_ids",
+    "interface_variables",
+    "chart_mode",
+    "observable_values",
+    "split_result",
+    "confidence",
+    "failure_signatures"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^0\\.1\\.0$"
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^PO-\\d{6}$"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^RUN-\\d{6}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "node_id": {
+      "type": "string",
+      "pattern": "^Q\\d{6}$"
+    },
+    "probe_id": {
+      "type": "string",
+      "pattern": "^P-PRB-\\d{3}$"
+    },
+    "discriminator_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^D-[A-Z0-9-]+$"
+      }
+    },
+    "interface_variables": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "chart_mode": {
+      "type": "string",
+      "pattern": "^CHART-\\d{3}$"
+    },
+    "observable_values": {
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "number",
+          "string",
+          "boolean",
+          "array",
+          "object",
+          "null"
+        ]
+      }
+    },
+    "split_result": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "fail",
+        "inconclusive"
+      ]
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "failure_signatures": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

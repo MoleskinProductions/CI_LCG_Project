@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/ci/seam_flag.schema.json",
+  "title": "CI Seam Flag",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "flag_id",
+    "run_id",
+    "timestamp",
+    "severity",
+    "scope",
+    "kind",
+    "trigger_probe_ids",
+    "evidence_refs"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^0\\.1\\.0$"
+    },
+    "flag_id": {
+      "type": "string",
+      "pattern": "^SF-\\d{6}$"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^RUN-\\d{6}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "node",
+        "edge",
+        "path"
+      ]
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "silent_upgrade",
+        "taxonomy_drift",
+        "reification",
+        "axis_collapse",
+        "nonportable_transfer"
+      ]
+    },
+    "node_id": {
+      "type": "string",
+      "pattern": "^Q\\d{6}$"
+    },
+    "edge_id": {
+      "type": "string",
+      "pattern": "^E\\d{6}$"
+    },
+    "trigger_probe_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^P-PRB-\\d{3}$"
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "recommended_action": {
+      "type": "string"
+    }
+  }
+}

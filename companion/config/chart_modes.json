@@ -1,0 +1,76 @@
+{
+  "version": "0.1.0",
+  "chart_modes": [
+    {
+      "id": "CHART-001",
+      "name": "formal_method_chart",
+      "description": "Procedure-first chart emphasizing premise accounting and explicit seam typing.",
+      "channels": [
+        "primitive budget / silent premise",
+        "ledger stability / taxonomy drift"
+      ],
+      "default_probes": [
+        "P-PRB-001",
+        "P-PRB-002",
+        "P-PRB-003"
+      ]
+    },
+    {
+      "id": "CHART-002",
+      "name": "entry_framing_chart",
+      "description": "Compares ontic vs epistemic entry framings while preserving seam visibility.",
+      "channels": [
+        "primitive budget / silent premise",
+        "ledger stability / taxonomy drift"
+      ],
+      "default_probes": [
+        "P-PRB-002",
+        "P-PRB-004",
+        "P-PRB-005"
+      ]
+    },
+    {
+      "id": "CHART-003",
+      "name": "ontology_restatement_chart",
+      "description": "Tests re-description stability for triad mapping, differentiation, and ground claims.",
+      "channels": [
+        "primitive budget / silent premise",
+        "constraint-order coupling"
+      ],
+      "default_probes": [
+        "P-PRB-006",
+        "P-PRB-007",
+        "P-PRB-008"
+      ]
+    },
+    {
+      "id": "CHART-004",
+      "name": "detectability_comparison_chart",
+      "description": "Chart-comparison mode for residue, scaling, and admissibility-class checks.",
+      "channels": [
+        "loop/closure residue",
+        "dimensionless drift",
+        "observability equivalence class",
+        "orientation residue"
+      ],
+      "default_probes": [
+        "P-PRB-009",
+        "P-PRB-010",
+        "P-PRB-011"
+      ]
+    },
+    {
+      "id": "CHART-005",
+      "name": "time_identity_stress_chart",
+      "description": "Stress mode for persistence under re-indexing and local asymmetry tracking.",
+      "channels": [
+        "local arrow persistence",
+        "constraint-order coupling"
+      ],
+      "default_probes": [
+        "P-PRB-012",
+        "P-PRB-007"
+      ]
+    }
+  ]
+}

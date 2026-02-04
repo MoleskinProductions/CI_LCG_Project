@@ -1,0 +1,21 @@
+{
+  "patch_id": "PATCH-20260204-163024",
+  "task_id": "TASK-BOOTSTRAP",
+  "target": {
+    "scope": "node",
+    "id": "Q000021"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/nodes/Q000021/discriminators/-",
+      "value": {
+        "id": "D-A10-001",
+        "name": "A10 stub for Q000021",
+        "pattern": "orthogonal_probe",
+        "how_to": "Observable: TODO define measurable axis from task hotspot. Split criterion: TODO define pass/fail boundary with explicit seam condition.",
+        "transferable": false
+      }
+    }
+  ]
+}

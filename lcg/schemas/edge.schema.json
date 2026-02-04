@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/lcg/edge.schema.json",
+  "title": "LCG RelationEdge",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "source",
+    "target",
+    "type",
+    "weight",
+    "justification"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^E\\d{6}$"
+    },
+    "source": {
+      "type": "string",
+      "pattern": "^Q\\d{6}$"
+    },
+    "target": {
+      "type": "string",
+      "pattern": "^Q\\d{6}$"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "E1_SharedLeak",
+        "E2_ComplementaryLeak",
+        "E3_DiscriminatorTransfer",
+        "E4_ChartBridge"
+      ]
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "justification": {
+      "type": "string",
+      "minLength": 40
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "enable": true,
+  "package_version": "0.1.0",
+  "requires_houdini": ">=20.0",
+  "description": "CI/LCG simulation companion bootstrap package.",
+  "env": [
+    {
+      "CI_PACKAGE_ROOT": "$HOUDINI_USER_PREF_DIR/packages/../houdini_package"
+    },
+    {
+      "CI_CONFIG_DIR": "$CI_PACKAGE_ROOT/../companion/config"
+    },
+    {
+      "CI_SCHEMA_DIR": "$CI_PACKAGE_ROOT/../companion/schemas"
+    },
+    {
+      "CI_CHART_MODES": "$CI_CONFIG_DIR/chart_modes.json"
+    },
+    {
+      "CI_PROBE_REGISTRY": "$CI_CONFIG_DIR/probe_registry.json"
+    },
+    {
+      "CI_SCHEMA_PROBE_OUTPUT": "$CI_SCHEMA_DIR/probe_output.schema.json"
+    },
+    {
+      "CI_SCHEMA_LEDGER_EVENT": "$CI_SCHEMA_DIR/ledger_event.schema.json"
+    },
+    {
+      "CI_SCHEMA_SEAM_FLAG": "$CI_SCHEMA_DIR/seam_flag.schema.json"
+    },
+    {
+      "CI_OUTPUT_PROBE_DIR": "$CI_PACKAGE_ROOT/output/probe_runs"
+    },
+    {
+      "CI_OUTPUT_LEDGER_DIR": "$CI_PACKAGE_ROOT/output/ledger"
+    },
+    {
+      "CI_LOG_DIR": "$CI_PACKAGE_ROOT/logs"
+    },
+    {
+      "CI_PROBE_RUNNER_CMD": ""
+    },
+    {
+      "CI_PANEL_ID": "ci_lcg_panel"
+    },
+    {
+      "PYTHONPATH": "$CI_PACKAGE_ROOT/python;&"
+    },
+    {
+      "HOUDINI_PATH": "$CI_PACKAGE_ROOT/houdini;&"
+    },
+    {
+      "HOUDINI_PYTHON_PANEL_PATH": "$CI_PACKAGE_ROOT/houdini/python_panels;&"
+    }
+  ],
+  "bootstrap_contract": {
+    "panel": {
+      "enabled": true,
+      "panel_id": "$CI_PANEL_ID",
+      "panel_search_path": "$HOUDINI_PYTHON_PANEL_PATH"
+    },
+    "probe_runner": {
+      "mode": "external_command",
+      "command_env": "CI_PROBE_RUNNER_CMD",
+      "expected_output_schema": "$CI_SCHEMA_PROBE_OUTPUT"
+    },
+    "schema_validation": {
+      "probe_output": "$CI_SCHEMA_PROBE_OUTPUT",
+      "ledger_event": "$CI_SCHEMA_LEDGER_EVENT",
+      "seam_flag": "$CI_SCHEMA_SEAM_FLAG"
+    },
+    "ledger_writer": {
+      "output_dir": "$CI_OUTPUT_LEDGER_DIR",
+      "required_schema": "$CI_SCHEMA_LEDGER_EVENT"
+    }
+  }
+}
