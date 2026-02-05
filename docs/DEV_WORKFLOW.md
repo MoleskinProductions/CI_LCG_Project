@@ -2,6 +2,7 @@
 
 ## 1) Run smoke checks
 ```bash
+bash tools/precommit_smoke.sh
 python tools/smoke_test_imports.py
 python tools/smoke_test_paths.py
 python tools/smoke_test_panel_import.py
@@ -48,3 +49,8 @@ If verify fails, apply is blocked unless `--force` is provided.
   - Single run mode for one run overlay
   - Aggregate mode for heatmap + task generation
   - Trend tab for recent-vs-previous window deltas
+
+## 7) One-command release gate
+```bash
+bash tools/release_gate.sh
+```

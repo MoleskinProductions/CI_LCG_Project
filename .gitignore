@@ -1,0 +1,13 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Runtime outputs
+houdini_package/output/probe_runs/*.json
+houdini_package/output/ledger/*.json
+houdini_package/output/ledger/*.jsonl
+
+# Generated patch artifacts
+patches/PATCH-*.json
+patches/PATCH-*.md
+lcg/lcg_graph.patched.json
