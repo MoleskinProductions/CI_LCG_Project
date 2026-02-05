@@ -1,19 +1,10 @@
 import json
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict
 
-from . import schemas
+from . import paths, schemas
 from .validate import validate_json
-
-
-def _package_root() -> Path:
-    return Path(__file__).resolve().parents[2]
-
-
-def _default_ledger_dir() -> Path:
-    return _package_root() / "output" / "ledger"
 
 
 def _now_iso() -> str:
@@ -51,7 +42,7 @@ def build_ledger_event(
 
 
 def write_ledger_event(event: Dict[str, Any], ledger_dir: str | None = None) -> Dict[str, str]:
-    out_dir = Path(ledger_dir or os.environ.get("CI_OUTPUT_LEDGER_DIR", _default_ledger_dir()))
+    out_dir = Path(ledger_dir) if ledger_dir else paths.ledger_dir()
     out_dir.mkdir(parents=True, exist_ok=True)
 
     validate_json(event, schemas.load_ledger_event_schema(), label="ledger_event")

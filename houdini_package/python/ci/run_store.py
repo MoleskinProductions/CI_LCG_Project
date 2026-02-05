@@ -1,19 +1,11 @@
 import json
-import os
 from pathlib import Path
 from typing import Any, Dict, List
 
-
-def _package_root() -> Path:
-    return Path(__file__).resolve().parents[2]
-
-
-def _default_probe_run_dir() -> Path:
-    return _package_root() / "output" / "probe_runs"
-
+from . import paths
 
 def list_recent_runs(run_dir: str | None = None, limit: int = 50) -> List[str]:
-    path = Path(run_dir or os.environ.get("CI_OUTPUT_PROBE_DIR", _default_probe_run_dir()))
+    path = Path(run_dir) if run_dir else paths.probe_runs_dir()
     if not path.exists():
         return []
     files = [p for p in path.glob("PO-*.json") if p.is_file()]

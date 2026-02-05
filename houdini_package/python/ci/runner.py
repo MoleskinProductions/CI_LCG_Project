@@ -1,25 +1,16 @@
 import json
-import os
 import random
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict
 
-from . import ledger, registry, schemas
+from . import ledger, paths, registry, schemas
 from .validate import validate_json
 
 
 DEFAULT_PROBE_ID = "P-PRB-006"
 # Example reproducible fail seed:
 #   P-PRB-010 with seed=21 yields seam_count > 0.
-
-
-def _package_root() -> Path:
-    return Path(__file__).resolve().parents[2]
-
-
-def _default_probe_output_dir() -> Path:
-    return _package_root() / "output" / "probe_runs"
 
 
 def _now_iso() -> str:
@@ -285,7 +276,7 @@ def run_probe(
 
     validate_json(probe_output, schemas.load_probe_output_schema(), label="probe_output")
 
-    out_dir = Path(output_dir or os.environ.get("CI_OUTPUT_PROBE_DIR", _default_probe_output_dir()))
+    out_dir = Path(output_dir) if output_dir else paths.probe_runs_dir()
     out_dir.mkdir(parents=True, exist_ok=True)
     probe_output_path = out_dir / f"{record_id}.json"
     probe_output_path.write_text(json.dumps(probe_output, indent=2) + "\n", encoding="utf-8")

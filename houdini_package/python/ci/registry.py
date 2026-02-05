@@ -1,27 +1,12 @@
 import json
-import os
 from pathlib import Path
 from typing import Any, Dict, List
 
-
-def _package_root() -> Path:
-    return Path(__file__).resolve().parents[2]
-
-
-def _repo_root() -> Path:
-    return _package_root().parent
-
-
-def _default_registry_path() -> Path:
-    return _repo_root() / "companion" / "config" / "probe_registry.json"
-
-
-def _default_chart_modes_path() -> Path:
-    return _repo_root() / "companion" / "config" / "chart_modes.json"
+from . import paths
 
 
 def load_registry(registry_path: str | None = None) -> Dict[str, Any]:
-    path = Path(registry_path or os.environ.get("CI_PROBE_REGISTRY", _default_registry_path()))
+    path = Path(registry_path) if registry_path else paths.registry_path()
     with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
     if "probes" not in data or not isinstance(data["probes"], list):
@@ -30,7 +15,7 @@ def load_registry(registry_path: str | None = None) -> Dict[str, Any]:
 
 
 def load_chart_modes(chart_modes_path: str | None = None) -> Dict[str, Any]:
-    path = Path(chart_modes_path or os.environ.get("CI_CHART_MODES", _default_chart_modes_path()))
+    path = Path(chart_modes_path) if chart_modes_path else paths.chart_modes_path()
     with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
     if "chart_modes" not in data or not isinstance(data["chart_modes"], list):

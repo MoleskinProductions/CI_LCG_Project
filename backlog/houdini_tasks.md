@@ -39,3 +39,31 @@
    - Done means all generated artifacts declare `schema_version: 0.1.0` and pass schema validation.
 15. Soft-edge handling check.
    - Done means any E1-driven scenario is explicitly labeled “soft adjacency” in reports.
+
+## Production Alignment Trajectory (Integrated from production_spec.md, 2026-02-05)
+
+## Phase 0 — Repo Reality Lock (Audit First)
+1. Produce `reports/repo_audit.md` with verified file-path facts.
+   - Done means audit lists panel locations, package file status, output paths, and risk list.
+
+## Phase 1 — Path Centralization + Output Integrity
+2. Add canonical resolver module `houdini_package/python/ci/paths.py`.
+   - Done means panel + CLI + runner + ledger + patch assistant all resolve output/graph paths through one module.
+3. Fix task suggestions path divergence.
+   - Done means both UI and tools read/write `houdini_package/output/ledger/task_suggestions.jsonl` only.
+
+## Phase 2 — Houdini 21 Packaging Hardening
+4. Keep one canonical panel implementation (`houdini_package/python/ci_panels/CI_GraphOverlay_panel.py`) and retire duplicate under `houdini_package/ui/`.
+   - Done means no duplicate runtime panel file is importable.
+5. Normalize package wiring and panel discovery (`houdini_package/package.json`, `.pypanel`, install doc).
+   - Done means panel is discoverable as "CI Graph Overlay" in Houdini 21.
+
+## Phase 3 — Headless Workflow Completeness
+6. Add `tools/ci_suggest_cli.py` for aggregate + task generation + optional JSONL append.
+   - Done means probe -> ledger -> suggest -> patch assistant works without opening Houdini.
+
+## Phase 4 — QA + Guardrails
+7. Add smoke tests (`tools/smoke_test_imports.py`, `tools/smoke_test_paths.py`).
+   - Done means import/path sanity checks pass in a clean shell.
+8. Add `reports/repo_fix_summary.md` after migration.
+   - Done means changed files, behavior impacts, and verification commands are documented.

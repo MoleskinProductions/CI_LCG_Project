@@ -47,10 +47,11 @@ class CIGraphOverlayPanel(QtWidgets.QWidget if QtWidgets else object):
         if str(pkg_python) not in sys.path:
             sys.path.insert(0, str(pkg_python))
 
-        from ci import aggregate, graph, registry, run_store, suggest, trends
+        from ci import aggregate, graph, paths, registry, run_store, suggest, trends
 
         self._aggregate_mod = aggregate
         self._graph_mod = graph
+        self._paths_mod = paths
         self._registry_mod = registry
         self._run_store = run_store
         self._suggest_mod = suggest
@@ -445,10 +446,8 @@ class CIGraphOverlayPanel(QtWidgets.QWidget if QtWidgets else object):
         return "\n".join(lines)
 
     def _suggestions_jsonl_path(self) -> Path:
-        pkg_root = Path(__file__).resolve().parents[1]
-        out_dir = pkg_root / "output" / "ledger"
-        out_dir.mkdir(parents=True, exist_ok=True)
-        return out_dir / "task_suggestions.jsonl"
+        self._paths_mod.ensure_runtime_dirs()
+        return self._paths_mod.task_suggestions_path()
 
     def _save_suggestions(self, tasks):
         p = self._suggestions_jsonl_path()

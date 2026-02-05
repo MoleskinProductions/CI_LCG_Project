@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pythonPanelDocument>
-  <!-- This file contains definitions of Python interfaces and the
- interfaces menu.  It should not be hand-edited when it is being
- used by the application.  Note, that two definitions of the
- same interface or of the interfaces menu are not allowed
- in a single file. -->
-  <interface name="ci_graphoverlay" label="CI GraphOverlay" icon="MISC_python" showNetworkNavigationBar="false" help_url="">
-    <script><![CDATA[########################################################################
-# Replace the sample code below with your own to create a
-# PySide interface.  Your code must define an
-# onCreateInterface() function that returns the root widget of
-# your interface.
-#
-# The 'hutil.PySide' is for internal-use only.
-#
-# When developing your own Python Panel, import directly from PySide
-# instead of from 'hutil.PySide'.
-########################################################################
+  <interface name="com.ci.graph_overlay" label="CI Graph Overlay" icon="MISC_python" showNetworkNavigationBar="false" help_url="">
+    <script><![CDATA[
+from ci_panels.CI_GraphOverlay_panel import CIGraphOverlayPanel
 
-#
-# SAMPLE CODE
-#
-from hutil.PySide import QtWidgets
-from ci_panels import CI_GraphOverlay_panel
 def onCreateInterface():
-    widget = CI_GraphOverlay_panel.CIGraphOverlayPanel()
-    return widget
+    return CIGraphOverlayPanel()
 ]]></script>
     <includeInToolbarMenu menu_position="801" create_separator="false"/>
-    <help><![CDATA[]]></help>
+    <help><![CDATA[CI Graph Overlay panel for probe runs, heatmaps, trends, and task suggestions.]]></help>
   </interface>
 </pythonPanelDocument>

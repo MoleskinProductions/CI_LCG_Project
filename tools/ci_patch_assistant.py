@@ -12,9 +12,17 @@ import argparse
 import copy
 import json
 import re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
+
+
+def _bootstrap_ci_python() -> None:
+    repo = Path(__file__).resolve().parents[1]
+    ci_python = repo / "houdini_package" / "python"
+    if str(ci_python) not in sys.path:
+        sys.path.insert(0, str(ci_python))
 
 
 def now_utc() -> str:
@@ -396,6 +404,11 @@ def verify_patched_graph(graph: Dict[str, Any], known_interface_vars: List[str] 
             p = d.get("pattern")
             if p not in allowed_patterns:
                 warnings.append(f"Node {n.get('id')} discriminator {d.get('id')} has unknown pattern: {p}")
+            how_to = str(d.get("how_to", ""))
+            if "TODO" in how_to or "placeholder" in how_to.lower():
+                warnings.append(
+                    f"Node {n.get('id')} discriminator {d.get('id')} contains placeholder guidance in how_to."
+                )
 
     return {
         "pass": len(errors) == 0,
@@ -439,10 +452,14 @@ def main() -> int:
     parser.add_argument("--force", action="store_true", help="Allow --apply even if verify checks fail.")
     args = parser.parse_args()
 
-    repo = Path(__file__).resolve().parents[1]
-    graph_path = repo / "lcg" / "lcg_graph.json"
-    suggestion_path = repo / "houdini_package" / "output" / "ledger" / "task_suggestions.jsonl"
-    iface_path = repo / "reports" / "interface_variables.md"
+    _bootstrap_ci_python()
+    from ci import paths as ci_paths
+
+    ci_paths.ensure_runtime_dirs()
+    repo = ci_paths.repo_root()
+    graph_path = ci_paths.lcg_graph_path()
+    suggestion_path = ci_paths.task_suggestions_path()
+    iface_path = ci_paths.reports_dir() / "interface_variables.md"
 
     graph = read_json(graph_path)
     suggestions_all = load_task_suggestions(suggestion_path)
@@ -496,18 +513,18 @@ def main() -> int:
 
     patched = apply_ops(graph, patch)
 
-    patches_dir = repo / "patches"
-    patches_dir.mkdir(exist_ok=True)
+    patches_dir = ci_paths.patches_dir()
+    patches_dir.mkdir(parents=True, exist_ok=True)
     patch_json_path = patches_dir / f"{patch['patch_id']}.json"
     patch_md_path = patches_dir / f"{patch['patch_id']}.md"
     write_json(patch_json_path, patch)
     patch_md_path.write_text(make_patch_md(patch, task_meta), encoding="utf-8")
 
-    patched_copy = repo / "lcg" / "lcg_graph.patched.json"
+    patched_copy = ci_paths.lcg_graph_path().parent / "lcg_graph.patched.json"
     write_json(patched_copy, patched)
 
     verify = verify_patched_graph(patched, known_interface_vars=interface_vars)
-    verify_report_path = repo / "reports" / "patch_verify_report.md"
+    verify_report_path = ci_paths.reports_dir() / "patch_verify_report.md"
     verify_report_path.write_text(
         make_verify_report(verify, patched_copy, graph_path), encoding="utf-8"
     )

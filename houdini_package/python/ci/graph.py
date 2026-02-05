@@ -1,8 +1,8 @@
 import json
-import os
 import re
-from pathlib import Path
 from typing import Any, Dict
+
+from . import paths
 
 
 CONSTELLATION_ORDER = ["C1", "C2", "C3", "C4", "C5"]
@@ -15,24 +15,8 @@ _CONSTELLATION_FULL = {
 }
 
 
-def _package_root() -> Path:
-    return Path(__file__).resolve().parents[2]
-
-
-def _repo_root() -> Path:
-    return _package_root().parent
-
-
-def _default_graph_path() -> Path:
-    return _repo_root() / "lcg" / "lcg_graph.json"
-
-
-def _default_constellations_path() -> Path:
-    return _repo_root() / "reports" / "constellations.md"
-
-
 def load_lcg_graph(graph_path: str | None = None) -> Dict[str, Any]:
-    path = Path(graph_path or os.environ.get("CI_LCG_GRAPH", _default_graph_path()))
+    path = Path(graph_path) if graph_path else paths.lcg_graph_path()
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -45,7 +29,7 @@ def _to_short_constellation(name: str) -> str:
 
 
 def _load_constellation_map() -> Dict[str, str]:
-    path = _default_constellations_path()
+    path = paths.constellations_report_path()
     mapping: Dict[str, str] = {}
     if path.exists():
         text = path.read_text(encoding="utf-8")

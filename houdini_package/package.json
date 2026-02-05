@@ -1,0 +1,47 @@
+{
+  "enable": true,
+  "package_version": "0.2.0",
+  "requires_houdini": ">=21.0",
+  "description": "CI/LCG Houdini integration package (panel + python tools).",
+  "env": [
+    {
+      "CI_PACKAGE_ROOT": "$HOUDINI_USER_PREF_DIR/packages/../houdini_package"
+    },
+    {
+      "CI_CONFIG_DIR": "$CI_PACKAGE_ROOT/../companion/config"
+    },
+    {
+      "CI_SCHEMA_DIR": "$CI_PACKAGE_ROOT/../companion/schemas"
+    },
+    {
+      "CI_CHART_MODES": "$CI_CONFIG_DIR/chart_modes.json"
+    },
+    {
+      "CI_PROBE_REGISTRY": "$CI_CONFIG_DIR/probe_registry.json"
+    },
+    {
+      "CI_SCHEMA_PROBE_OUTPUT": "$CI_SCHEMA_DIR/probe_output.schema.json"
+    },
+    {
+      "CI_SCHEMA_LEDGER_EVENT": "$CI_SCHEMA_DIR/ledger_event.schema.json"
+    },
+    {
+      "CI_SCHEMA_SEAM_FLAG": "$CI_SCHEMA_DIR/seam_flag.schema.json"
+    },
+    {
+      "CI_LCG_GRAPH_PATH": "$CI_PACKAGE_ROOT/../lcg/lcg_graph.json"
+    },
+    {
+      "CI_LCG_OUTPUT_DIR": "$CI_PACKAGE_ROOT/output"
+    },
+    {
+      "PYTHONPATH": "$CI_PACKAGE_ROOT/python;&"
+    },
+    {
+      "HOUDINI_PATH": "$CI_PACKAGE_ROOT/houdini;&"
+    },
+    {
+      "HOUDINI_PYTHON_PANEL_PATH": "$CI_PACKAGE_ROOT/houdini/python_panels;&"
+    }
+  ]
+}

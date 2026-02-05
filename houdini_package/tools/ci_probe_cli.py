@@ -30,16 +30,27 @@ def main() -> int:
 
     inputs = {}
     if args.inputs_json:
-        inputs = json.loads(args.inputs_json)
+        try:
+            inputs = json.loads(args.inputs_json)
+        except json.JSONDecodeError as exc:
+            print(f"ERROR: invalid --inputs-json ({exc})", file=sys.stderr)
+            return 2
 
-    result = run_probe(
-        probe_id=args.probe_id,
-        chart_mode_id=args.chart_mode_id,
-        inputs=inputs,
-        output_dir=args.output_dir,
-        stub_mode=True,
-        seed=args.seed,
-    )
+    try:
+        result = run_probe(
+            probe_id=args.probe_id,
+            chart_mode_id=args.chart_mode_id,
+            inputs=inputs,
+            output_dir=args.output_dir,
+            stub_mode=True,
+            seed=args.seed,
+        )
+    except FileNotFoundError as exc:
+        print(f"ERROR: missing required file: {exc}", file=sys.stderr)
+        return 3
+    except Exception as exc:
+        print(f"ERROR: probe execution failed: {exc}", file=sys.stderr)
+        return 1
 
     msg = f"{result['pass_fail']} seam_count={result['seam_count']} probe_output={result['probe_output_path']}"
     print(msg)
