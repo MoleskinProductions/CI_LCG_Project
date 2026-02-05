@@ -27,7 +27,7 @@ def _task_to_markdown(task: dict) -> str:
 
 def main() -> int:
     _bootstrap_path()
-    from ci import aggregate, graph, paths, registry, run_store, suggest
+    from ci import aggregate, graph, io_utils, paths, registry, run_store, suggest
 
     parser = argparse.ArgumentParser(description="Generate hotspot-driven CI task suggestions from recent probe runs.")
     parser.add_argument("--last-n", type=int, default=25, help="Number of most recent run files to aggregate.")
@@ -81,9 +81,8 @@ def main() -> int:
         target = paths.task_suggestions_path()
         target.parent.mkdir(parents=True, exist_ok=True)
         now = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
-        with target.open("a", encoding="utf-8") as f:
-            for task in out_tasks:
-                f.write(json.dumps({"timestamp": now, **task}) + "\n")
+        for task in out_tasks:
+            io_utils.append_jsonl_record(target, {"timestamp": now, **task})
         print(f"Appended {len(out_tasks)} suggestions to {target}")
 
     return 0

@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict
 
-from . import paths, schemas
+from . import io_utils, paths, schemas
 from .validate import validate_json
 
 
@@ -52,8 +52,7 @@ def write_ledger_event(event: Dict[str, Any], ledger_dir: str | None = None) -> 
     jsonl_path = out_dir / "ledger.jsonl"
 
     json_path.write_text(json.dumps(event, indent=2) + "\n", encoding="utf-8")
-    with jsonl_path.open("a", encoding="utf-8") as f:
-        f.write(json.dumps(event) + "\n")
+    io_utils.append_jsonl_record(jsonl_path, event)
 
     return {
         "ledger_event_json": str(json_path),

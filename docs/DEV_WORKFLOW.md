@@ -2,6 +2,7 @@
 
 ## 1) Run smoke checks
 ```bash
+python tools/ci_doctor.py
 bash tools/precommit_smoke.sh
 python tools/smoke_test_imports.py
 python tools/smoke_test_paths.py
