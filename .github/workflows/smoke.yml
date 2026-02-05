@@ -19,6 +19,7 @@ jobs:
 
       - name: Run smoke checks
         run: |
+          python tools/ci_doctor.py
           bash tools/precommit_smoke.sh
           python tools/smoke_test_panel_import.py
 

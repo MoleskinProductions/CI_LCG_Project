@@ -29,6 +29,7 @@ Outputs append to:
 ```bash
 python tools/ci_patch_assistant.py --list --last-n 20
 python tools/ci_patch_assistant.py --index 1
+python tools/ci_patch_assistant.py --index 1 --dry-run
 ```
 
 Outputs:
@@ -55,4 +56,5 @@ If verify fails, apply is blocked unless `--force` is provided.
 ## 7) One-command release gate
 ```bash
 bash tools/release_gate.sh
+python tools/release_bundle.py
 ```

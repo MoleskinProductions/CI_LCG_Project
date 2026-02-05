@@ -481,6 +481,7 @@ def main() -> int:
     parser.add_argument("--last-n", type=int, default=20, help="Number of latest suggestions to inspect.")
     parser.add_argument("--task-id", default=None, help="Pick task by id (e.g., TASK-001).")
     parser.add_argument("--index", type=int, default=None, help="Pick task by 1-based index in latest list.")
+    parser.add_argument("--dry-run", action="store_true", help="Preview selected task and patch ops without writing files.")
     parser.add_argument("--apply", action="store_true", help="Overwrite canonical lcg/lcg_graph.json.")
     parser.add_argument("--force", action="store_true", help="Allow --apply even if verify checks fail.")
     args = parser.parse_args()
@@ -552,6 +553,22 @@ def main() -> int:
     patch, task_meta = build_patch(task, graph, interface_vars)
 
     patched = apply_ops(graph, patch)
+    verify = verify_patched_graph(patched, known_interface_vars=interface_vars)
+
+    if args.dry_run:
+        print(f"[DRY-RUN] task={task.get('id')} scope={task.get('scope')} target={task.get('target_id')}")
+        print(f"[DRY-RUN] title={task.get('title')}")
+        print("[DRY-RUN] operations:")
+        for op in patch.get("operations", []):
+            print(f"  - {op.get('op')} {op.get('path')}")
+        print(
+            f"[DRY-RUN] verify={'PASS' if verify.get('pass') else 'FAIL'} "
+            f"errors={len(verify.get('errors', []))} warnings={len(verify.get('warnings', []))}"
+        )
+        if verify.get("errors"):
+            for err in verify["errors"][:5]:
+                print(f"  ! {err}")
+        return 0
 
     patches_dir = ci_paths.patches_dir()
     patches_dir.mkdir(parents=True, exist_ok=True)
@@ -563,7 +580,6 @@ def main() -> int:
     patched_copy = ci_paths.lcg_graph_path().parent / "lcg_graph.patched.json"
     write_json(patched_copy, patched)
 
-    verify = verify_patched_graph(patched, known_interface_vars=interface_vars)
     verify_report_path = ci_paths.reports_dir() / "patch_verify_report.md"
     verify_report_path.write_text(
         make_verify_report(verify, patched_copy, graph_path), encoding="utf-8"
