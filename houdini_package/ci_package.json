@@ -1,4 +1,6 @@
 {
+  "deprecated": true,
+  "deprecation_note": "Legacy package file kept for compatibility. Prefer houdini_package/package.json (Houdini 21 canonical). Target removal window: after 2026-03-31 if no legacy consumers remain.",
   "enable": true,
   "package_version": "0.1.0",
   "requires_houdini": ">=20.0",

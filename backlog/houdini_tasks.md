@@ -67,3 +67,9 @@
    - Done means import/path sanity checks pass in a clean shell.
 8. Add `reports/repo_fix_summary.md` after migration.
    - Done means changed files, behavior impacts, and verification commands are documented.
+
+## Phase 6 — Legacy Decommission Plan (Post-Stability)
+9. Retire legacy package + panel shim after one stable window.
+   - Done means `houdini_package/ci_package.json` and `houdini_package/ui/CI_GraphOverlay_panel.py` are removed no earlier than 2026-03-31, and Houdini discovery still passes via canonical files.
+10. Keep deprecation checks green until removal date.
+   - Done means `tools/check_legacy_shims.py` passes in CI and confirms shim remains a forwarder only.
