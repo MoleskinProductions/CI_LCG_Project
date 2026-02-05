@@ -22,6 +22,7 @@ jobs:
           python tools/ci_doctor.py
           bash tools/precommit_smoke.sh
           python tools/smoke_test_panel_import.py
+          python tools/test_regression_core.py
 
       - name: Headless parity check (probe -> suggest)
         run: |
