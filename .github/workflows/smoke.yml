@@ -21,3 +21,8 @@ jobs:
         run: |
           bash tools/precommit_smoke.sh
           python tools/smoke_test_panel_import.py
+
+      - name: Headless parity check (probe -> suggest)
+        run: |
+          python houdini_package/tools/ci_probe_cli.py --probe-id P-PRB-006 --chart-mode-id CHART-003 --seed 1
+          python tools/ci_suggest_cli.py --last-n 5 --limit 3

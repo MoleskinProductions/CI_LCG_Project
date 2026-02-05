@@ -17,6 +17,20 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
+REQUIRED_TASK_KEYS = {
+    "id",
+    "priority",
+    "scope",
+    "target_id",
+    "title",
+    "rationale",
+    "acceptance_criteria",
+    "suggested_agent",
+}
+
+VALID_SCOPES = {"node", "edge", "probe", "chart"}
+VALID_PRIORITIES = {"P1", "P2", "P3"}
+
 
 def _bootstrap_ci_python() -> None:
     repo = Path(__file__).resolve().parents[1]
@@ -39,22 +53,41 @@ def write_json(path: Path, obj: Dict[str, Any]) -> None:
     path.write_text(json.dumps(obj, indent=2) + "\n", encoding="utf-8")
 
 
-def load_task_suggestions(path: Path) -> List[Dict[str, Any]]:
+def _validate_task_suggestion(obj: Dict[str, Any], line_no: int) -> str | None:
+    missing = sorted(REQUIRED_TASK_KEYS - set(obj.keys()))
+    if missing:
+        return f"line {line_no}: missing keys {missing}"
+    if obj.get("scope") not in VALID_SCOPES:
+        return f"line {line_no}: invalid scope '{obj.get('scope')}'"
+    if obj.get("priority") not in VALID_PRIORITIES:
+        return f"line {line_no}: invalid priority '{obj.get('priority')}'"
+    return None
+
+
+def load_task_suggestions(path: Path) -> Tuple[List[Dict[str, Any]], List[str]]:
     tasks: List[Dict[str, Any]] = []
+    warnings: List[str] = []
     if not path.exists():
-        return tasks
+        return tasks, warnings
     with path.open("r", encoding="utf-8") as f:
-        for line in f:
+        for i, line in enumerate(f, start=1):
             line = line.strip()
             if not line:
                 continue
             try:
                 obj = json.loads(line)
             except Exception:
+                warnings.append(f"line {i}: invalid JSON")
                 continue
             if isinstance(obj, dict):
+                issue = _validate_task_suggestion(obj, i)
+                if issue:
+                    warnings.append(issue)
+                    continue
                 tasks.append(obj)
-    return tasks
+            else:
+                warnings.append(f"line {i}: expected object, got {type(obj).__name__}")
+    return tasks, warnings
 
 
 def parse_interface_variables(path: Path) -> List[str]:
@@ -462,8 +495,15 @@ def main() -> int:
     iface_path = ci_paths.reports_dir() / "interface_variables.md"
 
     graph = read_json(graph_path)
-    suggestions_all = load_task_suggestions(suggestion_path)
+    suggestions_all, suggestion_warnings = load_task_suggestions(suggestion_path)
     suggestions = suggestions_all[-args.last_n :]
+    if suggestion_warnings:
+        print(
+            f"WARN: skipped {len(suggestion_warnings)} malformed task suggestion entries from {suggestion_path}",
+            file=sys.stderr,
+        )
+        for msg in suggestion_warnings[:5]:
+            print(f"  - {msg}", file=sys.stderr)
 
     if not suggestions_all:
         # Fallback seed task to keep assistant operational before first persisted suggestions file.
