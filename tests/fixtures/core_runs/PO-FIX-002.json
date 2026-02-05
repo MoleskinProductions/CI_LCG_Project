@@ -1,0 +1,22 @@
+{
+  "record_id": "PO-FIX-002",
+  "run_id": "RUN-FIX-002",
+  "timestamp": "2026-02-05T00:10:00Z",
+  "node_id": "Q000021",
+  "probe_id": "P-PRB-006",
+  "chart_mode": "CHART-003",
+  "split_result": "fail",
+  "observable_values": {
+    "outputs": {
+      "score": 0.35
+    },
+    "seam_flags": [
+      {
+        "kind": "taxonomy_drift",
+        "scope": "node",
+        "severity": "medium",
+        "description": "fixture seam for taxonomy drift"
+      }
+    ]
+  }
+}

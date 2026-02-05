@@ -1,0 +1,23 @@
+{
+  "record_id": "PO-FIX-003",
+  "run_id": "RUN-FIX-003",
+  "timestamp": "2026-02-05T00:20:00Z",
+  "node_id": "Q000019",
+  "probe_id": "P-PRB-010",
+  "chart_mode": "CHART-004",
+  "split_result": "fail",
+  "observable_values": {
+    "outputs": {
+      "score": 0.22
+    },
+    "seam_flags": [
+      {
+        "kind": "chart_dependence",
+        "scope": "edge",
+        "edge_id": "E000016",
+        "severity": "high",
+        "description": "fixture seam for chart dependence"
+      }
+    ]
+  }
+}
