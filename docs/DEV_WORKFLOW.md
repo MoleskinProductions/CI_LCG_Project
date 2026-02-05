@@ -58,3 +58,8 @@ If verify fails, apply is blocked unless `--force` is provided.
 bash tools/release_gate.sh
 python tools/release_bundle.py
 ```
+
+## 8) Terminal dashboard (quick health glance)
+```bash
+python tools/ci_dashboard.py --last-n 25 --top 5
+```
